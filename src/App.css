@@ -1,9 +1,9 @@
 .App {
   text-align: center;
+  font-family: monospace;
 }
 
 .App-header {
-  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,10 +13,13 @@
   color: white;
 }
 
-.Announcement{
-  color: #9e0b0f;
+.text-typing{
+  margin-top: 20px;
 }
 
-.Description{
-  color: #9e0b0f;
+#particles-js {
+  position : absolute;
+  width:100%;
+  height:100%;
+  z-index:-1;
 }
