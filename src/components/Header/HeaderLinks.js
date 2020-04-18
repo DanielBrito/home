@@ -1,7 +1,5 @@
 /*eslint-disable*/
 import React from "react";
-// react components for routing our app without refresh
-import { Link } from "react-router-dom";
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
@@ -11,7 +9,7 @@ import ListItem from "@material-ui/core/ListItem";
 // @material-ui/icons
 import HomeIcon from '@material-ui/icons/Home';
 import AboutIcon from '@material-ui/icons/AccountCircle';
-import PublicationsIcon from '@material-ui/icons/MenuBook';
+import BooksIcon from '@material-ui/icons/MenuBook';
 import ProjectsIcon from '@material-ui/icons/EmojiObjects';
 import PicturesIcon from '@material-ui/icons/PhotoLibrary';
 import VideoIcon from '@material-ui/icons/Videocam';
@@ -57,7 +55,7 @@ export default function HeaderLinks() {
           target="_blank"
           className={classes.navLink}
         >
-          <PublicationsIcon className={classes.icons} /> Publications
+          <BooksIcon className={classes.icons} /> Books
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

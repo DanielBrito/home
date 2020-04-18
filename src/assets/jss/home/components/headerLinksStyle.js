@@ -1,4 +1,4 @@
-import { defaultFont } from "../../home";
+import { defaultFont } from "../../general";
 
 import tooltip from "../../../jss/home/tooltipsStyle";
 
@@ -17,10 +17,11 @@ const headerLinksStyle = theme => ({
     float: "left",
     color: "inherit",
     position: "relative",
+    textDecoration: "none",
     display: "block",
     width: "auto",
-    marginLeft: "2px",
-    marginRight: "2px",
+    marginLeft: "3px",
+    marginRight: "3px",
     padding: "0",
     [theme.breakpoints.down("sm")]: {
       width: "100%",
@@ -44,15 +45,16 @@ const headerLinksStyle = theme => ({
     fontWeight: "bold",
     fontSize: "12px",
     textTransform: "uppercase",
-    borderRadius: "3px",
+    borderRadius: "10px",
     lineHeight: "20px",
     textDecoration: "none",
     marginTop: "5px",
     marginBottom: "5px",
     display: "inline-flex",
     "&:hover,&:focus": {
-      color: "inherit",
-      background: "rgba(200, 200, 200, 0.2)"
+      color: "#39ff14",
+      background: "#000000",
+      boxShadow: "0px 0px 5px #39ff14;"  /* bright */
     },
     [theme.breakpoints.down("sm")]: {
       width: "calc(100% - 10px)",
@@ -89,8 +91,41 @@ const headerLinksStyle = theme => ({
     display: "inline-flex"
   },
   navLinkActive: {
-    color: "inherit",
-    backgroundColor: "rgba(255, 255, 255, 0.1)"
+    color: "#39ff14",
+    position: "relative",
+    background: "#000000",
+    boxShadow: "0px 0px 5px #39ff14;",  /* bright */
+    padding: "0.9375rem",
+    fontWeight: "bold",
+    fontSize: "12px",
+    textTransform: "uppercase",
+    borderRadius: "10px",
+    lineHeight: "20px",
+    textDecoration: "none",
+    marginTop: "5px",
+    marginBottom: "5px",
+    display: "inline-flex",
+    "&:hover,&:focus": {
+      color: "#39ff14",
+      background: "#39ff1433",
+      boxShadow: "0px 0px 5px #39ff14;",  /* bright */
+    },
+    [theme.breakpoints.down("sm")]: {
+      width: "calc(100% - 10px)",
+      marginLeft: "15px",
+      marginBottom: "5px",
+      marginTop: "5px",
+      textAlign: "left",
+      "& > span:first-child": {
+        justifyContent: "flex-start"
+      }
+    }
+    // color: "#FFFF",
+    // padding: "0.9375rem",
+    // fontWeight: "bold",
+    // borderRadius: "10px",
+    // backgroundColor: "rgba(20, 255, 20, 0.5)",
+    // boxShadow: "0px 0px 10px #39ff14;"  /* bright */
   },
   icons: {
     width: "20px",

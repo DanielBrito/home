@@ -10,7 +10,7 @@ import {
     transition,
     boxShadow,
     drawerWidth
-  } from "../../../jss/home";
+  } from "../../general";
   
   const headerStyle = {
     appBar: {
@@ -29,7 +29,7 @@ import {
       flexFlow: "row nowrap",
       justifyContent: "flex-start",
       position: "relative",
-      zIndex: "unset"
+      zIndex: "unset",
     },
     absolute: {
       position: "absolute",
@@ -118,6 +118,13 @@ import {
       boxShadow:
         "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(33, 33, 33, 0.46)"
     },
+    neon: {
+      color: "#39ff14",
+      borderBottom: "1px solid #39ff14",
+      backgroundColor: "#000000 !important",
+      boxShadow:
+        "0 4px 20px 0px rgba(0, 200, 0, 0.14), 0 7px 12px -5px rgba(33, 100, 33, 0.46)"
+    },
     white: {
       border: "0",
       padding: "0.625rem 0",
@@ -146,7 +153,7 @@ import {
       overflowY: "visible",
       borderTop: "none",
       textAlign: "left",
-      paddingRight: "25px",
+      paddingRight: "30px",
       paddingLeft: "0",
       ...transition
     }
