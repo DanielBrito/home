@@ -62,7 +62,7 @@ export default function Header(props) {
     [classes.fixed]: fixed
   });
 
-  const brandComponent = <Button className={classes.title}>{brand}</Button>;
+  const brandComponent = <Button>{brand}</Button>;
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>

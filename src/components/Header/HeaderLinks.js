@@ -31,7 +31,7 @@ export default function HeaderLinks() {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <NavLink to='/' className={classes.listItem}>
+        <NavLink activeStyle={{ color: 'red' }} exact to='/' className={classes.listItem}>
           <Button
             href=""
             color="transparent"
@@ -42,7 +42,7 @@ export default function HeaderLinks() {
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to='/about' className={classes.listItem}>
+        <NavLink activeStyle={{ color: 'red' }} to='/about' className={classes.listItem}>
           <Button
             href=""
             color="transparent"
@@ -53,7 +53,7 @@ export default function HeaderLinks() {
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to='/books' className={classes.listItem}>
+        <NavLink activeStyle={{ color: 'red' }} to='/books' className={classes.listItem}>
           <Button
             href=""
             color="transparent"
@@ -64,7 +64,7 @@ export default function HeaderLinks() {
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to='/projects' className={classes.listItem}>
+        <NavLink activeStyle={{ color: 'red' }} to='/projects' className={classes.listItem}>
           <Button
             href=""
             color="transparent"
@@ -75,7 +75,7 @@ export default function HeaderLinks() {
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to='/pictures' className={classes.listItem}>
+        <NavLink activeStyle={{ color: 'red' }} to='/pictures' className={classes.listItem}>
           <Button
             href=""
             color="transparent"
@@ -86,7 +86,7 @@ export default function HeaderLinks() {
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to='/videos' className={classes.listItem}>
+        <NavLink activeStyle={{ color: 'red' }} to='/videos' className={classes.listItem}>
           <Button
             href=""
             color="transparent"
@@ -97,7 +97,7 @@ export default function HeaderLinks() {
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to='/blog' className={classes.listItem}>
+        <NavLink activeStyle={{ color: 'red' }} to='/blog' className={classes.listItem}>
           <Button
             href=""
             color="transparent"
@@ -108,7 +108,7 @@ export default function HeaderLinks() {
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to='/media' className={classes.listItem}>
+        <NavLink activeStyle={{ color: 'red' }} to='/media' className={classes.listItem}>
           <Button
             href=""
             color="transparent"
@@ -119,7 +119,7 @@ export default function HeaderLinks() {
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to='/contact' className={classes.listItem}>
+        <NavLink activeStyle={{ color: 'red' }} to='/contact' className={classes.listItem}>
           <Button
             href=""
             color="transparent"
