@@ -22,18 +22,20 @@ const headerLinksStyle = theme => ({
     width: "auto",
     marginLeft: "3px",
     marginRight: "3px",
+    marginBottom: "2px",
+    marginTop: "2px",
     padding: "0",
-    [theme.breakpoints.down("sm")]: {
-      width: "100%",
-      "&:after": {
-        width: "calc(100% - 30px)",
-        content: '""',
-        display: "block",
-        height: "0px",
-        marginLeft: "15px",
-        backgroundColor: "#e5e5e5"
-      }
-    }
+    // [theme.breakpoints.down("sm")]: {
+    //   width: "100%",
+    //   "&:after": {
+    //     width: "calc(100% - 30px)",
+    //     content: '""',
+    //     display: "block",
+    //     height: "0px",
+    //     marginLeft: "15px",
+    //     backgroundColor: "#e5e5e5"
+    //   }
+    // }
   },
   listItemText: {
     padding: "0 !important"
@@ -48,24 +50,34 @@ const headerLinksStyle = theme => ({
     borderRadius: "10px",
     lineHeight: "20px",
     textDecoration: "none",
-    marginTop: "5px",
-    marginBottom: "5px",
-    display: "inline-flex",
+    // marginTop: "5px",
+    // marginBottom: "5px",
+    display: "block",
     "&:hover,&:focus": {
-      color: "#39ff14",
-      background: "#000000",
+      color: "#000000",
+      background: "#39ff14",
       boxShadow: "0px 0px 5px #39ff14;"  /* bright */
     },
-    [theme.breakpoints.down("sm")]: {
-      width: "calc(100% - 10px)",
-      marginLeft: "15px",
-      marginBottom: "5px",
-      marginTop: "5px",
-      textAlign: "left",
-      "& > span:first-child": {
-        justifyContent: "flex-start"
-      }
-    }
+    // [theme.breakpoints.down("sm")]: {
+    //   width: "calc(100% - 10px)",
+    //   marginLeft: "15px",
+    //   marginBottom: "5px",
+    //   marginTop: "5px",
+    //   textAlign: "left",
+    //   "& > span:first-child": {
+    //     justifyContent: "flex-start"
+    //   }
+    // },
+    // [theme.breakpoints.down("md")]: {
+    //   width: "calc(100% - 10px)",
+    //   marginLeft: "15px",
+    //   marginBottom: "5px",
+    //   marginTop: "5px",
+    //   textAlign: "left",
+    //   "& > span:first-child": {
+    //     justifyContent: "flex-start"
+    //   }
+    // }
   },
   notificationNavLink: {
     color: "inherit",
