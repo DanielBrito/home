@@ -1,6 +1,8 @@
 /*eslint-disable*/
 import React from "react";
 
+import { NavLink } from 'react-router-dom'
+
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
@@ -29,94 +31,103 @@ export default function HeaderLinks() {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <HomeIcon className={classes.icons} /> Home
+        <NavLink to='/' className={classes.listItem}>
+          <Button
+            href=""
+            color="transparent"
+            className={classes.navLink}
+          >
+            <HomeIcon className={classes.icons} /> Home
         </Button>
+        </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <AboutIcon className={classes.icons} /> About
+        <NavLink to='/about' className={classes.listItem}>
+          <Button
+            href=""
+            color="transparent"
+            className={classes.navLink}
+          >
+            <AboutIcon className={classes.icons} /> About
         </Button>
+        </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <BooksIcon className={classes.icons} /> Books
+        <NavLink to='/books' className={classes.listItem}>
+          <Button
+            href=""
+            color="transparent"
+            className={classes.navLink}
+          >
+            <BooksIcon className={classes.icons} /> Books
         </Button>
+        </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <ProjectsIcon className={classes.icons} /> Projects
+        <NavLink to='/projects' className={classes.listItem}>
+          <Button
+            href=""
+            color="transparent"
+            className={classes.navLink}
+          >
+            <ProjectsIcon className={classes.icons} /> Projects
         </Button>
+        </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <PicturesIcon className={classes.icons} /> Pictures
+        <NavLink to='/pictures' className={classes.listItem}>
+          <Button
+            href=""
+            color="transparent"
+            className={classes.navLink}
+          >
+            <PicturesIcon className={classes.icons} /> Pictures
         </Button>
+        </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <VideoIcon className={classes.icons} /> Videos
+        <NavLink to='/videos' className={classes.listItem}>
+          <Button
+            href=""
+            color="transparent"
+            className={classes.navLink}
+          >
+            <VideoIcon className={classes.icons} /> Videos
         </Button>
+        </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <FaBlogger className={classes.icons} /> Blog
+        <NavLink to='/blog' className={classes.listItem}>
+          <Button
+            href=""
+            color="transparent"
+            className={classes.navLink}
+          >
+            <FaBlogger className={classes.icons} /> Blog
         </Button>
+        </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <FaNewspaper className={classes.icons} /> Media
+        <NavLink to='/media' className={classes.listItem}>
+          <Button
+            href=""
+            color="transparent"
+            className={classes.navLink}
+          >
+            <FaNewspaper className={classes.icons} /> Media
         </Button>
+        </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href=""
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <ContactIcon className={classes.icons} /> Contact
+        <NavLink to='/about' className={classes.listItem}>
+          <Button
+            href=""
+            color="transparent"
+            className={classes.navLink}
+          >
+            <ContactIcon className={classes.icons} /> Contact
         </Button>
+        </NavLink>
       </ListItem>
     </List>
   );
