@@ -119,7 +119,7 @@ export default function HeaderLinks() {
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to='/about' className={classes.listItem}>
+        <NavLink to='/contact' className={classes.listItem}>
           <Button
             href=""
             color="transparent"
