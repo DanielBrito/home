@@ -33,11 +33,9 @@ import Fade from 'react-reveal/Fade';
 
 const useStyles = makeStyles(styles);
 
-var oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
-var birthDate = new Date(1993, 1, 4);
 var today = new Date();
-
-var diffDays = Math.round(Math.abs((birthDate.getTime() - today.getTime()) / (oneDay)));
+var diff = new Date(today.getFullYear(), today.getMonth()+1, today.getDate()).getTime() - new Date(1993, 1, 4).getTime();
+var diffDays = (diff / (1000 * 60 * 60 * 24));
 
 export default function About(props) {
   const classes = useStyles();
