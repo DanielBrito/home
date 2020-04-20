@@ -108,6 +108,7 @@ import {
     },
     transparent: {
       backgroundColor: "transparent !important",
+      border: "1px solid #00000000",
       boxShadow: "none",
       paddingTop: "20px",
       color: "#FFFFFF"
@@ -121,6 +122,9 @@ import {
     neon: {
       color: "#39ff14",
       borderBottom: "1px solid #39ff14",
+      borderTop: "1px solid #000000",
+      borderLeft: "1px solid #000000",
+      borderRight: "1px solid #000000",
       backgroundColor: "#000000 !important",
       boxShadow:
         "0 4px 20px 0px rgba(0, 200, 0, 0.14), 0 7px 12px -5px rgba(33, 100, 33, 0.46)"

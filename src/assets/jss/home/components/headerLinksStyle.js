@@ -66,7 +66,7 @@ const headerLinksStyle = theme => ({
     display: "block",
     "&:hover,&:focus": {
       color: "#000000",
-      background: "#39ff14",
+      background: "#39ff14B3",
       boxShadow: "0px 0px 5px #39ff14;"  /* bright */
     },
     [theme.breakpoints.down("sm")]: {

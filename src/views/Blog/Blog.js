@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 // nodejs library that concatenates classes
 import classNames from "classnames";
@@ -37,7 +37,11 @@ const useStyles = makeStyles(styles);
 export default function Blog(props) {
   const classes = useStyles();
   const { ...rest } = props;
-  const logo = <img src={srcLogo} alt="Daniel Brito logo" style={{ width: 55, height: 55 }} />
+  const logo = <img src={srcLogo} alt="Daniel Brito logo" style={{ width: 60, height: 60 }} />
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div>
