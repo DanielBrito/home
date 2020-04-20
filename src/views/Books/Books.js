@@ -147,7 +147,7 @@ export default function Books(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Grid container spacing={5} justify="center" alignItems="center">
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'no_ritmo_de_algo'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgNoRitmoDeAlgo} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -161,7 +161,7 @@ export default function Books(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'a_ler_vazios'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgALerVazios} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -175,7 +175,7 @@ export default function Books(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'protestizando'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgProtestizando} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -189,7 +189,7 @@ export default function Books(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'zines'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgZine} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>

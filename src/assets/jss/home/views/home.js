@@ -37,7 +37,16 @@ const homeStyle = {
       "0 3px 10px 2px rgba(0, 200, 0, 0.14), 0 6px 30px 5px rgba(0, 200, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
   },
   link: {
-    textDecoration: "none"
+    textDecoration: "none",
+    "&:hover": {
+      textShadow: "0px 0px 4px #39ff14;"  /* bright */
+    },
+  },
+  linkTitle: {
+    textDecoration: "none",
+    "&:hover": {
+      textShadow: "0px 0px 5px #39ff14;"  /* bright */
+    },
   },
   textCenter: {
     textAlign: "center"

@@ -73,6 +73,7 @@ export default function Header(props) {
               {leftLinks}
             </Hidden>
           ) : (
+
               brandComponent
             )}
         </div>
