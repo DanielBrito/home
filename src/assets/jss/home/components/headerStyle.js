@@ -153,8 +153,8 @@ import {
       overflowY: "visible",
       borderTop: "none",
       textAlign: "left",
-      paddingRight: "0px",
-      paddingLeft: "10px",
+      paddingRight: "18px",
+      paddingLeft: "5px",
 
       ...transition
     }
