@@ -153,14 +153,14 @@ export default function Home(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Grid container spacing={5} justify="center" alignItems="center">
-          <Grid item md={5}>
+          <Grid item lg={5}>
             <div>
               <Zoom>
                 <img src={imgPinacograma} alt="Learn" width="100%" style={{ borderRadius: "10px" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item md={7}>
+          <Grid item lg={7}>
           <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
@@ -175,14 +175,14 @@ export default function Home(props) {
             </div>
             </Fade>
           </Grid>
-          <Grid item md={5}>
+          <Grid item lg={5}>
             <div>
               <Zoom>
                 <img src={imgSophia} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item md={7}>
+          <Grid item lg={7}>
           <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
@@ -195,14 +195,14 @@ export default function Home(props) {
             </div>
             </Fade>
           </Grid>
-          <Grid item md={5}>
+          <Grid item lg={5}>
             <div>
               <Zoom>
                 <img src={imgAntonioMiotto} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item md={7}>
+          <Grid item lg={7}>
           <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
@@ -215,14 +215,14 @@ export default function Home(props) {
             </div>
             </Fade>
           </Grid>
-          <Grid item md={5}>
+          <Grid item lg={5}>
             <div>
               <Zoom>
                 <img src={imgEdileneSantos} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item md={7}>
+          <Grid item lg={7}>
           <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
@@ -235,14 +235,14 @@ export default function Home(props) {
             </div>
             </Fade>
           </Grid>
-          <Grid item md={5}>
+          <Grid item lg={5}>
             <div>
               <Zoom>
                 <img src={imgLessioCardoso} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item md={7}>
+          <Grid item lg={7}>
           <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
@@ -255,14 +255,14 @@ export default function Home(props) {
             </div>
             </Fade>
           </Grid>
-          <Grid item md={5}>
+          <Grid item lg={5}>
             <div>
               <Zoom>
                 <img src={imgCasulo} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item md={7}>
+          <Grid item lg={7}>
           <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>

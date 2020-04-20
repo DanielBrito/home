@@ -25,6 +25,7 @@ const homeStyle = {
     zIndex: "3",
     border: "1px solid #39ff14",
     maxWidth: "978px",
+    lineHeight: "1.3",
   },
   mainRaised: {
     marginTop: "-60px",
@@ -40,6 +41,16 @@ const homeStyle = {
     textDecoration: "none",
     "&:hover": {
       textShadow: "0px 0px 4px #39ff14;"  /* bright */
+    },
+  },
+  externalLink: {
+    textDecoration: "none",
+    color: "#FFFFFF",
+    fontWeight: "bold",
+    fontStyle: "italic",
+    borderBottom: "dotted 1px rgba(30,255,30, 0.65)",
+    "&:hover": {
+      textShadow: "0px 0px 3px #39ff14;"  /* bright */
     },
   },
   linkTitle: {

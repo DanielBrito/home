@@ -11,6 +11,8 @@ import Header from "../../components/Header/Header";
 import HeaderLinks from "../../components/Header/HeaderLinks";
 import Footer from "../../components/Footer/Footer";
 
+import { HashLink as Link } from 'react-router-hash-link';
+
 import GridContainer from "../../components/Grid/GridContainer";
 import GridItem from "../../components/Grid/GridItem";
 import Parallax from "../../components/Parallax/Parallax";
@@ -26,13 +28,16 @@ import imgInterests from "../../assets/img/insight.gif"
 import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect';
 
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
+
 const useStyles = makeStyles(styles);
 
-var oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
-var birthDate = new Date(1993,1,4);
+var oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
+var birthDate = new Date(1993, 1, 4);
 var today = new Date();
 
-var diffDays = Math.round(Math.abs((birthDate.getTime() - today.getTime())/(oneDay)));
+var diffDays = Math.round(Math.abs((birthDate.getTime() - today.getTime()) / (oneDay)));
 
 export default function About(props) {
   const classes = useStyles();
@@ -152,55 +157,74 @@ export default function About(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
 
         <Grid container spacing={5} justify="center" alignItems="center">
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid item md={5}>
             <div>
-              <img src={imgEducationWork} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              <Zoom>
+                <img src={imgEducationWork} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              </Zoom>
             </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
-            <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>MY BRIEF HISTORY</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
-                My name is Daniel Brito. I was born in São Paulo/SP - Brazil, {diffDays} days ago. And for most of my life, I've lived in the district of Grajaú, except for a year I spent in Viçosa/CE during my childhood. When I was 16, I got my first job as an apprentice at CAMP Pinheiros. As a result of doing good work, I achieve an effective position as an office assistant at CPFL Renováveis. I've always studied in different public schools until I passed the entrance exam to study Analysis and Systems Development at the Faculty of Technology (FATEC). However, in search of new challenges, I've decided to move to Crateús to study Computer Science at the Federal University of Ceará (UFC). There I got some scholarships to work in projects in the field of web development, computer graphics, and education. Currently, I'm an intern developing intelligent applications to the health public system management, in a partnership with Pró-Hemoce Institute.
+          <Grid item lg={7}>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}><em>MY BRIEF HISTORY</em></h1>
+                <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
+                  I was born in São Paulo/SP - Brazil, {diffDays} days ago. For most of my life, I lived in the district of Grajaú, except for a year I spent in Viçosa/CE during my childhood. In this period I enjoyed playing soccer, video-games, and creating stuff, like small towns with my toys and new technologies with parts of them. Later, I got my first computer, and I just fell in love with it. I didn't know how to program yet, but I liked to customize it, play games and surf on the (dial-up) internet.<br /><br />
+
+                When I was 16, I got my first job as an apprentice at CAMP Pinheiros. After a while, as a result of doing good work, I achieved an effective position as an office assistant at CPFL Renováveis.<br /><br />
+
+                After studying in different public schools, I passed the entrance exam to study Analysis and Systems Development at the Faculty of Technology (FATEC). However, in search of new challenges, I decided to move to Crateús to study Computer Science at the Federal University of Ceará (UFC). There I got some scholarships to work in projects in the field of web development, computer graphics, and education. As described on my <a href="https://drive.google.com/file/d/1bOFjCfhoyabvcZ7LXf5T3EtY9h6umsaR/view" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="Read">resumé</a>, currently, I'm an intern developing intelligent applications to the health public system management.
               </p>
+              </div>
+            </Fade>
+          </Grid>
+
+          <Grid item lg={5}>
+            <div>
+              <Zoom>
+                <img src={imgProjects} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              </Zoom>
             </div>
+          </Grid>
+          <Grid item lg={7}>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}><em>TO BE OR NOT TO BE</em></h1>
+                <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
+                  I idealized the project <Link to="/projects#compixelar" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>COMPIXELAR</Link>. I'm a <Link to="/books#zines" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>FANZINER</Link>. I developed the app <Link to="/projects#halugar" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLUGAR</Link>. I'm the creator of <Link to="/projects#aluminions" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>ALUMINIONS</Link>. I'm a thinker at <Link to="/projects#fora_da_caixa" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>FORA DA CAIXA</Link>. I'm a tailleur at <Link to="/projects#antigrife" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>ANTIGR1F3</Link>. I'm a curator at <Link to="/projects#galeria_marginal" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>GALERIA MARGINAL</Link>. I'm a kind of YouTuber, who likes to talk about <Link to="/videos" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Programming</Link>. I'm a worker at <Link to="/projects#concretagens" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>COLETIVA CONCRETAGENS</Link>. I disseminate Philosophy and Art through the <Link to="/projects#socrastickers" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>SOCRASTICKERS</Link>. I integrated the collective <Link to="/projects#sarau_do_grajau" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>SARAU DO GRAJAÚ</Link>, which produced the documentary <Link to="/videos#grajau_em_foco" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Grajaú em Foco</Link>. I published independently the book <Link to="/books#protestizando" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>PROTESTIZANDO</Link> (2015), which compiles my first poems. I published independently the book <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>A LER VAZIOS</Link> (2016), which includes some of my poetic and visual experiments. I've also been published in several anthologies with other marginal authors.
+              </p>
+              </div>
+            </Fade>
+          </Grid>
+
+          <Grid item lg={5} >
+            <div>
+              <Zoom>
+                <img src={imgInterests} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              </Zoom>
+            </div>
+          </Grid>
+          <Grid item lg={7}>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}><em>LIFE, THE UNIVERSE AND EVERYTHING</em></h1>
+                <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
+                  As an inborn scientist and visual artist, I research about Generative Design. Through the exact sciences, I get fascinated as I discover the cosmos. Through the social sciences, I seek to understand the world that I live in and the several cultures that surround me.
+                Through technology, I try to create solutions that promote social progress. I value respect in relation to every sentient being.<br /><br />
+
+                Riding BMX and skateboarding give some good doses of adrenaline. Calisthenics and neurobics help me to train my body and my mind.<br /><br />
+
+                I bring with me an increasing appreciation for the Seventh Art, and my musical taste ranges from tuned pianos to distorted guitars.<br /><br />
+
+                I value the DIY attitude, the self-teaching lifestyle, polyglotism, and <Link to="/blog" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>polymathy</Link>.<br /><br />
+
+                Discovering new worlds is my biggest goal in life.
+              </p>
+              </div>
+            </Fade>
           </Grid>
         </Grid>
-
-        <Grid container spacing={5} justify="center" alignItems="center">
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
-            <div>
-              <img src={imgProjects} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
-            </div>
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>TO BE OR NOT TO BE</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
-                I've idealized the project COMPIXELAR. I'm a FANZINER. I've developed the app HáLUGAR. I'm the creator of ALUMINIONS. I think out of the box at FORA DA CAIXA. I'm a tailleur at ANTIGR1F3. I'm a curator at GALERIA MARGINAL. I'm a kind of YouTuber who likes to teach Programming Fundamentals and talk about Competitive Programming. I disseminate Philosophy and Art through the SOCRASTICKERS. I'm a worker at COLETIVA CONCRETAGENS. I've integrated the collective SARAU DO GRAJAÚ, which produced the documentary Grajaú em Foco. I've published independently the book PROTESTIZANDO (2015), which compiles my first poems. I've published independently the book A LER VAZIOS (2016), which includes some of my poetic and visual experiments. I've also been published in several anthologies with other marginal authors.
-              </p>
-            </div>
-          </Grid>
-        </Grid>
-
-        <Grid container spacing={5} justify="center" alignItems="center">
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
-            <div>
-              <img src={imgInterests} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
-            </div>
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>LIFE, THE UNIVERSE AND EVERYTHING</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
-                As an inborn scientist and visual artist, I research about Generative Design. Through the exact sciences, I get fascinated as I discover the cosmos. Through the social sciences, I try to understand the world that I live in and the several cultures that surround me. Through technology, I seek to create solutions that promote social progress. Calisthenics and neurobics help me to train my body and my mind. I enjoy riding BMX and skateboarding. I value respect in relation to every sentient being. I bring with me an increasing appreciation for the Seventh Art. My musical taste ranges from tuned pianos to distorted guitars. I appreciate the DIY attitude, the self-teaching, the polyglotism, and the polymathy. Discovering new worlds is my biggest goal.
-              </p>
-            </div>
-          </Grid>
-        </Grid>
-
       </div >
-
       <Footer />
     </div >
   );

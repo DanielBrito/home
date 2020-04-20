@@ -154,7 +154,7 @@ export default function Projects(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Grid container spacing={5} justify="center" alignItems="center">
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'compixelar'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgCompixelar} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -168,7 +168,7 @@ export default function Projects(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'halugar'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgHaLugar} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -182,7 +182,7 @@ export default function Projects(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'polymapp'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgPolymApp} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -196,7 +196,7 @@ export default function Projects(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'celerebro'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgCelerebro} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -210,7 +210,7 @@ export default function Projects(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'sarau_do_grajau'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgSarauDoGrajau} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -224,7 +224,7 @@ export default function Projects(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'concretagens'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgConcretagens} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -238,7 +238,7 @@ export default function Projects(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'socrastickers'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgSocrastickers} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -252,7 +252,7 @@ export default function Projects(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'aluminions'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgAluminions} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -266,7 +266,7 @@ export default function Projects(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'fora_da_caixa'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgForaDaCaixa} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -285,7 +285,7 @@ export default function Projects(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'antigrife'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgAntigrife} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
@@ -299,7 +299,7 @@ export default function Projects(props) {
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid id={'galeria_marginal'} item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
             <div>
               <img src={imgGaleriaMarginal} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
             </div>
