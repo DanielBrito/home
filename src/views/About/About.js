@@ -156,7 +156,7 @@ export default function About(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
 
-        <Grid container spacing={5} justify="center" alignItems="center">
+        <Grid container spacing={5} justify="center" alignItems="center" style={{marginBottom: "50px"}}>
           <Grid item md={5}>
             <div>
               <Zoom>
@@ -178,7 +178,9 @@ export default function About(props) {
               </div>
             </Fade>
           </Grid>
+        </Grid>
 
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{marginTop: "50px", marginBottom: "50px"}}>
           <Grid item lg={5}>
             <div>
               <Zoom>
@@ -196,7 +198,9 @@ export default function About(props) {
               </div>
             </Fade>
           </Grid>
+        </Grid>
 
+        <Grid container spacing={5} justify="center" alignItems="center" style={{marginTop: "50px"}}>
           <Grid item lg={5} >
             <div>
               <Zoom>

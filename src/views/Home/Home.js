@@ -152,7 +152,7 @@ export default function Home(props) {
       />
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <Grid container spacing={5} justify="center" alignItems="center">
+        <Grid container spacing={5} justify="center" alignItems="center" style={{marginBottom: "50px"}}>
           <Grid item lg={5}>
             <div>
               <Zoom>
@@ -161,20 +161,23 @@ export default function Home(props) {
             </div>
           </Grid>
           <Grid item lg={7}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
-                <h1 className={classes.linkTitle} style={{ color: "#FFFFFF", textAlign: "center" }}>A LER VAZIØS</h1>
-              </Link>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
-                <em>unlike anything we'<span style={{ fontWeight: "bold", color: "#39ff14" }}>D</span> expect, the poetics in "a ler vazios" makes the he<span style={{ fontWeight: "bold", color: "#39ff14" }}>A</span>rt of machines feel, not only the huma<span style={{ fontWeight: "bold", color: "#39ff14" }}>N</span>, but it also invites us to go further. it's essential to glimpse art in mathemat<span style={{ fontWeight: "bold", color: "#39ff14" }}>I</span>cs. simple and complex exp<span style={{ fontWeight: "bold", color: "#39ff14" }}>E</span>riments to be deciphered. <span style={{ fontWeight: "bold", color: "#39ff14" }}>L</span>iberty for the senses.</em><br /><br />
-                <em><span style={{ fontWeight: "bold", color: "#39ff14" }}>B</span>rilliant artistic investigations by a young genius of the streets. he redoes scenes, <span style={{ fontWeight: "bold", color: "#39ff14" }}>R</span>evolutionizes, affirms his place in the world. impetuous and concrete, dan<span style={{ fontWeight: "bold", color: "#39ff14" }}>I</span>el brito spreads poetry. all dialogue will now take place in his con<span style={{ fontWeight: "bold", color: "#39ff14" }}>T</span>act with yours. listen and speak, feel and reveal. there is p<span style={{ fontWeight: "bold", color: "#39ff14" }}>O</span>etry everywhere.</em>
-                <br />
-              </p>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}><strong>- Janaína Moitinho</strong></p>
-            </div>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
+                  <h1 className={classes.linkTitle} style={{ color: "#FFFFFF", textAlign: "center" }}>A LER VAZIØS</h1>
+                </Link>
+                <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
+                  <em>unlike anything we'<span style={{ fontWeight: "bold", color: "#39ff14" }}>D</span> expect, the poetics in "a ler vazios" makes the he<span style={{ fontWeight: "bold", color: "#39ff14" }}>A</span>rt of machines feel, not only the huma<span style={{ fontWeight: "bold", color: "#39ff14" }}>N</span>, but it also invites us to go further. it's essential to glimpse art in mathemat<span style={{ fontWeight: "bold", color: "#39ff14" }}>I</span>cs. simple and complex exp<span style={{ fontWeight: "bold", color: "#39ff14" }}>E</span>riments to be deciphered. <span style={{ fontWeight: "bold", color: "#39ff14" }}>L</span>iberty for the senses.</em><br /><br />
+                  <em><span style={{ fontWeight: "bold", color: "#39ff14" }}>B</span>rilliant artistic investigations by a young genius of the streets. he redoes scenes, <span style={{ fontWeight: "bold", color: "#39ff14" }}>R</span>evolutionizes, affirms his place in the world. impetuous and concrete, dan<span style={{ fontWeight: "bold", color: "#39ff14" }}>I</span>el brito spreads poetry. all dialogue will now take place in his con<span style={{ fontWeight: "bold", color: "#39ff14" }}>T</span>act with yours. listen and speak, feel and reveal. there is p<span style={{ fontWeight: "bold", color: "#39ff14" }}>O</span>etry everywhere.</em>
+                  <br />
+                </p>
+                <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}><strong>- Janaína Moitinho</strong></p>
+              </div>
             </Fade>
           </Grid>
+        </Grid>
+        <div >
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{marginTop: "50px", marginBottom: "50px"}} >
           <Grid item lg={5}>
             <div>
               <Zoom>
@@ -183,18 +186,22 @@ export default function Home(props) {
             </div>
           </Grid>
           <Grid item lg={7}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
-                <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>For most existentialists, two were the privileged ways for humans to accept and face their finitude: through the arts and political-revolutionary action. In these exceptional forms of activity, they would be able to give meaning to the brevity of their lives.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
-                <br />
-              </p>
-              <Link to="/books#protestizando" style={{ textDecoration: "none" }} title="More">
-                <p className={classes.link} style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}><strong>- Sophia (PROTESTIZANDO)</strong></p>
-              </Link>
-            </div>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
+                  <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>For most existentialists, two were the privileged ways for humans to accept and face their finitude: through the arts and political-revolutionary action. In these exceptional forms of activity, they would be able to give meaning to the brevity of their lives.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
+                  <br />
+                </p>
+                <Link to="/books#protestizando" style={{ textDecoration: "none" }} title="More">
+                  <p className={classes.link} style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}><strong>- Sophia (PROTESTIZANDO)</strong></p>
+                </Link>
+              </div>
             </Fade>
           </Grid>
+        </Grid>
+        </div>
+
+        <Grid container spacing={5} justify="center" alignItems="center" style={{marginTop: "50px", marginBotto: "50px"}}>
           <Grid item lg={5}>
             <div>
               <Zoom>
@@ -203,18 +210,21 @@ export default function Home(props) {
             </div>
           </Grid>
           <Grid item lg={7}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
-                <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>In his early twenties, Daniel Brito, a diamond who polishes himself when he says yes to poetry! With the book he commits himself, for the second time in his life, to what I dare say: post-neo-concrete poetry. Herculean objective which was never a craziness. No reading deadlines or endless demands.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
-                <br />
-              </p>
-              <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
-                <p className={classes.link} style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}><strong>- Antonio Miotto (A LER VAZIOS)</strong></p>
-              </Link>
-            </div>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
+                  <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>In his early twenties, Daniel Brito, a diamond who polishes himself when he says yes to poetry! With the book he commits himself, for the second time in his life, to what I dare say: post-neo-concrete poetry. Herculean objective which was never a craziness. No reading deadlines or endless demands.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
+                  <br />
+                </p>
+                <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
+                  <p className={classes.link} style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}><strong>- Antonio Miotto (A LER VAZIOS)</strong></p>
+                </Link>
+              </div>
             </Fade>
           </Grid>
+        </Grid>
+
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{marginTop: "50px", marginBotto: "50px"}}>
           <Grid item lg={5}>
             <div>
               <Zoom>
@@ -223,18 +233,21 @@ export default function Home(props) {
             </div>
           </Grid>
           <Grid item lg={7}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
-                <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>Daniel Brito is a name that appears in the peripheral poetic scene, but who is already a citizen of the world, because of the reach of his literary ability. And the most incredible thing is that he's right here, contemporary with us, and promises to stay.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
-                <br />
-              </p>
-              <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
-                <p className={classes.link} style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}><strong>- Edilene Santos (A LER VAZIOS)</strong></p>
-              </Link>
-            </div>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
+                  <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>Daniel Brito is a name that appears in the peripheral poetic scene, but who is already a citizen of the world, because of the reach of his literary ability. And the most incredible thing is that he's right here, contemporary with us, and promises to stay.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
+                  <br />
+                </p>
+                <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
+                  <p className={classes.link} style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}><strong>- Edilene Santos (A LER VAZIOS)</strong></p>
+                </Link>
+              </div>
             </Fade>
           </Grid>
+        </Grid>
+
+        <Grid container spacing={5} justify="center" alignItems="center" style={{marginTop: "50px", marginBotto: "50px"}}>
           <Grid item lg={5}>
             <div>
               <Zoom>
@@ -243,18 +256,21 @@ export default function Home(props) {
             </div>
           </Grid>
           <Grid item lg={7}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
-                <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>Each text brings the way to be read. Discovering this code will be the main challenge for the reader who, maintaining his freedom, will need a good repertoire for this decoding... The credit goes to the author who masters all these languages and managed that the next page has always a reserved surprise.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
-                <br />
-              </p>
-              <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
-                <p className={classes.link} style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}><strong>- Léssio Cardoso (A LER VAZIOS)</strong></p>
-              </Link>
-            </div>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
+                  <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>Each text brings the way to be read. Discovering this code will be the main challenge for the reader who, maintaining his freedom, will need a good repertoire for this decoding... The credit goes to the author who masters all these languages and managed that the next page has always a reserved surprise.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
+                  <br />
+                </p>
+                <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
+                  <p className={classes.link} style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}><strong>- Léssio Cardoso (A LER VAZIOS)</strong></p>
+                </Link>
+              </div>
             </Fade>
           </Grid>
+        </Grid>
+
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{marginTop: "50px"}}>
           <Grid item lg={5}>
             <div>
               <Zoom>
@@ -263,18 +279,19 @@ export default function Home(props) {
             </div>
           </Grid>
           <Grid item lg={7}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
-                <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>The poet in question becomes a bridge architect so that readers have access to all his creativity. And I can guarantee to the future adventurers: each page is a postcard for the eyes of people hungry for visual aesthetics and linguistic content.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
-                <br />
-              </p>
-              <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
-                <p className={classes.link} style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}><strong>- Casulo (A LER VAZIOS)</strong></p>
-              </Link>
-            </div>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
+                  <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>The poet in question becomes a bridge architect so that readers have access to all his creativity. And I can guarantee to the future adventurers: each page is a postcard for the eyes of people hungry for visual aesthetics and linguistic content.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
+                  <br />
+                </p>
+                <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
+                  <p className={classes.link} style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}><strong>- Casulo (A LER VAZIOS)</strong></p>
+                </Link>
+              </div>
             </Fade>
           </Grid>
+
         </Grid>
       </div>
 
