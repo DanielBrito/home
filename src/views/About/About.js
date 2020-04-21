@@ -171,7 +171,7 @@ export default function About(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}><em>MY BRIEF HISTORY</em></h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  I was born in São Paulo/SP - Brazil, {diffDays} days ago. For most of my life, I lived in the district of Grajaú, except for a year I spent in Viçosa/CE during my childhood. In this period, I enjoyed playing soccer, video-games, and creating stuff, like small towns with my toys and new technologies with parts of them. Later, I got my first computer, and I just fell in love with it. I didn't know how to program yet, but I liked to customize it, play games and surf on the (dial-up) internet.<br /><br />
+                  I was born in São Paulo/SP - Brazil, {diffDays} days ago. For most of my life, I lived in the district of Grajaú, except for a year I spent in Viçosa/CE during my childhood. In this period, I enjoyed playing soccer, video-games, and creating stuff, like small towns with my toys and new technologies with parts of them. Later, I got my first computer, and I just fell in love with it. I didn't know how to program yet, but I liked to hack it, play games and surf on the (dial-up) internet.<br /><br />
 
                 When I was 16, I got my first job as an apprentice at CAMP Pinheiros. After a while, as a result of doing good work, I achieved an effective position as an office assistant at CPFL Renováveis.<br /><br />
 
