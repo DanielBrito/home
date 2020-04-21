@@ -273,7 +273,7 @@ export default function Projects(props) {
                     href="https://github.com/DanielBrito/celerebro"
                     target="_blank"
                     title="Access repository">
-                    <FaBrain className={classes.icons} style={{ marginRight: "5px" }} /> DOWNLOAD
+                    <FaBrain className={classes.icons} style={{ marginRight: "5px" }} /> PLAY
               </Button>
                 </HeadShake>
               </div>

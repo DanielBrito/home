@@ -173,21 +173,21 @@ export default function Blog(props) {
           </Grid>
           <Grid item lg={6}>
             <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POLYMATUS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
-                Where I talk about everything and the like...
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POLYMATUS</h1>
+                <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
+                  Where I talk about everything and the like...
               </p>
-              <HeadShake>
-                <Button
-                  color="neon" round style={{ marginTop: "20px" }} size="md"
-                  href="http://daniel-brito.blogspot.com.br/"
-                  target="_blank"
-                  title="Access blog">
-                  <FaBloggerB className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+                <HeadShake>
+                  <Button
+                    color="neon" round style={{ marginTop: "20px" }} size="md"
+                    href="http://daniel-brito.blogspot.com.br/"
+                    target="_blank"
+                    title="Access blog">
+                    <FaBloggerB className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
               </Button>
-              </HeadShake>
-            </div>
+                </HeadShake>
+              </div>
             </Fade>
           </Grid>
         </Grid>
@@ -201,22 +201,22 @@ export default function Blog(props) {
             </div>
           </Grid>
           <Grid item lg={6}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POEMS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
-                Verses, concretisms, haiku, sonnets...
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POEMS</h1>
+                <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
+                  <a href="https://pensador.uol.com.br/colecao/danielbrito41/" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="Pensador collection">Verses</a>, concretisms, haiku, sonnets...
               </p>
-              <HeadShake>
-                <Button
-                  color="neon" round style={{ marginTop: "20px" }} size="md"
-                  href="http://daniel-brito.blogspot.com/p/poemas-autorais_11.html"
-                  target="_blank"
-                  title="Access poems page">
-                  <FaPenNib className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+                <HeadShake>
+                  <Button
+                    color="neon" round style={{ marginTop: "20px" }} size="md"
+                    href="http://daniel-brito.blogspot.com/p/poemas-autorais_11.html"
+                    target="_blank"
+                    title="Access poems page">
+                    <FaPenNib className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
               </Button>
-              </HeadShake>
-            </div>
+                </HeadShake>
+              </div>
             </Fade>
           </Grid>
         </Grid>
@@ -230,22 +230,22 @@ export default function Blog(props) {
             </div>
           </Grid>
           <Grid item lg={6}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>NEWS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
-                What's going on in the world...
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>NEWS</h1>
+                <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
+                  What's going on in the world...
               </p>
-              <HeadShake>
-                <Button
-                  color="neon" round style={{ marginTop: "20px" }} size="md"
-                  href="http://daniel-brito.blogspot.com/p/noticias_11.html"
-                  target="_blank"
-                  title="Access articles page">
-                  <FaNewspaper className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+                <HeadShake>
+                  <Button
+                    color="neon" round style={{ marginTop: "20px" }} size="md"
+                    href="http://daniel-brito.blogspot.com/p/noticias_11.html"
+                    target="_blank"
+                    title="Access articles page">
+                    <FaNewspaper className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
               </Button>
-              </HeadShake>
-            </div>
+                </HeadShake>
+              </div>
             </Fade>
           </Grid>
         </Grid>
@@ -259,22 +259,22 @@ export default function Blog(props) {
             </div>
           </Grid>
           <Grid item lg={6}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>READINGS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
-                Reviews, excerpts, recommendations...
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>READINGS</h1>
+                <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
+                  Reviews, excerpts, <a href="https://www.skoob.com.br/usuario/1021319-dan" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="Skoob profile">recommendations</a>...
               </p>
-              <HeadShake>
-                <Button
-                  color="neon" round style={{ marginTop: "20px" }} size="md"
-                  href="http://daniel-brito.blogspot.com/p/biblioteca-marginal_11.html"
-                  target="_blank"
-                  title="Access readings page">
-                  <FaBookReader className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+                <HeadShake>
+                  <Button
+                    color="neon" round style={{ marginTop: "20px" }} size="md"
+                    href="http://daniel-brito.blogspot.com/p/biblioteca-marginal_11.html"
+                    target="_blank"
+                    title="Access readings page">
+                    <FaBookReader className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
               </Button>
-              </HeadShake>
-            </div>
+                </HeadShake>
+              </div>
             </Fade>
           </Grid>
         </Grid>
@@ -288,22 +288,22 @@ export default function Blog(props) {
             </div>
           </Grid>
           <Grid item lg={6}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>REFLECTIONS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
-                The unexamined life is not worth living...
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>REFLECTIONS</h1>
+                <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
+                  The unexamined life is not worth living...
               </p>
-              <HeadShake>
-                <Button
-                  color="neon" round style={{ marginTop: "20px" }} size="md"
-                  href="http://daniel-brito.blogspot.com/p/reflexoes_11.html"
-                  target="_blank"
-                  title="Access reflections page">
-                  <FaQuestion className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+                <HeadShake>
+                  <Button
+                    color="neon" round style={{ marginTop: "20px" }} size="md"
+                    href="http://daniel-brito.blogspot.com/p/reflexoes_11.html"
+                    target="_blank"
+                    title="Access reflections page">
+                    <FaQuestion className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
               </Button>
-              </HeadShake>
-            </div>
+                </HeadShake>
+              </div>
             </Fade>
           </Grid>
         </Grid>
@@ -317,22 +317,22 @@ export default function Blog(props) {
             </div>
           </Grid>
           <Grid item lg={6}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>DRAWINGS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
-                Sketches, paintings, digital art...
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>DRAWINGS</h1>
+                <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
+                Sketches, paintings, digital <a href="https://www.deviantart.com/danielhbrito" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="DeviantArt profile">art</a>...
               </p>
-              <HeadShake>
-                <Button
-                  color="neon" round style={{ marginTop: "20px" }} size="md"
-                  href="http://daniel-brito.blogspot.com/p/tracos.html"
-                  target="_blank"
-                  title="Access drawings page">
-                  <FaPaintBrush className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+                <HeadShake>
+                  <Button
+                    color="neon" round style={{ marginTop: "20px" }} size="md"
+                    href="http://daniel-brito.blogspot.com/p/tracos.html"
+                    target="_blank"
+                    title="Access drawings page">
+                    <FaPaintBrush className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
               </Button>
-              </HeadShake>
-            </div>
+                </HeadShake>
+              </div>
             </Fade>
           </Grid>
         </Grid>
@@ -346,22 +346,22 @@ export default function Blog(props) {
             </div>
           </Grid>
           <Grid item lg={6}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>CH4LL3N635</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
-                Brain: use it or lose it...
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>CH4LL3N635</h1>
+                <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
+                  Brain: use it or lose it...
               </p>
-              <HeadShake>
-                <Button
-                  color="neon" round style={{ marginTop: "20px" }} size="md"
-                  href="http://daniel-brito.blogspot.com/p/desafios_11.html"
-                  target="_blank"
-                  title="Access challenges page">
-                  <FaBrain className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+                <HeadShake>
+                  <Button
+                    color="neon" round style={{ marginTop: "20px" }} size="md"
+                    href="http://daniel-brito.blogspot.com/p/desafios_11.html"
+                    target="_blank"
+                    title="Access challenges page">
+                    <FaBrain className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
               </Button>
-              </HeadShake>
-            </div>
+                </HeadShake>
+              </div>
             </Fade>
           </Grid>
         </Grid>
@@ -375,22 +375,22 @@ export default function Blog(props) {
             </div>
           </Grid>
           <Grid item lg={6}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>AUDIO&VISUAL</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
-                Music, documentaries, movies, animes...
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>AUDIO&VISUAL</h1>
+                <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
+                  Music, documentaries, movies, <a href="https://myanimelist.net/profile/danielbrito41" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="MyAnimeList profile">animes</a>...
               </p>
-              <HeadShake>
-                <Button
-                  color="neon" round style={{ marginTop: "20px" }} size="md"
-                  href="http://daniel-brito.blogspot.com/p/audio_11.html"
-                  target="_blank"
-                  title="Access audiovisual page">
-                  <FaVideo className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+                <HeadShake>
+                  <Button
+                    color="neon" round style={{ marginTop: "20px" }} size="md"
+                    href="http://daniel-brito.blogspot.com/p/audio_11.html"
+                    target="_blank"
+                    title="Access audiovisual page">
+                    <FaVideo className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
               </Button>
-              </HeadShake>
-            </div>
+                </HeadShake>
+              </div>
             </Fade>
           </Grid>
         </Grid>
@@ -404,22 +404,22 @@ export default function Blog(props) {
             </div>
           </Grid>
           <Grid item lg={6}>
-          <Fade>
-            <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>EVENTS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
-                Poetry reunions, exhibitions, lectures...
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>EVENTS</h1>
+                <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
+                  Poetry reunions, exhibitions, lectures...
               </p>
-              <HeadShake>
-                <Button
-                  color="neon" round style={{ marginTop: "20px" }} size="md"
-                  href="http://daniel-brito.blogspot.com/p/agenda.html"
-                  target="_blank"
-                  title="Access events page">
-                  <FaRegCalendarCheck className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+                <HeadShake>
+                  <Button
+                    color="neon" round style={{ marginTop: "20px" }} size="md"
+                    href="http://daniel-brito.blogspot.com/p/agenda.html"
+                    target="_blank"
+                    title="Access events page">
+                    <FaRegCalendarCheck className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
               </Button>
-              </HeadShake>
-            </div>
+                </HeadShake>
+              </div>
             </Fade>
           </Grid>
         </Grid>

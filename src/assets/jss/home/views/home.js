@@ -53,6 +53,15 @@ const homeStyle = {
       textShadow: "0px 0px 3px #39ff14;"  /* bright */
     },
   },
+  contactLink: {
+    textDecoration: "none",
+    color: "#FFFFFF",
+    fontSize: "17px",
+    borderBottom: "dotted 1px rgba(30,255,30, 0.65)",
+    "&:hover": {
+      textShadow: "0px 0px 3px #39ff14;"  /* bright */
+    },
+  },
   linkTitle: {
     textDecoration: "none",
     "&:hover": {

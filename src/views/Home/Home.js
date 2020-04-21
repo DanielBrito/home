@@ -45,6 +45,10 @@ export default function Home(props) {
     window.scrollTo(0, 0)
   }, [])
 
+  useEffect(() => {
+    document.title = "Daniel Brito"
+  })
+
   return (
     <div>
       <Header
@@ -150,7 +154,7 @@ export default function Home(props) {
           zIndex: "-1"
         }}
       />
-
+      
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Grid container spacing={5} justify="center" alignItems="center" style={{marginBottom: "50px"}}>
           <Grid item lg={6}>
@@ -160,7 +164,7 @@ export default function Home(props) {
               </Zoom>
             </div>
           </Grid>
-          <Grid item lg={6}>
+          <Grid item lg={6} >
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
