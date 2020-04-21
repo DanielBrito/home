@@ -19,8 +19,11 @@ import styles from "../../assets/jss/home/views/home.js";
 
 import srcLogo from "../../assets/img/logo.png"
 
-import Particles from 'react-particles-js'
+import Particles from 'react-particles-js';
 import Typewriter from 'typewriter-effect';
+import ReactPlayer from 'react-player';
+
+import Fade from 'react-reveal/Fade';
 
 const useStyles = makeStyles(styles);
 
@@ -32,6 +35,10 @@ export default function Videos(props) {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
+  useEffect(() => {
+    document.title = "Daniel Brito - VIDEOS"
+  })
 
   return (
     <div>
@@ -141,19 +148,111 @@ export default function Videos(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Grid container spacing={5} justify="center" alignItems="center">
-          <Grid item xs={12} sm={6} style={{marginTop: "30px", marginBottom: "30px"}}>
+          <Grid item lg={7} style={{ marginBottom: "30px" }}>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              VIDEO
+              <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=9wHZYrn7aEE' />
             </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item lg={5}>
+            <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              DESCRIPTION
+              Screencast of <a href="https://play.google.com/store/apps/details?id=br.ufc.crateus.halugar" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Download from Play Store">HáLugar</a> app, aimed at students who wish to share housing.
             </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+              <ReactPlayer width="100%" url='https://www.youtube.com/playlist?list=PLckh4uyjCOmjvKSfrDDJ6oh1lIF3qJ3hM' />
+            </div>
+          </Grid>
+          <Grid item lg={5}>
+            <Fade>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+              <a href="https://github.com/DanielBrito/competitive-programming" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access repository">Competitive Programming</a>: Evolving through the analysis and resolution of challenges.
+            </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+              <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=qRmpaXgMros' />
+            </div>
+          </Grid>
+          <Grid item lg={5}>
+            <Fade>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+              First animation of the <a href="https://www.instagram.com/aluminions.13/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Instagram page">Aluminions</a> using the stop motion technique.
+            </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+              <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=QniP7mjY9Rs' />
+            </div>
+          </Grid>
+          <Grid item lg={5}>
+            <Fade>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+            For those interested in the process of creation of the <a href="https://www.instagram.com/aluminions.13/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Instagram page">Aluminions</a>.
+            </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+              <ReactPlayer width="100%" url='https://www.youtube.com/watch?list=PLckh4uyjCOmgfzGEdPT_UZ14DxKlymoxX&v=J1455fDvGbA' />
+            </div>
+          </Grid>
+          <Grid item lg={5}>
+            <Fade>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+            <a href="https://github.com/DanielBrito/videos-youtube" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access repository">Programming fundamentals</a> applied in practical scenarios.
+            </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+              <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=ICX667nOIOA' />
+            </div>
+          </Grid>
+          <Grid item lg={5}>
+            <Fade>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+            Modeling the <a href="https://www.instagram.com/aluminions.13/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Instagram page">Aluminions</a> is the beginning of the process in which I intend to create a game.
+            </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid id={'grajau_em_foco'} container spacing={5} justify="center" alignItems="center" style={{ marginTop: "30px", }}>
+          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+              <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=R80bigCpxMA' />
+            </div>
+          </Grid>
+          <Grid item lg={5}>
+            <Fade>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+            This documentary produced by <a href="https://www.facebook.com/Sarau-do-Graja%C3%BA-191479077716775/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Facebook page">Sarau do Grajaú</a> collective makes a sensitive cut of the so-called poetic scene in the periphery.
+            </div>
+            </Fade>
           </Grid>
         </Grid>
       </div>
-      
+
       <Footer />
     </div>
   );

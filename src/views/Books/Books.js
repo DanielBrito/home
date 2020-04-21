@@ -160,8 +160,8 @@ export default function Books(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
 
-        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginBottom: "50px" }}>
-          <Grid id={'no_ritmo_de_algo'} item lg={5}>
+        <Grid id={'no_ritmo_de_algo'} container spacing={5} justify="center" alignItems="center" style={{ marginBottom: "50px" }}>
+          <Grid  item lg={5}>
             <div>
               <Zoom>
                 <img src={imgNoRitmoDeAlgo} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -193,8 +193,8 @@ export default function Books(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid id={'a_ler_vazios'} item lg={5} >
+        <Grid id={'a_ler_vazios'} container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid  item lg={5} >
             <div>
               <Zoom>
                 <img src={imgALerVazios} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -226,8 +226,8 @@ export default function Books(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid id={'protestizando'} item lg={5}>
+        <Grid id={'protestizando'} container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid  item lg={5}>
             <div>
               <Zoom>
                 <img src={imgProtestizando} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -259,8 +259,8 @@ export default function Books(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px" }}>
-          <Grid id={'zines'} item lg={5}>
+        <Grid id={'zines'} container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px" }}>
+          <Grid  item lg={5}>
             <div>
               <Zoom>
                 <img src={imgZine} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>

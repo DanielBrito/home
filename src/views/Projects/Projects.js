@@ -165,8 +165,8 @@ export default function Projects(props) {
       />
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginBottom: "50px" }}>
-          <Grid id={'compixelar'} item lg={5}>
+        <Grid id={'compixelar'} container spacing={5} justify="center" alignItems="center" style={{ marginBottom: "50px" }}>
+          <Grid  item lg={5}>
             <div>
               <Zoom>
                 <img src={imgCompixelar} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -194,8 +194,8 @@ export default function Projects(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid id={'halugar'} item lg={5} >
+        <Grid id={'halugar'} container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid  item lg={5} >
             <div>
               <Zoom>
                 <img src={imgHaLugar} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -223,8 +223,8 @@ export default function Projects(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid id={'polymapp'} item lg={5}>
+        <Grid id={'polymapp'}  container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid item lg={5}>
             <div>
               <Zoom>
                 <img src={imgPolymApp} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -252,8 +252,8 @@ export default function Projects(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid id={'celerebro'} item lg={5} >
+        <Grid id={'celerebro'} container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid  item lg={5} >
             <div>
               <Zoom>
                 <img src={imgCelerebro} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -281,8 +281,8 @@ export default function Projects(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid id={'sarau_do_grajau'} item lg={5}>
+        <Grid id={'sarau_do_grajau'} container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid  item lg={5}>
             <div>
               <Zoom>
                 <img src={imgSarauDoGrajau} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -310,8 +310,8 @@ export default function Projects(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid id={'concretagens'} item lg={5} >
+        <Grid id={'concretagens'} container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid item lg={5} >
             <div>
               <Zoom>
                 <img src={imgConcretagens} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -339,8 +339,8 @@ export default function Projects(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid id={'socrastickers'} item lg={5} >
+        <Grid id={'socrastickers'} container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid item lg={5} >
             <div>
               <Zoom>
                 <img src={imgSocrastickers} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -368,8 +368,8 @@ export default function Projects(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid id={'aluminions'} item lg={5} >
+        <Grid id={'aluminions'} container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid  item lg={5} >
             <div>
               <Zoom>
                 <img src={imgAluminions} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -397,8 +397,8 @@ export default function Projects(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid id={'fora_da_caixa'} item lg={5} >
+        <Grid id={'fora_da_caixa'} container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid  item lg={5} >
             <div>
               <Zoom>
                 <img src={imgForaDaCaixa} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -431,8 +431,8 @@ export default function Projects(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid id={'antigrife'} item lg={5} >
+        <Grid id={'antigrife'} container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid  item lg={5} >
             <div>
               <Zoom>
                 <img src={imgAntigrife} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -460,8 +460,8 @@ export default function Projects(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px" }}>
-          <Grid id={'galeria_marginal'} item lg={5}>
+        <Grid id={'galeria_marginal'} container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px" }}>
+          <Grid  item lg={5}>
             <div>
               <Zoom>
                 <img src={imgGaleriaMarginal} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
