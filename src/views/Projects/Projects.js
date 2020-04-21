@@ -54,6 +54,10 @@ export default function Projects(props) {
     window.scrollTo(0, 0)
   }, [])
 
+  useEffect(() => {
+    document.title = "Daniel Brito - PROJECTS"
+  })
+
   return (
     <div>
       <Header

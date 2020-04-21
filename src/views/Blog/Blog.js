@@ -19,6 +19,15 @@ import styles from "../../assets/jss/home/views/home.js";
 
 import srcLogo from "../../assets/img/logo.png"
 
+import Button from "../../components/CustomButtons/Button"
+
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
+import HeadShake from 'react-reveal/HeadShake';
+
+// @font-awesome/icons
+import { FaBloggerB, FaPenNib, FaNewspaper, FaBookReader, FaQuestion, FaPaintBrush, FaBrain, FaVideo, FaRegCalendarCheck } from "react-icons/fa";
+
 import imgPolymatus from "../../assets/img/polymatus_logo.jpg"
 import imgPoems from "../../assets/img/poemas-autorais.jpg"
 import imgArticles from "../../assets/img/artigos-noticias.jpg"
@@ -42,6 +51,10 @@ export default function Blog(props) {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
+  useEffect(() => {
+    document.title = "Daniel Brito - BLOG"
+  })
 
   return (
     <div>
@@ -150,137 +163,267 @@ export default function Blog(props) {
       />
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <Grid container spacing={5} justify="center" alignItems="center">
-
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginBottom: "30px" }}>
+          <Grid item lg={6} >
             <div>
-              <img src={imgPolymatus} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              <Zoom>
+                <img src={imgPolymatus} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              </Zoom>
             </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item lg={6}>
+            <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POLYMATYS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}>
+              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                 Where I talk about everything and the like...
               </p>
+              <HeadShake>
+                <Button
+                  color="neon" round style={{ marginTop: "20px" }} size="md"
+                  href="http://daniel-brito.blogspot.com.br/"
+                  target="_blank"
+                  title="Access blog">
+                  <FaBloggerB className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+              </Button>
+              </HeadShake>
             </div>
+            </Fade>
           </Grid>
+        </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid item lg={6} >
             <div>
-              <img src={imgPoems} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              <Zoom>
+                <img src={imgPoems} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              </Zoom>
             </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item lg={6}>
+          <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POEMS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}>
+              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                 Verses, concretisms, haiku, sonnets...
               </p>
+              <HeadShake>
+                <Button
+                  color="neon" round style={{ marginTop: "20px" }} size="md"
+                  href="http://daniel-brito.blogspot.com/p/poemas-autorais_11.html"
+                  target="_blank"
+                  title="Access poems page">
+                  <FaPenNib className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+              </Button>
+              </HeadShake>
             </div>
+            </Fade>
           </Grid>
+        </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid item lg={6} >
             <div>
-              <img src={imgArticles} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              <Zoom>
+                <img src={imgArticles} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              </Zoom>
             </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item lg={6}>
+          <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>NEWS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}>
+              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                 What's going on in the world...
               </p>
+              <HeadShake>
+                <Button
+                  color="neon" round style={{ marginTop: "20px" }} size="md"
+                  href="http://daniel-brito.blogspot.com/p/noticias_11.html"
+                  target="_blank"
+                  title="Access articles page">
+                  <FaNewspaper className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+              </Button>
+              </HeadShake>
             </div>
+            </Fade>
           </Grid>
+        </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid item lg={6}>
             <div>
-              <img src={imgReadings} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              <Zoom>
+                <img src={imgReadings} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              </Zoom>
             </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item lg={6}>
+          <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>READINGS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}>
+              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                 Reviews, excerpts, recommendations...
               </p>
+              <HeadShake>
+                <Button
+                  color="neon" round style={{ marginTop: "20px" }} size="md"
+                  href="http://daniel-brito.blogspot.com/p/biblioteca-marginal_11.html"
+                  target="_blank"
+                  title="Access readings page">
+                  <FaBookReader className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+              </Button>
+              </HeadShake>
             </div>
+            </Fade>
           </Grid>
+        </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid item lg={6} >
             <div>
-              <img src={imgReflections} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              <Zoom>
+                <img src={imgReflections} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              </Zoom>
             </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item lg={6}>
+          <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>REFLECTIONS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}>
+              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                 The unexamined life is not worth living...
               </p>
+              <HeadShake>
+                <Button
+                  color="neon" round style={{ marginTop: "20px" }} size="md"
+                  href="http://daniel-brito.blogspot.com/p/reflexoes_11.html"
+                  target="_blank"
+                  title="Access reflections page">
+                  <FaQuestion className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+              </Button>
+              </HeadShake>
             </div>
+            </Fade>
           </Grid>
+        </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid item lg={6} >
             <div>
-              <img src={imgDrawings} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              <Zoom>
+                <img src={imgDrawings} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              </Zoom>
             </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item lg={6}>
+          <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>DRAWINGS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}>
+              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                 Sketches, paintings, digital art...
               </p>
+              <HeadShake>
+                <Button
+                  color="neon" round style={{ marginTop: "20px" }} size="md"
+                  href="http://daniel-brito.blogspot.com/p/tracos.html"
+                  target="_blank"
+                  title="Access drawings page">
+                  <FaPaintBrush className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+              </Button>
+              </HeadShake>
             </div>
+            </Fade>
           </Grid>
+        </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid item lg={6}>
             <div>
-              <img src={imgChallenges} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              <Zoom>
+                <img src={imgChallenges} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              </Zoom>
             </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item lg={6}>
+          <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>CH4LL3N635</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}>
+              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                 Brain: use it or lose it...
               </p>
+              <HeadShake>
+                <Button
+                  color="neon" round style={{ marginTop: "20px" }} size="md"
+                  href="http://daniel-brito.blogspot.com/p/desafios_11.html"
+                  target="_blank"
+                  title="Access challenges page">
+                  <FaBrain className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+              </Button>
+              </HeadShake>
             </div>
+            </Fade>
           </Grid>
+        </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
+          <Grid item lg={6}>
             <div>
-              <img src={imgAudioVisual} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              <Zoom>
+                <img src={imgAudioVisual} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              </Zoom>
             </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item lg={6}>
+          <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>AUDIO&VISUAL</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}>
-                Music, documentaries, short films, movies, animes...
+              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
+                Music, documentaries, movies, animes...
               </p>
+              <HeadShake>
+                <Button
+                  color="neon" round style={{ marginTop: "20px" }} size="md"
+                  href="http://daniel-brito.blogspot.com/p/audio_11.html"
+                  target="_blank"
+                  title="Access audiovisual page">
+                  <FaVideo className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+              </Button>
+              </HeadShake>
             </div>
+            </Fade>
           </Grid>
+        </Grid>
 
-          <Grid item xs={12} sm={6} style={{ marginTop: "30px", marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px" }}>
+          <Grid item lg={6} >
             <div>
-              <img src={imgEvents} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              <Zoom>
+                <img src={imgEvents} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+              </Zoom>
             </div>
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item lg={6}>
+          <Fade>
             <div style={{ backgroundColor: "#000000" }}>
               <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>EVENTS</h1>
-              <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "center" }}>
+              <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                 Poetry reunions, exhibitions, lectures...
               </p>
+              <HeadShake>
+                <Button
+                  color="neon" round style={{ marginTop: "20px" }} size="md"
+                  href="http://daniel-brito.blogspot.com/p/agenda.html"
+                  target="_blank"
+                  title="Access events page">
+                  <FaRegCalendarCheck className={classes.icons} style={{ marginRight: "5px" }} /> ACCESS
+              </Button>
+              </HeadShake>
             </div>
+            </Fade>
           </Grid>
-
         </Grid>
       </div>
-
       <Footer />
     </div>
   );

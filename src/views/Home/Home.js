@@ -153,14 +153,14 @@ export default function Home(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Grid container spacing={5} justify="center" alignItems="center" style={{marginBottom: "50px"}}>
-          <Grid item lg={5}>
+          <Grid item lg={6}>
             <div>
               <Zoom>
                 <img src={imgPinacograma} alt="Learn" width="100%" style={{ borderRadius: "10px" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item lg={7}>
+          <Grid item lg={6}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More">
