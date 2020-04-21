@@ -174,7 +174,7 @@ export default function Blog(props) {
           <Grid item lg={6}>
             <Fade>
             <div style={{ backgroundColor: "#000000" }}>
-              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POLYMATYS</h1>
+              <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POLYMATUS</h1>
               <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                 Where I talk about everything and the like...
               </p>
