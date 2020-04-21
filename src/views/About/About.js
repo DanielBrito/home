@@ -46,6 +46,10 @@ export default function About(props) {
     window.scrollTo(0, 0)
   }, [])
 
+  useEffect(() => {
+    document.title ="Daniel Brito - ABOUT"
+  })
+
   return (
     <div>
       <Header
@@ -155,7 +159,7 @@ export default function About(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
 
         <Grid container spacing={5} justify="center" alignItems="center" style={{marginBottom: "50px"}}>
-          <Grid item md={5}>
+          <Grid item lg={5}>
             <div>
               <Zoom>
                 <img src={imgEducationWork} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
@@ -167,7 +171,7 @@ export default function About(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}><em>MY BRIEF HISTORY</em></h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  I was born in São Paulo/SP - Brazil, {diffDays} days ago. For most of my life, I lived in the district of Grajaú, except for a year I spent in Viçosa/CE during my childhood. In this period I enjoyed playing soccer, video-games, and creating stuff, like small towns with my toys and new technologies with parts of them. Later, I got my first computer, and I just fell in love with it. I didn't know how to program yet, but I liked to customize it, play games and surf on the (dial-up) internet.<br /><br />
+                  I was born in São Paulo/SP - Brazil, {diffDays} days ago. For most of my life, I lived in the district of Grajaú, except for a year I spent in Viçosa/CE during my childhood. In this period, I enjoyed playing soccer, video-games, and creating stuff, like small towns with my toys and new technologies with parts of them. Later, I got my first computer, and I just fell in love with it. I didn't know how to program yet, but I liked to customize it, play games and surf on the (dial-up) internet.<br /><br />
 
                 When I was 16, I got my first job as an apprentice at CAMP Pinheiros. After a while, as a result of doing good work, I achieved an effective position as an office assistant at CPFL Renováveis.<br /><br />
 
@@ -191,7 +195,11 @@ export default function About(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}><em>TO BE OR NOT TO BE</em></h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  I idealized the project <Link to="/projects#compixelar" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>COMPIXELAR</Link>. I'm a <Link to="/books#zines" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>FANZINER</Link>. I developed the app <Link to="/projects#halugar" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLUGAR</Link>. I'm the creator of <Link to="/projects#aluminions" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>ALUMINIONS</Link>. I'm a thinker at <Link to="/projects#fora_da_caixa" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>FORA DA CAIXA</Link>. I'm a tailleur at <Link to="/projects#antigrife" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>ANTIGR1F3</Link>. I'm a curator at <Link to="/projects#galeria_marginal" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>GALERIA MARGINAL</Link>. I'm a kind of YouTuber, who likes to talk about <Link to="/videos" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Programming</Link>. I'm a worker at <Link to="/projects#concretagens" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>COLETIVA CONCRETAGENS</Link>. I disseminate Philosophy and Art through the <Link to="/projects#socrastickers" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>SOCRASTICKERS</Link>. I integrated the collective <Link to="/projects#sarau_do_grajau" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>SARAU DO GRAJAÚ</Link>, which produced the documentary <Link to="/videos#grajau_em_foco" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Grajaú em Foco</Link>. I published independently the book <Link to="/books#protestizando" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>PROTESTIZANDO</Link> (2015), which compiles my first poems. I published independently the book <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>A LER VAZIOS</Link> (2016), which includes some of my poetic and visual experiments. I've also been published in several anthologies with other marginal authors.
+                  I idealized the project <Link to="/projects#compixelar" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>COMPIXELAR</Link>. I'm a <Link to="/books#zines" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>FANZINER</Link>. I developed the app <Link to="/projects#halugar" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLUGAR</Link>. I'm the creator of <Link to="/projects#aluminions" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>ALUMINIONS</Link>. I'm a thinker at <Link to="/projects#fora_da_caixa" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>FORA DA CAIXA</Link>. I'm a tailleur at <Link to="/projects#antigrife" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>ANTIGR1F3</Link>. I'm a curator at <Link to="/projects#galeria_marginal" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>GALERIA MARGINAL</Link>. I'm a kind of YouTuber, who likes to talk about <Link to="/videos" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>PROGRAMMING</Link>. I'm a worker at <Link to="/projects#concretagens" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>COLETIVA CONCRETAGENS</Link>. I disseminate Philosophy and Art through the <Link to="/projects#socrastickers" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>SOCRASTICKERS</Link>.<br/><br/>
+                  
+                  I integrated the collective <Link to="/projects#sarau_do_grajau" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>SARAU DO GRAJAÚ</Link>, which produced the documentary <Link to="/videos#grajau_em_foco" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Grajaú em Foco</Link>.<br/><br/>
+                  
+                  I published independently the book <Link to="/books#protestizando" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>PROTESTIZANDO</Link> (2015), which compiles my first poems. I published independently the book <Link to="/books#a_ler_vazios" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>A LER VAZIOS</Link> (2016), which includes some of my poetic and visual experiments. I've also been published in several anthologies with other marginal authors.
               </p>
               </div>
             </Fade>
@@ -211,16 +219,15 @@ export default function About(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}><em>LIFE, THE UNIVERSE AND EVERYTHING</em></h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  As an inborn scientist and visual artist, I research about Generative Design. Through the exact sciences, I get fascinated as I discover the cosmos. Through the social sciences, I seek to understand the world that I live in and the several cultures that surround me.
-                Through technology, I try to create solutions that promote social progress. I value respect in relation to every sentient being.<br /><br />
+                  As an inborn scientist and visual artist, I research about <a href="https://github.com/DanielBrito/generative-design" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="More">Generative Design</a>. Through the exact sciences, I get fascinated as I discover the cosmos. Through the social sciences, I seek to understand the world that I live in and the several cultures that surround me. Through technology, I try to create solutions that promote social progress.<br /><br />
 
-                Riding BMX and skateboarding give some good doses of adrenaline. Calisthenics and neurobics help me to train my body and my mind.<br /><br />
+                Riding BMX and skateboarding provide me some good doses of adrenaline. Calisthenics and neurobics help me to train my body and my mind.<br /><br />
 
                 I bring with me an increasing appreciation for the Seventh Art, and my musical taste ranges from tuned pianos to distorted guitars.<br /><br />
 
-                I value the DIY attitude, the self-teaching lifestyle, polyglotism, and <Link to="/blog" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>polymathy</Link>.<br /><br />
+                I value respect in relation to every sentient being, as well as the DIY attitude, the self-teaching lifestyle, polyglotism, and <Link to="/blog" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>polymathy</Link>.<br /><br />
 
-                Discovering new worlds is my biggest goal in life.
+                Discovering new worlds is my biggest goal.
               </p>
               </div>
             </Fade>

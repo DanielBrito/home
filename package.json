@@ -27,6 +27,7 @@
     "react-router-dom": "^5.1.2",
     "react-router-hash-link": "^1.2.2",
     "react-scripts": "3.4.1",
+    "simple-react-lightbox": "^2.7.3-2",
     "typewriter-effect": "^2.13.0"
   },
   "scripts": {

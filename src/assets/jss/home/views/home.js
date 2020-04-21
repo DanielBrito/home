@@ -22,10 +22,10 @@ const homeStyle = {
   main: {
     background: "#000000",
     position: "relative",
-    zIndex: "3",
+    // zIndex: "1",
     border: "1px solid #39ff14",
     maxWidth: "978px",
-    lineHeight: "1.3",
+    lineHeight: "1.4",
   },
   mainRaised: {
     marginTop: "-60px",

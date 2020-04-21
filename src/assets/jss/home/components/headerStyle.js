@@ -33,11 +33,11 @@ import {
     },
     absolute: {
       position: "absolute",
-      zIndex: "1100"
+      zIndex: "2"
     },
     fixed: {
       position: "fixed",
-      zIndex: "1100"
+      zIndex: "2"
     },
     container: {
       ...container,
