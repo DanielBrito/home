@@ -17,10 +17,14 @@ import Parallax from "../../components/Parallax/Parallax";
 
 import styles from "../../assets/jss/home/views/home.js";
 
+import Button from "../../components/CustomButtons/Button"
+
 import srcLogo from "../../assets/img/logo.png"
 
 import imgPortalSertoes from "../../assets/img/media/halugar_portal_sertoes_240220.jpg"
 import imgUFC from "../../assets/img/media/halugar_ufc_crateus_noticias_010320.jpg"
+
+import { FaNewspaper } from "react-icons/fa";
 
 import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect';
@@ -28,6 +32,7 @@ import ReactPlayer from 'react-player';
 
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
+import HeadShake from 'react-reveal/HeadShake';
 
 const useStyles = makeStyles(styles);
 
@@ -162,7 +167,16 @@ export default function Media(props) {
           <Grid item lg={6}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>The app <a href="https://play.google.com/store/apps/details?id=br.ufc.crateus.halugar" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Download from Play Store">HáLugar</a> has gained the attention of city residents and, in a few days after its launch, it already had advertisements registered. For the professor of the discipline, who encouraged the publication of the software, the initiative will encourage the development of more ideas by students.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
+              <p><em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span><a href="https://play.google.com/store/apps/details?id=br.ufc.crateus.halugar" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Download from Play Store">HáLugar</a> has gained the attention of city residents and, in a few days after its launch, it already had advertisements registered. For the professor of the discipline, who encouraged the publication of the software, the initiative will encourage the development of more ideas by students.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em></p>
+              <HeadShake>
+                  <Button
+                    color="neon" round style={{ marginTop: "20px" }} size="md"
+                    href="http://crateus.ufc.br/estudante-de-ciencia-da-computacao-desenvolve-aplicativo-para-quem-deseja-compartilhar-moradia/"
+                    target="_blank"
+                    title="Read full article">
+                    <FaNewspaper className={classes.icons} style={{ marginRight: "5px" }} /> READ
+              </Button>
+                </HeadShake>
             </div>
             </Fade>
           </Grid>
@@ -179,7 +193,16 @@ export default function Media(props) {
           <Grid item lg={6}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span><a href="https://play.google.com/store/apps/details?id=br.ufc.crateus.halugar" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Download from Play Store">HáLugar</a> app was developed by student Daniel Brito, from the Computer Science course at the Federal University of Ceará (Crateús Campus), during the disciplines of Web and Mobile Development, taught by professor Francisco Anderson de Almada Gomes.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
+              <p><em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span><a href="https://play.google.com/store/apps/details?id=br.ufc.crateus.halugar" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Download from Play Store">HáLugar</a> was developed by student Daniel Brito, from the Computer Science course at the Federal University of Ceará (Crateús Campus), during the disciplines of Web and Mobile Development, taught by professor Francisco Anderson de Almada Gomes.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em></p>
+              <HeadShake>
+                  <Button
+                    color="neon" round style={{ marginTop: "20px" }} size="md"
+                    href="https://portalsertoes.com/2020/02/estudante-da-ufc-de-crateus-desenvolve-aplicativo-para-quem-deseja-compartilhar-moradia.html"
+                    target="_blank"
+                    title="Read full article">
+                    <FaNewspaper className={classes.icons} style={{ marginRight: "5px" }} /> READ
+              </Button>
+                </HeadShake>
             </div>
             </Fade>
           </Grid>
