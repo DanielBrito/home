@@ -162,7 +162,7 @@ export default function Videos(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px" }}>
+        <Grid id={'programming'} container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px" }}>
           <Grid item lg={7} style={{ marginBottom: "30px" }}>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <ReactPlayer width="100%" url='https://www.youtube.com/playlist?list=PLckh4uyjCOmjvKSfrDDJ6oh1lIF3qJ3hM' />
@@ -180,13 +180,13 @@ export default function Videos(props) {
         <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "30px", marginBottom: "30px" }}>
           <Grid item lg={7} style={{ marginBottom: "30px" }}>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=qRmpaXgMros' />
+              <ReactPlayer width="100%" url='https://www.youtube.com/watch?list=PLckh4uyjCOmgfzGEdPT_UZ14DxKlymoxX&v=J1455fDvGbA' />
             </div>
           </Grid>
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              First animation of the <a href="https://www.instagram.com/aluminions.13/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Instagram page">Aluminions</a> using the stop motion technique.
+            <a href="https://github.com/DanielBrito/videos-youtube" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access repository">Programming fundamentals</a> applied in practical scenarios.
             </div>
             </Fade>
           </Grid>
@@ -210,13 +210,13 @@ export default function Videos(props) {
         <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "30px", marginBottom: "30px" }}>
           <Grid item lg={7} style={{ marginBottom: "30px" }}>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              <ReactPlayer width="100%" url='https://www.youtube.com/watch?list=PLckh4uyjCOmgfzGEdPT_UZ14DxKlymoxX&v=J1455fDvGbA' />
+              <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=qRmpaXgMros' />
             </div>
           </Grid>
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-            <a href="https://github.com/DanielBrito/videos-youtube" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access repository">Programming fundamentals</a> applied in practical scenarios.
+              First animation of the <a href="https://www.instagram.com/aluminions.13/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Instagram page">Aluminions</a> using the stop motion technique.
             </div>
             </Fade>
           </Grid>
