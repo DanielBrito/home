@@ -26,9 +26,9 @@ export default function Parallax(props) {
       window.addEventListener("scroll", resetTransform);
     }
     return function cleanup() {
-      if (window.innerWidth >= 768) {
+      // if (window.innerWidth >= 768) {
         window.removeEventListener("scroll", resetTransform);
-      }
+      // }
     };
   });
   const resetTransform = () => {
