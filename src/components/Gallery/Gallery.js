@@ -120,7 +120,7 @@ export default class Gallery extends Component {
       <div>
         <HeadShake>
         <Button
-          color="neon" round style={{ marginTop: "20px", marginBottom: "40px" }} size="md"
+          color="neon" round style={{ marginTop: "10px", marginBottom: "35px" }} size="md"
           title="Show images as slideshow"
           onClick={() => this.setState({ isOpen: true })}>
           <FaPlay style={{ marginRight: "5px" }} />
