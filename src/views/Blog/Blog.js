@@ -164,14 +164,14 @@ export default function Blog(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Grid container spacing={5} justify="center" alignItems="center" style={{ marginBottom: "30px" }}>
-          <Grid item lg={6} >
+          <Grid item lg={5} >
             <div>
               <Zoom>
                 <img src={imgPolymatus} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item lg={6}>
+          <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POLYMATUS</h1>
@@ -193,14 +193,14 @@ export default function Blog(props) {
         </Grid>
 
         <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid item lg={6} >
+          <Grid item lg={5} >
             <div>
               <Zoom>
                 <img src={imgPoems} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item lg={6}>
+          <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POEMS</h1>
@@ -222,14 +222,14 @@ export default function Blog(props) {
         </Grid>
 
         <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid item lg={6} >
+          <Grid item lg={5} >
             <div>
               <Zoom>
                 <img src={imgArticles} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item lg={6}>
+          <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>NEWS</h1>
@@ -251,14 +251,14 @@ export default function Blog(props) {
         </Grid>
 
         <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid item lg={6}>
+          <Grid item lg={5}>
             <div>
               <Zoom>
                 <img src={imgReadings} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item lg={6}>
+          <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>READINGS</h1>
@@ -280,14 +280,14 @@ export default function Blog(props) {
         </Grid>
 
         <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid item lg={6} >
+          <Grid item lg={5} >
             <div>
               <Zoom>
                 <img src={imgReflections} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item lg={6}>
+          <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>REFLECTIONS</h1>
@@ -309,14 +309,14 @@ export default function Blog(props) {
         </Grid>
 
         <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid item lg={6} >
+          <Grid item lg={5} >
             <div>
               <Zoom>
                 <img src={imgDrawings} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item lg={6}>
+          <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>DRAWINGS</h1>
@@ -338,14 +338,14 @@ export default function Blog(props) {
         </Grid>
 
         <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid item lg={6}>
+          <Grid item lg={5}>
             <div>
               <Zoom>
                 <img src={imgChallenges} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item lg={6}>
+          <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>CH4LL3N635</h1>
@@ -367,14 +367,14 @@ export default function Blog(props) {
         </Grid>
 
         <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "50px", marginBottom: "50px" }}>
-          <Grid item lg={6}>
+          <Grid item lg={5}>
             <div>
               <Zoom>
                 <img src={imgAudioVisual} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item lg={6}>
+          <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>AUDIO&VISUAL</h1>
@@ -396,19 +396,19 @@ export default function Blog(props) {
         </Grid>
 
         <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "50px" }}>
-          <Grid item lg={6} >
+          <Grid item lg={5} >
             <div>
               <Zoom>
                 <img src={imgEvents} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
-          <Grid item lg={6}>
+          <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>EVENTS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
-                  Poetry reunions, exhibitions, lectures...
+                  Poetry reunions, exhibitions, lectures, workshops...
               </p>
                 <HeadShake>
                   <Button
