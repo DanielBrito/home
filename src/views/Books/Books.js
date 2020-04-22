@@ -19,10 +19,10 @@ import styles from "../../assets/jss/home/views/home.js";
 
 import srcLogo from "../../assets/img/logo.png"
 
-import imgNoRitmoDeAlgo from "../../assets/img/no-ritmo-de-algo.jpg"
-import imgALerVazios from "../../assets/img/a-ler-vazios-capa.jpg"
-import imgProtestizando from "../../assets/img/protestizando-capa.jpg"
-import imgZine from "../../assets/img/zine_capa.jpg"
+import imgNoRitmoDeAlgo from "../../assets/img/books/no-ritmo-de-algo.jpg"
+import imgALerVazios from "../../assets/img/books/a-ler-vazios-capa.jpg"
+import imgProtestizando from "../../assets/img/books/protestizando-capa.jpg"
+import imgZine from "../../assets/img/books/zine_capa.jpg"
 
 import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect';

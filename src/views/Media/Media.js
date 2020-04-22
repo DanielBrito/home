@@ -19,8 +19,8 @@ import styles from "../../assets/jss/home/views/home.js";
 
 import srcLogo from "../../assets/img/logo.png"
 
-import imgPortalSertoes from "../../assets/img/halugar_portal_sertoes_240220.jpg"
-import imgUFC from "../../assets/img/halugar_ufc_crateus_noticias_010320.jpg"
+import imgPortalSertoes from "../../assets/img/media/halugar_portal_sertoes_240220.jpg"
+import imgUFC from "../../assets/img/media/halugar_ufc_crateus_noticias_010320.jpg"
 
 import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect';

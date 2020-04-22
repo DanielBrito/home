@@ -21,8 +21,8 @@ import srcLogo from "../../assets/img/logo.png"
 
 import { FaEnvelope, FaTelegramPlane, FaFacebookSquare, FaInstagram, FaPinterest, FaTwitter, FaGithub, FaYoutube, FaLinkedin, FaSoundcloud, FaQuestion } from "react-icons/fa";
 
-import imgContact from "../../assets/img/contact.jpg"
-import imgSocialNetworks from "../../assets/img/social_networks.jpg"
+import imgContact from "../../assets/img/contact/message.jpg"
+import imgSocialNetworks from "../../assets/img/contact/social_networks.jpg"
 
 import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect';

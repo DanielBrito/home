@@ -28,17 +28,17 @@ import HeadShake from 'react-reveal/HeadShake';
 // @font-awesome/icons
 import { FaMousePointer, FaGooglePlay, FaGitAlt, FaBrain, FaMicrophoneAlt, FaCubes, FaQuestionCircle, FaRecycle, FaDropbox, FaTshirt, FaPalette } from "react-icons/fa";
 
-import imgCompixelar from "../../assets/img/compixelar.jpg"
-import imgHaLugar from "../../assets/img/ha-lugar.jpg"
-import imgPolymApp from "../../assets/img/polymapp.jpg"
-import imgCelerebro from "../../assets/img/celerebro.jpg"
-import imgSarauDoGrajau from "../../assets/img/sarau-do-grajau.jpg"
-import imgConcretagens from "../../assets/img/coletiva-concretagens.jpg"
-import imgSocrastickers from "../../assets/img/socrastickers.jpg"
-import imgAluminions from "../../assets/img/aluminions.jpg"
-import imgForaDaCaixa from "../../assets/img/fora-da-caixa.jpg"
-import imgAntigrife from "../../assets/img/antigrife.jpg"
-import imgGaleriaMarginal from "../../assets/img/galeria-marginal.jpg"
+import imgCompixelar from "../../assets/img/projects/compixelar.jpg"
+import imgHaLugar from "../../assets/img/projects/ha-lugar.jpg"
+import imgPolymApp from "../../assets/img/projects/polymapp.jpg"
+import imgCelerebro from "../../assets/img/projects/celerebro.jpg"
+import imgSarauDoGrajau from "../../assets/img/projects/sarau-do-grajau.jpg"
+import imgConcretagens from "../../assets/img/projects/coletiva-concretagens.jpg"
+import imgSocrastickers from "../../assets/img/projects/socrastickers.jpg"
+import imgAluminions from "../../assets/img/projects/aluminions.jpg"
+import imgForaDaCaixa from "../../assets/img/projects/fora-da-caixa.jpg"
+import imgAntigrife from "../../assets/img/projects/antigrife.jpg"
+import imgGaleriaMarginal from "../../assets/img/projects/galeria-marginal.jpg"
 
 import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect';

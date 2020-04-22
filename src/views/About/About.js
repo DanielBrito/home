@@ -21,9 +21,9 @@ import styles from "../../assets/jss/home/views/home.js";
 
 import srcLogo from "../../assets/img/logo.png"
 
-import imgEducationWork from "../../assets/img/brito.gif"
-import imgProjects from "../../assets/img/observar-absorver-alessa-melo-sobre.gif"
-import imgInterests from "../../assets/img/insight.gif"
+import imgEducationWork from "../../assets/img/about/brito.gif"
+import imgProjects from "../../assets/img/about/observar-absorver-alessa-melo.gif"
+import imgInterests from "../../assets/img/about/insight.gif"
 
 import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect';

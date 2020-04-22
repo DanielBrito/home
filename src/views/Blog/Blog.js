@@ -28,15 +28,15 @@ import HeadShake from 'react-reveal/HeadShake';
 // @font-awesome/icons
 import { FaBloggerB, FaPenNib, FaNewspaper, FaBookReader, FaQuestion, FaPaintBrush, FaBrain, FaVideo, FaRegCalendarCheck } from "react-icons/fa";
 
-import imgPolymatus from "../../assets/img/polymatus_logo.jpg"
-import imgPoems from "../../assets/img/poemas-autorais.jpg"
-import imgArticles from "../../assets/img/artigos-noticias.jpg"
-import imgReadings from "../../assets/img/biblioteca.jpg"
-import imgReflections from "../../assets/img/reflexoes.jpg"
-import imgDrawings from "../../assets/img/tracos.jpg"
-import imgChallenges from "../../assets/img/desafios.jpg"
-import imgAudioVisual from "../../assets/img/audio-visual.jpg"
-import imgEvents from "../../assets/img/agenda.jpg"
+import imgPolymatus from "../../assets/img/blog/polymatus_logo.jpg"
+import imgPoems from "../../assets/img/blog/poems.jpg"
+import imgArticles from "../../assets/img/blog/news.jpg"
+import imgReadings from "../../assets/img/blog/personal-library.jpg"
+import imgReflections from "../../assets/img/blog/reflections.jpg"
+import imgDrawings from "../../assets/img/blog/drawings.jpg"
+import imgChallenges from "../../assets/img/blog/challenges.jpg"
+import imgAudioVisual from "../../assets/img/blog/audiovisual.jpg"
+import imgEvents from "../../assets/img/blog/events.jpg"
 
 import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect';

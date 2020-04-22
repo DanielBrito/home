@@ -21,12 +21,12 @@ import styles from "../../assets/jss/home/views/home.js";
 
 import srcLogo from "../../assets/img/logo.png"
 
-import imgPinacograma from "../../assets/img/daniel-brito-pinacograma.gif"
-import imgSophia from "../../assets/img/cooperifa.jpg"
-import imgAntonioMiotto from "../../assets/img/teorema-poesia-visual-alessa-melo.jpg"
-import imgEdileneSantos from "../../assets/img/sarau-do-grajau-daniel-alexandrino.jpg"
-import imgLessioCardoso from "../../assets/img/sobrenome-liberdade-alessa-melo.jpg"
-import imgCasulo from "../../assets/img/sarau-do-grajau-johnny-nogueira.jpg"
+import imgPinacograma from "../../assets/img/home/daniel-brito-pinacograma.gif"
+import imgSophia from "../../assets/img/home/cooperifa.jpg"
+import imgAntonioMiotto from "../../assets/img/home/teorema-poesia-visual-alessa-melo.jpg"
+import imgEdileneSantos from "../../assets/img/home/sarau-do-grajau-daniel-alexandrino.jpg"
+import imgLessioCardoso from "../../assets/img/home/sobrenome-liberdade-alessa-melo.jpg"
+import imgCasulo from "../../assets/img/home/sarau-do-grajau-johnny-nogueira.jpg"
 
 import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect';
