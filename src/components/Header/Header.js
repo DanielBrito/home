@@ -8,7 +8,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
-import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
 // @material-ui/icons
@@ -62,7 +61,7 @@ export default function Header(props) {
     [classes.fixed]: fixed
   });
 
-  const brandComponent = <Button>{brand}</Button>;
+  const brandComponent = brand
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
@@ -132,7 +131,7 @@ Header.propTypes = {
   ]),
   rightLinks: PropTypes.node,
   leftLinks: PropTypes.node,
-  brand: PropTypes.string,
+  brand: PropTypes.node,
   fixed: PropTypes.bool,
   absolute: PropTypes.bool,
   // this will cause the sidebar to change the color from
