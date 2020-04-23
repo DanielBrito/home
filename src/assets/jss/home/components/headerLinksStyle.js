@@ -22,8 +22,8 @@ const headerLinksStyle = theme => ({
     width: "auto",
     marginLeft: "3px",
     marginRight: "3px",
-    marginBottom: "2px",
-    marginTop: "2px",
+    // marginBottom: "2px",
+    // marginTop: "2px",
     padding: "0",
     [theme.breakpoints.down("sm")]: {
       width: "100%",
