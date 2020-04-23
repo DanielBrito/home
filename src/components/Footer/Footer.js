@@ -21,7 +21,7 @@ export default function Footer(props) {
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
-        <span style={{color: "#39ff14", fontSize: "16px", textShadow: "1px 1px 5px #000000", fontWeight: "bold"}}>{1900 + new Date().getYear()} - Daniel Brito</span>
+        <span style={{color: "#39ff14", fontSize: "16px", textShadow: "1px 1px 5px #000000", fontWeight: "bold"}}>(ɔ) {1900 + new Date().getYear()} - Daniel Brito</span>
       </div>
     </footer>
   );

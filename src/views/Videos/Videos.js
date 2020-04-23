@@ -10,6 +10,7 @@ import Grid from '@material-ui/core/Grid';
 import Header from "../../components/Header/Header";
 import HeaderLinks from "../../components/Header/HeaderLinks";
 import Footer from "../../components/Footer/Footer";
+import { HashLink as Link } from 'react-router-hash-link';
 
 import GridContainer from "../../components/Grid/GridContainer";
 import GridItem from "../../components/Grid/GridItem";
@@ -156,7 +157,7 @@ export default function Videos(props) {
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              Screencast of <a href="https://play.google.com/store/apps/details?id=br.ufc.crateus.halugar" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Download from Play Store">HáLugar</a>, an app aimed at students who wish to share housing.
+              Screencast of <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLugar</Link>, an app aimed at students who wish to share housing.
             </div>
             </Fade>
           </Grid>
@@ -201,7 +202,7 @@ export default function Videos(props) {
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-            For those interested in the creation process of the <a href="https://www.instagram.com/aluminions.13/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Instagram page">Aluminions</a>.
+            For those interested in the creation process of the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Aluminions</Link>.
             </div>
             </Fade>
           </Grid>
@@ -216,7 +217,7 @@ export default function Videos(props) {
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              The first animation of the <a href="https://www.instagram.com/aluminions.13/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Instagram page">Aluminions</a> using the stop motion technique.
+              The first animation of the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Aluminions</Link> using the stop motion technique.
             </div>
             </Fade>
           </Grid>
@@ -231,7 +232,7 @@ export default function Videos(props) {
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-            Modeling the <a href="https://www.instagram.com/aluminions.13/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Instagram page">Aluminions</a> is the beginning of the process in which I intend to create a game.
+            Modeling the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Aluminions</Link> is the beginning of the process in which I intend to create a game.
             </div>
             </Fade>
           </Grid>
@@ -246,7 +247,7 @@ export default function Videos(props) {
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-            This documentary produced by <a href="https://www.facebook.com/Sarau-do-Graja%C3%BA-191479077716775/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Facebook page">Sarau do Grajaú</a> collective makes a sensitive cut of the so-called poetic scene in the suburb.
+            This documentary produced by <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Sarau do Grajaú</Link> collective makes a sensitive cut of the so-called poetic scene in the suburb.
             </div>
             </Fade>
           </Grid>
