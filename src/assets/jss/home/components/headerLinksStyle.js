@@ -1,7 +1,5 @@
 import { defaultFont } from "../../general";
 
-import tooltip from "../../../jss/home/tooltipsStyle";
-
 const headerLinksStyle = theme => ({
   list: {
     ...defaultFont,
@@ -168,7 +166,6 @@ const headerLinksStyle = theme => ({
       padding: "10px 20px"
     }
   },
-  ...tooltip,
   marginRight5: {
     marginRight: "5px"
   }
