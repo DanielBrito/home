@@ -178,7 +178,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>COMPIXELAR</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  Compixelar intends to apply the concepts of creative programming in the development of poetic-visual experiments and the composition of multimedia animations. The name intends to bring up some concepts that express its purpose, such as pixel, which is the smallest point that forms a digital image, and compile, which can be presented both as a synonym of collect (various artistic creations, in this case) as generate object code that can be interpreted by the computer.
+                  Compixelar intends to apply the concepts of creative programming on the development of poetic-visual experiments and the composition of multimedia animations. The name intends to bring up some concepts that express its purpose, such as <em>pixel</em>, which is the smallest point that forms a digital image, and <em>compile</em>, which can be presented both as a synonym of collect (various artistic creations, in this case) as generate object code that can be interpreted by the computer.
               </p>
                 <HeadShake>
                   <Button
@@ -207,7 +207,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>HáLUGAR</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  HáLugar is aimed for students who wish to share housing, proposing to make it easier for them to advertise or find a place to live. Through the application, they will be able to search for housing options that offer them the best cost-benefit, that is, that have the most affordable rental price, or that are closest to the campus, bus stop, and everything else that suits them.
+                  HáLugar is aimed for students who wish to share housing, proposing to make it easier for them to advertise or find a place to live. Through the application, they'll be able to search for housing options that offer them the best cost-benefit, that is, that have the most affordable rental price, or that are closest to the campus, bus stop, and everything else that suits them.
               </p>
                 <HeadShake>
                   <Button
@@ -265,7 +265,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>CÉLEREBRO</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  CÉLEREBRO is a math game for those who practice mental exercises, inspired by command-line based games. Larry Katz, a neuroscientist who created the term "neurobics", explains that logical reasoning exercises stimulate the formation of synapses, that is, regions of neurons responsible for the transmission of nerve impulses, making connections between different parts of the brain stronger and healthier.
+                  CÉLEREBRO is a math game for those who practice mental exercises, inspired by command-line based applications. Larry Katz, neuroscientist who created the term "neurobics", explains that logical reasoning exercises stimulate the formation of synapses, that is, regions of neurons responsible for the transmission of nerve impulses, making connections between different parts of the brain stronger and healthier.
               </p>
                 <HeadShake>
                   <Button
@@ -323,7 +323,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>CONCRETAGENS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  Coletiva Concretagens works by publishing concrete and visual poems in the virtual environment and through interventions in the urban scenario, always intending to stimulate the perceptiveness and sensitivity of reader-observers, and also to make these poetic strands known.
+                  Coletiva Concretagens works by publishing concrete and visual poems in the virtual environment and through interventions in the urban scenario, always intending to stimulate the perceptiveness and sensitivity of reader-observers, and also to make these poetic sides known.
               </p>
                 <HeadShake>
                   <Button
@@ -352,7 +352,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>SOCRASTICKERS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  SOCRASTICKERS = Contraction of ‘SOCRATES’ (great philosopher known for encouraging people to question and seek explanations through maieutics) + ‘STICKERS’. They are a way of spreading, through interventions, our thoughts, ideas, poems, drawings, and also of great philosophers, artists, and writers who changed the world and the way of thinking of many people during history, however, many people never heard about them.
+                  SOCRASTICKERS = Contraction of ‘SOCRATES’ (great philosopher known for encouraging people to question and seek explanations through maieutics) + ‘STICKERS’. They are a way of spreading, through interventions, our thoughts, ideas, poems, drawings, and also of great philosophers, artists, and writers who changed the world and the way of thinking of many people during history, however, many people have never heard about them.
               </p>
                 <HeadShake>
                   <Button
@@ -381,7 +381,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>ALUMINIONS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  Aluminions are small creatures formed by aluminum seals, 13, which developed and gained consciousness after a Big Bang occurred in my mind. Like us, human beings, they learned how to communicate and express their feelings. They live a lot of adventures and are always looking for answers to their existential questions.
+                  Aluminions are small creatures formed by aluminum seals, 13, which developed and gained consciousness after a Big Bang occurred in my mind. Like us, human beings, they've learned how to communicate and express their feelings. They live a lot of adventures and are always looking for answers to their existential questions.
               </p>
                 <HeadShake>
                   <Button

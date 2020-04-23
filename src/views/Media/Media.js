@@ -219,7 +219,7 @@ export default function Media(props) {
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              Brief tribute by Paola Silva in her project called Curtas Poesias.
+              Brief tribute by Paola Silva in her project called Curta Poesias.
             </div>
             </Fade>
           </Grid>
