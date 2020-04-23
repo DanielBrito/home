@@ -36,7 +36,7 @@ export default function HeaderLinks() {
             background: '#39ff14',
             borderRadius: "10px",
            }}
-            exact to='/home' className={classes.listItem}>
+            exact to='/' className={classes.listItem}>
           <Button
             href=""
             color="transparent"
