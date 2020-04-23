@@ -156,7 +156,7 @@ export default function Videos(props) {
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              Screencast of <a href="https://play.google.com/store/apps/details?id=br.ufc.crateus.halugar" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Download from Play Store">HáLugar</a> app, aimed at students who wish to share housing.
+              Screencast of <a href="https://play.google.com/store/apps/details?id=br.ufc.crateus.halugar" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Download from Play Store">HáLugar</a>, an app aimed at students who wish to share housing.
             </div>
             </Fade>
           </Grid>
@@ -186,7 +186,7 @@ export default function Videos(props) {
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-            <a href="https://github.com/DanielBrito/videos-youtube" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access repository">Programming fundamentals</a> applied in practical scenarios.
+            <a href="https://github.com/DanielBrito/videos-youtube" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access repository">Programming Fundamentals</a> applied in practical scenarios.
             </div>
             </Fade>
           </Grid>
@@ -201,7 +201,7 @@ export default function Videos(props) {
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-            For those interested in the process of creation of the <a href="https://www.instagram.com/aluminions.13/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Instagram page">Aluminions</a>.
+            For those interested in the creation process of the <a href="https://www.instagram.com/aluminions.13/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Instagram page">Aluminions</a>.
             </div>
             </Fade>
           </Grid>
@@ -216,7 +216,7 @@ export default function Videos(props) {
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              First animation of the <a href="https://www.instagram.com/aluminions.13/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Instagram page">Aluminions</a> using the stop motion technique.
+              The first animation of the <a href="https://www.instagram.com/aluminions.13/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Instagram page">Aluminions</a> using the stop motion technique.
             </div>
             </Fade>
           </Grid>
@@ -246,7 +246,7 @@ export default function Videos(props) {
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-            This documentary produced by <a href="https://www.facebook.com/Sarau-do-Graja%C3%BA-191479077716775/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Facebook page">Sarau do Grajaú</a> collective makes a sensitive cut of the so-called poetic scene in the periphery.
+            This documentary produced by <a href="https://www.facebook.com/Sarau-do-Graja%C3%BA-191479077716775/" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access Facebook page">Sarau do Grajaú</a> collective makes a sensitive cut of the so-called poetic scene in the suburb.
             </div>
             </Fade>
           </Grid>

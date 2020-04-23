@@ -167,7 +167,7 @@ export default function Media(props) {
                 <HeadShake>
                   <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>SEND A MESSAGE</h1>
                 </HeadShake>
-                <FaEnvelope color="yellow" size="0.9em" className={classes.icons} style={{ marginRight: "10px" }} /><em><a href="mailto: danielhbrito@outlook.com" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", color: "white" }} title="Send an email">danielhbrito@outlook.com</a></em><br /><br />
+                <FaEnvelope color="yellow" size="0.9em" className={classes.icons} style={{ marginRight: "10px" }} /><em><a href="mailto: danielhbrito@outlook.com" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", color: "white" }} title="Send an email">danielhbrito@outlook.com</a></em><br /><br />
 
                 <FaTelegramPlane color="#0088cc" size="0.9em" className={classes.icons} style={{ marginRight: "10px" }} /><em><a href="https://t.me/danielhbrito" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", color: "white" }} title="Send a message on Telegram">@danielhbrito</a></em>
               </div>

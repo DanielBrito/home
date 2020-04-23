@@ -232,7 +232,7 @@ export default function Media(props) {
           <Grid item lg={5}>
             <Fade>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>Art é Arte! shows the surprising harmony within this “anarchic” event and reveals the voice of artists from the periphery.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
+              <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>Art é Arte! shows the surprising harmony within this “anarchic” event and reveals the voice of artists from suburb.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
             </div>
             </Fade>
           </Grid>
