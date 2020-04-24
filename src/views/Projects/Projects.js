@@ -178,7 +178,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>COMPIXELAR</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  Compixelar intends to apply the concepts of creative programming on the development of poetic-visual experiments and the composition of multimedia animations. The name intends to bring up some concepts that express its purpose, such as <em>pixel</em>, which is the smallest point that forms a digital image, and <em>compile</em>, which can be presented both as a synonym of collect (various artistic creations, in this case) as generate object code that can be interpreted by the computer.
+                  Compixelar intends to apply the concepts of creative programming on the development of poetic-visual experiments and the composition of multimedia animations. The name intends to bring up some ideas that express its purpose, such as <em>pixel</em>, which is the smallest point that forms a digital image, and <em>compile</em>, which can be presented both as a synonym of collect (various artistic creations, in this case) as generate object code that can be interpreted by the computer.
               </p>
                 <HeadShake>
                   <Button
