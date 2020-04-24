@@ -47,7 +47,7 @@ export default function About(props) {
   }, [])
 
   useEffect(() => {
-    document.title = "Daniel Brito - ABOUT"
+    document.title = "Daniel Brito | About"
   })
 
   return (
@@ -195,9 +195,9 @@ export default function About(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}><em>TO BE OR NOT TO BE</em></h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  I idealized the project <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>COMPIXELAR</Link>. I'm a <Link to="/books" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>FANZINER</Link>. I built the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLUGAR</Link> app. I'm the creator of <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>ALUMINIONS</Link>. I'm a thinker at <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>FORA DA CAIXA</Link>. I'm a tailleur at <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>ANTIGR1F3</Link>. I'm a curator at <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>GALERIA MARGINAL</Link>. I'm a kind of YouTuber, who likes to talk about <Link to="/videos" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>PROGRAMMING</Link>. I'm a worker at <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>COLETIVA CONCRETAGENS</Link>. I disseminate Philosophy and Art through the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>SOCRASTICKERS</Link>.<br /><br />
+                  I idealized the project <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>COMPIXELAR</Link>. I'm a <Link to="/books" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>FANZINER</Link>. I built the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLUGAR</Link> app. I'm the creator of the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>ALUMINIONS</Link>. I'm a thinker at <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>FORA DA CAIXA</Link>. I'm a tailleur at <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>ANTIGR1F3</Link>. I'm a curator at <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>GALERIA MARGINAL</Link>. I'm a kind of YouTuber, who likes to talk about <Link to="/videos" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>PROGRAMMING</Link>. I'm a worker at <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>COLETIVA CONCRETAGENS</Link>. I disseminate Philosophy and Art through the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>SOCRASTICKERS</Link>.<br /><br />
 
-                  I integrated the collective <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>SARAU DO GRAJAÚ</Link>, which produced the documentary <Link to="/videos" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Grajaú em Foco</Link>.<br /><br />
+                  I integrated <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>SARAU DO GRAJAÚ</Link> collective, which produced the documentary <Link to="/videos" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>GRAJAÚ EM FOCO</Link>.<br /><br />
 
                   I published independently the book <Link to="/books" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>PROTESTIZANDO</Link> (2015), which compiles my first poems. I published independently the book <Link to="/books" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>A LER VAZIOS</Link> (2016), which includes some of my poetic and visual experiments. I've also been published in several anthologies with other marginal authors.<br /><br />
 
@@ -233,7 +233,7 @@ export default function About(props) {
 
                 I value respect about every sentient being, as well as the DIY attitude, the self-learning lifestyle, <a href="https://www.duolingo.com/DanBrito41" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="Duolingo profile">polyglotism</a>, and <Link to="/blog" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>polymathy</Link>.<br /><br />
 
-                Discovering interesting worlds is my biggest existential goal.
+                Discovering new worlds is my biggest existential goal.
               </p>
               </div>
             </Fade>

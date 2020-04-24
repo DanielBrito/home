@@ -49,7 +49,7 @@ export default function Books(props) {
   }, [])
 
   useEffect(() => {
-    document.title = "Daniel Brito - BOOKS"
+    document.title = "Daniel Brito | Books"
   })
 
   return (
@@ -173,7 +173,7 @@ export default function Books(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>NO RITMO DE ALGO (20XX)</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  As I said on a previous occasion, my poems are files extracted from the heart.zip. Thus, following Paulo Leminski and Millôr Fernandes school, "No Ritmo de Algo" will be a directory composed of verses with wisdom, talking about the most varied subjects that alter our heart rhythm.<br /><br />
+                  As I said on a previous occasion, my poems are files extracted from the <em>heart.zip</em>. Thus, following the school of Paulo Leminski and Millôr Fernandes, "No Ritmo de Algo" will be a directory composed of verses with wisdom, talking about the most varied subjects that alter our heart rhythm.<br /><br />
 
                   It was expected to be published in 2018, but academic issues made such a plan impossible. However, with the experiences of my previous books, the entire process of making it is already known to me, which will turn everything simpler when it comes time to publish it.<br /><br />
 
@@ -208,7 +208,7 @@ export default function Books(props) {
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   Every poem is visual. But, in my case, I elevate this concept to the square and the cube, with poetry tending to infinity.<br /><br />
 
-                  It turns out that, one day, I discovered that all forms keep internal secrets in their structures, and with the help of semiotics, I managed to unveil some of them. But do not think that I'll tell you what they are like that, on a silver platter. I'll present only a re-reading of them. In A LER VAZIOS, besides the various geometric shapes, numbers, and letter-words arranged on the page, the empty spaces can also be read. It'll depend only on the perception of each person.<br /><br />
+                  It turns out that, one day, I discovered that all forms keep internal secrets in their structures, and with the help of semiotics, I managed to unveil some of them. But do not think I'll tell you what they are like that, on a silver platter. I'll present only a re-reading of them. In A LER VAZIOS, besides the various geometric shapes, numbers, and letter-words arranged on the page, the empty spaces can also be read. It'll depend only on the perception of each person.<br /><br />
 
                   And I say more: Who said that concrete and visual poetry is just a mental exercise devoid of subjectivity and feeling? Well, I came here to subvert this idea. So, activate your heart, connect your neurons, and have a good trip.
               </p>
@@ -241,9 +241,9 @@ export default function Books(props) {
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   As an enthusiast of the DIY attitude, marginal literature, and the philosophy of copyleft and poetic license, I released my first book independently, running away from any form of censorship that it might suffer if it were published by bureaucratic means, which deprive people of spreading and absorbing knowledge freely.<br /><br />
 
-                  This work is a compilation of two years of poetry, which gathers from some of the verses where I express my subjectivity, which is in constant development, to some of the poems that I've written since the beginning of everything, at the end of 2012.<br /><br />
+                  This work compiles two years of poems, gathering the verses where I express my subjectivity, which is in constant development.<br /><br />
 
-                  They're fruits of my creativity, existential reflections, relationships, indignations, daydreams, and many other things that we all feel and experience in our brief existence, and that I wasn't able to just keep them inside my chest.
+                  They're fruits of my creativity, reflections, relationships, indignations, daydreams, and many other things that we all feel and experience in our brief existence, and that I wasn't able to just keep them inside my chest.
               </p>
                 <HeadShake>
                   <Button
@@ -272,7 +272,7 @@ export default function Books(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>(FAN)ZINES</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  Since I was a teenager, I've been a regular on the underground cultural scene. With that, I started to have contact with the various independent media, such as flyers, zines, CDs, K7 tapes, and like, where much of the material is made and distributed by the people themselves at the events they organize.<br /><br />
+                  Since I was a teenager, I've been a regular on the underground cultural scene. Therefore, I started having contact with the various independent media, such as flyers, zines, CDs, K7 tapes, and like, where much of the material is made and distributed by the people themselves at the events they organize.<br /><br />
 
                   The (fan)zine is a more accessible type of publication that I use as a support to disseminate my writings and my art in the places I frequent, and which fascinates by its content and simplicity.<br /><br />
 

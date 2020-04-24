@@ -48,7 +48,7 @@ export default function Media(props) {
   }, [])
 
   useEffect(() => {
-    document.title = "Daniel Brito - MEDIA"
+    document.title = "Daniel Brito | Media"
   })
 
   return (
@@ -162,15 +162,15 @@ export default function Media(props) {
           <Grid item lg={6}>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <Zoom>
-              <img src={imgUFC} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+                <img src={imgUFC} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
           <Grid item lg={6}>
             <Fade>
-            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              <p><em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span><Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLugar</Link> has gained the attention of city residents and, in a few days after its launch, it already had advertisements registered. For the professor of the discipline, who encouraged the publication of the software, the initiative will encourage the development of more ideas by students.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em></p>
-              <HeadShake>
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                <p><em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span><Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLugar</Link> has gained the attention of the city residents. In a few days after its launch, it already had advertisements registered. For the professor of the discipline, who encouraged the publication of the software, this initiative will encourage the development of more ideas by students.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em></p>
+                <HeadShake>
                   <Button
                     color="neon" round style={{ marginTop: "20px" }} size="md"
                     href="http://crateus.ufc.br/estudante-de-ciencia-da-computacao-desenvolve-aplicativo-para-quem-deseja-compartilhar-moradia/"
@@ -179,7 +179,7 @@ export default function Media(props) {
                     <FaNewspaper className={classes.icons} style={{ marginRight: "5px" }} /> READ
               </Button>
                 </HeadShake>
-            </div>
+              </div>
             </Fade>
           </Grid>
         </Grid>
@@ -188,15 +188,15 @@ export default function Media(props) {
           <Grid item lg={6}>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <Zoom>
-              <img src={imgPortalSertoes} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
+                <img src={imgPortalSertoes} alt="Learn" width="100%" style={{ borderRadius: "10px", border: "1px solid #39ff14" }}></img>
               </Zoom>
             </div>
           </Grid>
           <Grid item lg={6}>
             <Fade>
-            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              <p><em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span><Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLugar</Link> was developed by student Daniel Brito, from the Computer Science course at the Federal University of Ceará (Crateús Campus), during the disciplines of Web and Mobile Development, taught by professor Francisco Anderson de Almada Gomes.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em></p>
-              <HeadShake>
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                <p><em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span><Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLugar</Link> was developed by Daniel Brito, a Computer Science student at the Federal University of Ceará (Crateús Campus), during the disciplines of Web and Mobile Development, taught by professor Francisco Anderson de Almada Gomes.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em></p>
+                <HeadShake>
                   <Button
                     color="neon" round style={{ marginTop: "20px" }} size="md"
                     href="https://portalsertoes.com/2020/02/estudante-da-ufc-de-crateus-desenvolve-aplicativo-para-quem-deseja-compartilhar-moradia.html"
@@ -205,7 +205,7 @@ export default function Media(props) {
                     <FaNewspaper className={classes.icons} style={{ marginRight: "5px" }} /> READ
               </Button>
                 </HeadShake>
-            </div>
+              </div>
             </Fade>
           </Grid>
         </Grid>
@@ -218,14 +218,14 @@ export default function Media(props) {
           </Grid>
           <Grid item lg={5}>
             <Fade>
-            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              Brief tribute by Paola Silva in her project called Curta Poesias.
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                A brief tribute by Paola Silva in her project called Curta Poesias.
             </div>
             </Fade>
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px"}}>
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px" }}>
           <Grid item lg={7}>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=wSN3jBGo5pQ' />
@@ -233,9 +233,9 @@ export default function Media(props) {
           </Grid>
           <Grid item lg={5}>
             <Fade>
-            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>Art é Arte! shows the surprising harmony within this “anarchic” event and reveals the voice of artists from suburb.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
-            </div>
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>Art é Arte! shows the surprising harmony within this “anarchic” event and reveals the voice of artists from the suburb.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
+              </div>
             </Fade>
           </Grid>
         </Grid>
@@ -248,8 +248,8 @@ export default function Media(props) {
           </Grid>
           <Grid item lg={5}>
             <Fade>
-            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              My first interview, which was granted to my colleagues from TV Grajaú.
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                My first interview, which was granted to my colleagues from TV Grajaú.
             </div>
             </Fade>
           </Grid>

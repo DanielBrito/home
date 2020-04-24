@@ -43,7 +43,7 @@ export default function Media(props) {
   }, [])
 
   useEffect(() => {
-    document.title = "Daniel Brito - CONTACT"
+    document.title = "Daniel Brito | Contact"
   })
 
   return (

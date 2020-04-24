@@ -53,7 +53,7 @@ export default function Blog(props) {
   }, [])
 
   useEffect(() => {
-    document.title = "Daniel Brito - BLOG"
+    document.title = "Daniel Brito | Blog"
   })
 
   return (
@@ -319,7 +319,7 @@ export default function Blog(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>DRAWINGS</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>DESIGN</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                 Sketches, paintings, digital <a href="https://www.deviantart.com/danielhbrito" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="DeviantArt profile">art</a>...
               </p>

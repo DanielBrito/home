@@ -55,7 +55,7 @@ export default function Projects(props) {
   }, [])
 
   useEffect(() => {
-    document.title = "Daniel Brito - PROJECTS"
+    document.title = "Daniel Brito | Projects"
   })
 
   return (
@@ -207,7 +207,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>HáLUGAR</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  HáLugar is aimed for students who wish to share housing, proposing to make it easier for them to advertise or find a place to live. Through the application, they'll be able to search for housing options that offer them the best cost-benefit, that is, that have the most affordable rental price, or that are closest to the campus, bus stop, and everything else that suits them.
+                  HáLugar is aimed for students who wish to share housing, proposing to make it easier for them to advertise or find a place to live. Through the application, they'll be able to search for housing options that offer them the best cost-benefit.
               </p>
                 <HeadShake>
                   <Button
@@ -236,7 +236,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POLYMAPP</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  PolymApp is a personal management tool that will make it possible to control readings and studies, make long-term activity plans, budget to measure expenses and collections, list ongoing and future projects, and other features. The name is inspired by the term polymath, which refers to an individual whose knowledge covers a significant number of subjects.
+                  PolymApp is a personal management tool that will make it possible to control readings and studies, make long-term activity plans, budget to measure expenses, list ongoing and future projects, and other features. The name is inspired by the term polymath, which refers to an individual whose knowledge covers a significant number of subjects.
               </p>
                 <HeadShake>
                   <Button
@@ -265,7 +265,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>CÉLEREBRO</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  CÉLEREBRO is a math game for those who practice mental exercises, inspired by command-line based applications. Larry Katz, neuroscientist who created the term "neurobics", explains that logical reasoning exercises stimulate the formation of synapses, that is, regions of neurons responsible for the transmission of nerve impulses, making connections between different parts of the brain stronger and healthier.
+                  CÉLEREBRO is a math game for those who practice mental workout, inspired by command-line based applications. Larry Katz, the neuroscientist who created the term "neurobics", explains that logical reasoning exercises stimulate the formation of synapses, that is, regions of neurons responsible for the transmission of nerve impulses, making connections between different parts of the brain stronger and healthier.
               </p>
                 <HeadShake>
                   <Button
@@ -294,7 +294,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>SARAU DO GRAJAÚ</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  Sarau do Grajaú was created in early 2014. It's an artistic and cultural event held every last Saturday of each month, at the Tia Nilde's Bar - Antônio Comenale Street, 166, Parque Cocaia, 04850-010, São Paulo/SP - Brazil. It brings together various artists and people from the community who are hungry to express and absorb poetry in its various forms.
+                  Sarau do Grajaú was created in early 2014. It's an artistic and cultural event held every last Saturday of each month at Tia Nilde's Bar - Antônio Comenale Street, 166, Parque Cocaia, 04850-010, São Paulo/SP - Brazil. It brings together various artists and people from the community who are hungry to express and absorb poetry in its various forms.
               </p>
                 <HeadShake>
                   <Button
@@ -323,7 +323,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>CONCRETAGENS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  Coletiva Concretagens works by publishing concrete and visual poems in the virtual environment and through interventions in the urban scenario, always intending to stimulate the perceptiveness and sensitivity of reader-observers, and also to make these poetic sides known.
+                  Coletiva Concretagens works by publishing concrete and visual poems in the virtual environment and through interventions in the urban scenario, always intending to stimulate the perceptiveness and sensitivity of reader-observers, and also to make these poetic styles known.
               </p>
                 <HeadShake>
                   <Button
@@ -352,7 +352,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>SOCRASTICKERS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  SOCRASTICKERS = Contraction of ‘SOCRATES’ (great philosopher known for encouraging people to question and seek explanations through maieutics) + ‘STICKERS’. They are a way of spreading, through interventions, our thoughts, ideas, poems, drawings, and also of great philosophers, artists, and writers who changed the world and the way of thinking of many people during history, however, many people have never heard about them.
+                  SOCRASTICKERS = Contraction of ‘SOCRATES’ (great philosopher known for encouraging people to question and seek explanations through maieutics) + ‘STICKERS’. They are a way of spreading our thoughts, ideas, poems, drawings, and also of great philosophers, artists, and writers, who changed the world during history, however, many people have never heard about them.
               </p>
                 <HeadShake>
                   <Button
@@ -444,7 +444,7 @@ export default function Projects(props) {
               <div style={{ backgroundColor: "#000000" }}>
                 <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>ANTIGR1F3</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  Clothing can also be used to spread our ideas and our art. Thus, using methods such as screen printing and hand painting are something very creative and original, as well as making buttons, patches, and the like. Based on this, the ANTIGR1F3 project intends to seek a way to subvert the consumerist logic, even if modestly, and to develop our social awareness and artistic skills.
+                  Clothing can also be used to spread our art and ideas. Screen printing and hand painting are something very creative and original, as well as making buttons, patches, and the like. Based on this, ANTIGR1F3 intends to seek a way to subvert the consumerist logic, even if modestly, and develop our social awareness and artistic skills.
               </p>
                 <HeadShake>
                   <Button

@@ -81,7 +81,7 @@ export default function Pictures(props) {
   }, [])
 
   useEffect(() => {
-    document.title = "Daniel Brito - PICTURES"
+    document.title = "Daniel Brito | Pictures"
   })
 
   return (

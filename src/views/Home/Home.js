@@ -46,7 +46,7 @@ export default function Home(props) {
   }, [])
 
   useEffect(() => {
-    document.title = "Daniel Brito"
+    document.title = "Daniel Brito | Home"
   })
 
   return (
@@ -217,7 +217,7 @@ export default function Home(props) {
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
-                  <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>In his early twenties, Daniel Brito, a diamond who polishes himself when he says yes to poetry! With the book he commits himself, for the second time in his life, to what I dare say: post-neo-concrete poetry. Herculean objective which was never a craziness. No reading deadlines or endless demands.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
+                  <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>In his early twenties, Daniel Brito, a diamond who polishes himself when he says 'yes' to poetry! With the book, he commits himself, for the second time in his life, to what I dare say: post-neo-concrete poetry. Herculean objective which was never a craziness. No reading deadlines or endless demands.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
                   <br />
                 </p>
                 <Link to="/books" style={{ textDecoration: "none" }} title="More">
@@ -240,7 +240,7 @@ export default function Home(props) {
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
-                  <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>Daniel Brito is a name that appears in the suburb poetic scene, but who's already a citizen of the world, because of the reach of his literary ability. And the most incredible thing is that he's right here, contemporary with us, and promises to stay.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
+                  <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>Daniel Brito is a name that appears in the suburb poetic scene, but who's already a world citizen, because of the reach of his literary ability. And the most incredible thing is that he's right here, contemporary with us, and promises to stay.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
                   <br />
                 </p>
                 <Link to="/books" style={{ textDecoration: "none" }} title="More">
@@ -263,7 +263,7 @@ export default function Home(props) {
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
                 <p style={{ color: "#FFFFFF", fontSize: "19px", textAlign: "justify" }}>
-                  <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>Each text brings the way to be read. Discovering this code will be the main challenge for the reader who, maintaining his freedom, will need a good repertoire for this decoding... The credit goes to the author who masters all these languages and managed that the next page has always a reserved surprise.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
+                  <em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span>Each text brings the way to be read. Discovering this code will be the main challenge for the reader who, maintaining his freedom, will need a good repertoire for this decoding... The credit goes to the author, who masters all these languages and managed that the next page has always a reserved surprise.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em>
                   <br />
                 </p>
                 <Link to="/books" style={{ textDecoration: "none" }} title="More">

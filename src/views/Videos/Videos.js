@@ -38,7 +38,7 @@ export default function Videos(props) {
   }, [])
 
   useEffect(() => {
-    document.title = "Daniel Brito - VIDEOS"
+    document.title = "Daniel Brito | Videos"
   })
 
   return (
@@ -156,8 +156,8 @@ export default function Videos(props) {
           </Grid>
           <Grid item lg={5}>
             <Fade>
-            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              Screencast of <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLugar</Link>, an app aimed at students who wish to share housing.
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                Screencast of <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLugar</Link>, an app aimed at students who wish to share housing.
             </div>
             </Fade>
           </Grid>
@@ -171,8 +171,8 @@ export default function Videos(props) {
           </Grid>
           <Grid item lg={5}>
             <Fade>
-            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              <a href="https://github.com/DanielBrito/competitive-programming" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access repository">Competitive Programming</a>: Evolving through the analysis and resolution of challenges.
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                <a href="https://github.com/DanielBrito/competitive-programming" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access repository">Competitive Programming</a>: Evolving through the analysis and resolution of challenges.
             </div>
             </Fade>
           </Grid>
@@ -186,8 +186,8 @@ export default function Videos(props) {
           </Grid>
           <Grid item lg={5}>
             <Fade>
-            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-            <a href="https://github.com/DanielBrito/videos-youtube" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access repository">Programming Fundamentals</a> applied in practical scenarios.
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                <a href="https://github.com/DanielBrito/videos-youtube" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access repository">Programming Fundamentals</a> applied in practical scenarios.
             </div>
             </Fade>
           </Grid>
@@ -201,8 +201,8 @@ export default function Videos(props) {
           </Grid>
           <Grid item lg={5}>
             <Fade>
-            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-            For those interested in the creation process of the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Aluminions</Link>.
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                For those people interested in the creation process of the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Aluminions</Link>.
             </div>
             </Fade>
           </Grid>
@@ -216,8 +216,8 @@ export default function Videos(props) {
           </Grid>
           <Grid item lg={5}>
             <Fade>
-            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-              The first animation of the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Aluminions</Link> using the stop motion technique.
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                Using the stop motion technique to create this first animation of the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Aluminions</Link>.
             </div>
             </Fade>
           </Grid>
@@ -231,8 +231,8 @@ export default function Videos(props) {
           </Grid>
           <Grid item lg={5}>
             <Fade>
-            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-            Modeling the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Aluminions</Link> is the beginning of the process in which I intend to create a game.
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                Modeling the <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Aluminions</Link> is the beginning of the process in which I intend to create a game.
             </div>
             </Fade>
           </Grid>
@@ -246,8 +246,8 @@ export default function Videos(props) {
           </Grid>
           <Grid item lg={5}>
             <Fade>
-            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-            This documentary produced by <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Sarau do Grajaú</Link> collective makes a sensitive cut of the so-called poetic scene in the suburb.
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                This documentary produced by <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>Sarau do Grajaú</Link> collective makes a sensitive cut of the so-called poetic scene in the suburb.
             </div>
             </Fade>
           </Grid>
