@@ -43,6 +43,8 @@ import imgGaleriaMarginal from "../../assets/img/projects/galeria-marginal.jpg"
 import Particles from 'react-particles-js'
 import Typewriter from 'typewriter-effect';
 
+import Snakke from 'react-snakke'
+
 const useStyles = makeStyles(styles);
 
 export default function Projects(props) {
@@ -60,13 +62,22 @@ export default function Projects(props) {
 
   return (
     <div>
+      <Snakke
+        color="#39ff14"
+        top="80px"
+        height="3px"
+        opacity="1"
+        zIndex="10"
+        shadow={true}
+      />
+      
       <Header
         color="transparent"
         brand={logo}
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 100,
+          height: 50,
           color: "neon"
         }}
         {...rest}

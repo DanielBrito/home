@@ -31,6 +31,8 @@ import Typewriter from 'typewriter-effect';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 
+import Snakke from 'react-snakke'
+
 const useStyles = makeStyles(styles);
 
 var today = new Date();
@@ -52,13 +54,22 @@ export default function About(props) {
 
   return (
     <div>
+      <Snakke
+        color="#39ff14"
+        top="80px"
+        height="3px"
+        opacity="1"
+        zIndex="10"
+        shadow={true}
+      />
+      
       <Header
         color="transparent"
         brand={logo}
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 100,
+          height: 50,
           color: "neon"
         }}
         {...rest}
