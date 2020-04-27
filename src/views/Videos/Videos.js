@@ -52,7 +52,7 @@ export default function Videos(props) {
         zIndex="10"
         shadow={true}
       />
-      
+
       <Header
         color="transparent"
         brand={logo}
@@ -158,8 +158,8 @@ export default function Videos(props) {
       />
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <Grid container spacing={5} justify="center" alignItems="center">
-          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginBottom: "30px" }}>
+          <Grid item lg={7}>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=9wHZYrn7aEE' />
             </div>
@@ -173,8 +173,23 @@ export default function Videos(props) {
           </Grid>
         </Grid>
 
-        <Grid id={'programming'} container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px" }}>
-          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid item lg={7} >
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+              <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=M_IkGl3AcqE' />
+            </div>
+          </Grid>
+          <Grid item lg={5}>
+            <Fade>
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                Far from being a professional work, I created this brief animation of <Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLugar</Link> app to practice some of the Blender content that I've been learning.
+            </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid id={'programming'} container spacing={5} justify="center" alignItems="center" style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid item lg={7} >
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <ReactPlayer width="100%" url='https://www.youtube.com/playlist?list=PLckh4uyjCOmjvKSfrDDJ6oh1lIF3qJ3hM' />
             </div>
@@ -188,8 +203,8 @@ export default function Videos(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "30px", marginBottom: "30px" }}>
-          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid item lg={7} >
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <ReactPlayer width="100%" url='https://www.youtube.com/watch?list=PLckh4uyjCOmgfzGEdPT_UZ14DxKlymoxX&v=J1455fDvGbA' />
             </div>
@@ -203,8 +218,8 @@ export default function Videos(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px" }}>
-          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid item lg={7} >
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=QniP7mjY9Rs' />
             </div>
@@ -218,8 +233,8 @@ export default function Videos(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "30px", marginBottom: "30px" }}>
-          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid item lg={7} >
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=qRmpaXgMros' />
             </div>
@@ -233,8 +248,8 @@ export default function Videos(props) {
           </Grid>
         </Grid>
 
-        <Grid container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", marginBottom: "30px" }}>
-          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+        <Grid container spacing={5} justify="center" alignItems="center" style={{ marginTop: "30px", marginBottom: "30px" }}>
+          <Grid item lg={7}>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=ICX667nOIOA' />
             </div>
@@ -248,8 +263,8 @@ export default function Videos(props) {
           </Grid>
         </Grid>
 
-        <Grid id={'grajau_em_foco'} container spacing={5} justify="center" alignItems="center" style={{ marginTop: "30px", }}>
-          <Grid item lg={7} style={{ marginBottom: "30px" }}>
+        <Grid id={'grajau_em_foco'} container spacing={5} justify="center" alignItems="center" direction="row-reverse" style={{ marginTop: "30px", }}>
+          <Grid item lg={7}>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <ReactPlayer width="100%" url='https://www.youtube.com/watch?v=R80bigCpxMA' />
             </div>

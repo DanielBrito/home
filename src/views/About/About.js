@@ -212,7 +212,7 @@ export default function About(props) {
 
                   I published independently the book <Link to="/books" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>PROTESTIZANDO</Link> (2015), which compiles my first poems. I published independently the book <Link to="/books" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>A LER VAZIOS</Link> (2016), which includes some of my poetic and visual experiments. I've also been published in several anthologies with other marginal authors.<br /><br />
 
-                  As an inborn scientist and visual artist, I focus my research on <a href="https://github.com/DanielBrito/generative-design" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="More">GENERATIVE DESIGN</a>, which is a process of making algorithms to generate art.<br/><br/>
+                  As an inborn scientist and visual artist, I focus my research on <a href="https://github.com/DanielBrito/generative-design" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="Access repository">GENERATIVE DESIGN</a>, which is a process of making algorithms to generate art.<br/><br/>
                   
                   Moreover, I'm also following the steps to become a full-stack developer.
               </p>
