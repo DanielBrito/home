@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7990147fceaca58e5d5582e54f2c6d4",
+    "revision": "0114ccc57f3a355130a4ee8c763a5d67",
     "url": "/home/index.html"
   },
   {
-    "revision": "d4caf03cdc00edd37de9",
+    "revision": "50aa01e06c39c277bf61",
     "url": "/home/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "f0c6c7e248ec45d6557e",
+    "revision": "99d6ff0e02bda09624c2",
     "url": "/home/static/css/main.c20386c2.chunk.css"
   },
   {
-    "revision": "d4caf03cdc00edd37de9",
-    "url": "/home/static/js/2.52295742.chunk.js"
+    "revision": "50aa01e06c39c277bf61",
+    "url": "/home/static/js/2.76798175.chunk.js"
   },
   {
     "revision": "213bca7ce55773509172dbee394af2a1",
-    "url": "/home/static/js/2.52295742.chunk.js.LICENSE.txt"
+    "url": "/home/static/js/2.76798175.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f0c6c7e248ec45d6557e",
-    "url": "/home/static/js/main.8d5db4c9.chunk.js"
+    "revision": "99d6ff0e02bda09624c2",
+    "url": "/home/static/js/main.109cf9f6.chunk.js"
   },
   {
     "revision": "9a21ece79eae19b95cd8",
@@ -96,12 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/media/ha-lugar.456b2167.jpg"
   },
   {
-    "revision": "55e4efd005776595b09ad622b279035c",
-    "url": "/home/static/media/halugar_portal_sertoes_240220.55e4efd0.jpg"
+    "revision": "92a341d431f9f8eef916ac6fbce7b8a1",
+    "url": "/home/static/media/halugar_portal_sertoes_240220.92a341d4.jpg"
   },
   {
-    "revision": "13dc46933872502ceb775fd523928afa",
-    "url": "/home/static/media/halugar_ufc_crateus_noticias_010320.13dc4693.jpg"
+    "revision": "8db458285210ef5905f576c65250904c",
+    "url": "/home/static/media/halugar_ufc_crateus_noticias_010320.8db45828.jpg"
   },
   {
     "revision": "400fdf1d6d15608b311214f3021e11f3",

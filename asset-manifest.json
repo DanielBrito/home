@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/home/static/css/main.c20386c2.chunk.css",
-    "main.js": "/home/static/js/main.8d5db4c9.chunk.js",
-    "main.js.map": "/home/static/js/main.8d5db4c9.chunk.js.map",
+    "main.js": "/home/static/js/main.109cf9f6.chunk.js",
+    "main.js.map": "/home/static/js/main.109cf9f6.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.68cf1828.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.68cf1828.js.map",
     "static/css/2.9522b9fe.chunk.css": "/home/static/css/2.9522b9fe.chunk.css",
-    "static/js/2.52295742.chunk.js": "/home/static/js/2.52295742.chunk.js",
-    "static/js/2.52295742.chunk.js.map": "/home/static/js/2.52295742.chunk.js.map",
+    "static/js/2.76798175.chunk.js": "/home/static/js/2.76798175.chunk.js",
+    "static/js/2.76798175.chunk.js.map": "/home/static/js/2.76798175.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.69c4d39c2a974f45efa3608ac9b5489d.js": "/home/precache-manifest.69c4d39c2a974f45efa3608ac9b5489d.js",
+    "precache-manifest.19a979286bee5b27825df62ab57cf008.js": "/home/precache-manifest.19a979286bee5b27825df62ab57cf008.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/2.9522b9fe.chunk.css.map": "/home/static/css/2.9522b9fe.chunk.css.map",
     "static/css/main.c20386c2.chunk.css.map": "/home/static/css/main.c20386c2.chunk.css.map",
-    "static/js/2.52295742.chunk.js.LICENSE.txt": "/home/static/js/2.52295742.chunk.js.LICENSE.txt",
+    "static/js/2.76798175.chunk.js.LICENSE.txt": "/home/static/js/2.76798175.chunk.js.LICENSE.txt",
     "static/media/a-ler-vazios-capa.jpg": "/home/static/media/a-ler-vazios-capa.efe9ad5e.jpg",
     "static/media/aluminions.jpg": "/home/static/media/aluminions.e3932355.jpg",
     "static/media/antigrife.jpg": "/home/static/media/antigrife.711031f7.jpg",
@@ -31,8 +31,8 @@
     "static/media/fora-da-caixa.jpg": "/home/static/media/fora-da-caixa.e42c9ab4.jpg",
     "static/media/galeria-marginal.jpg": "/home/static/media/galeria-marginal.136958ae.jpg",
     "static/media/ha-lugar.jpg": "/home/static/media/ha-lugar.456b2167.jpg",
-    "static/media/halugar_portal_sertoes_240220.jpg": "/home/static/media/halugar_portal_sertoes_240220.55e4efd0.jpg",
-    "static/media/halugar_ufc_crateus_noticias_010320.jpg": "/home/static/media/halugar_ufc_crateus_noticias_010320.13dc4693.jpg",
+    "static/media/halugar_portal_sertoes_240220.jpg": "/home/static/media/halugar_portal_sertoes_240220.92a341d4.jpg",
+    "static/media/halugar_ufc_crateus_noticias_010320.jpg": "/home/static/media/halugar_ufc_crateus_noticias_010320.8db45828.jpg",
     "static/media/img0.jpg": "/home/static/media/img0.400fdf1d.jpg",
     "static/media/img1.jpg": "/home/static/media/img1.9aae200c.jpg",
     "static/media/img10.jpg": "/home/static/media/img10.12dd42e9.jpg",
@@ -101,8 +101,8 @@
   "entrypoints": [
     "static/js/runtime-main.68cf1828.js",
     "static/css/2.9522b9fe.chunk.css",
-    "static/js/2.52295742.chunk.js",
+    "static/js/2.76798175.chunk.js",
     "static/css/main.c20386c2.chunk.css",
-    "static/js/main.8d5db4c9.chunk.js"
+    "static/js/main.109cf9f6.chunk.js"
   ]
 }
