@@ -187,7 +187,7 @@ export default function Projects(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>COMPIXELAR</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>COMPIXELAR</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   Compixelar intends to apply the concepts of creative programming on the development of poetic-visual experiments and the composition of multimedia animations. The name intends to bring up some ideas that express its purpose, such as <em>pixel</em>, which is the smallest point that forms a digital image, and <em>compile</em>, which can be presented both as a synonym of collect (various artistic creations, in this case) as generate object code that can be interpreted by the computer.
               </p>
@@ -216,9 +216,9 @@ export default function Projects(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>HáLUGAR</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>HáLUGAR</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  HáLugar is aimed for students who wish to share housing, proposing to make it easier for them to advertise or find a place to live. Through the application, they'll be able to search for housing options that offer them the best cost-benefit.
+                  HáLugar is aimed at students who wish to share housing, proposing to make it easier for them to advertise or find a place to live. Through the application, they'll be able to search for housing options that offer them the best cost-benefit.
               </p>
                 <HeadShake>
                   <Button
@@ -245,9 +245,9 @@ export default function Projects(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POLYMAPP</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>POLYMAPP</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
-                  PolymApp is a personal management tool that will make it possible to control readings and studies, make long-term activity plans, budget to measure expenses, list ongoing and future projects, and other features. The name is inspired by the term polymath, which refers to an individual whose knowledge covers a significant number of subjects.
+                  PolymApp is a personal management tool to control readings and studies, make long-term activity plans, budget to measure expenses, list ongoing and future projects, and other features. The name is inspired by the term polymath, which refers to an individual whose knowledge covers a significant number of subjects.
               </p>
                 <HeadShake>
                   <Button
@@ -274,7 +274,7 @@ export default function Projects(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>CÉLEREBRO</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>CÉLEREBRO</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   CÉLEREBRO is a math game for those who practice mental workout, inspired by command-line based applications. Larry Katz, the neuroscientist who created the term "neurobics", explains that logical reasoning exercises stimulate the formation of synapses, that is, regions of neurons responsible for the transmission of nerve impulses, making connections between different parts of the brain stronger and healthier.
               </p>
@@ -303,7 +303,7 @@ export default function Projects(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>SARAU DO GRAJAÚ</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>SARAU DO GRAJAÚ</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   Sarau do Grajaú was created in early 2014. It's an artistic and cultural event held every last Saturday of each month at Tia Nilde's Bar - Antônio Comenale Street, 166, Parque Cocaia, 04850-010, São Paulo/SP - Brazil. It brings together various artists and people from the community who are hungry to express and absorb poetry in its various forms.
               </p>
@@ -332,7 +332,7 @@ export default function Projects(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>CONCRETAGENS</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>CONCRETAGENS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   Coletiva Concretagens works by publishing concrete and visual poems in the virtual environment and through interventions in the urban scenario, always intending to stimulate the perceptiveness and sensitivity of reader-observers, and also to make these poetic styles known.
               </p>
@@ -361,7 +361,7 @@ export default function Projects(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>SOCRASTICKERS</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>SOCRASTICKERS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   SOCRASTICKERS = Contraction of ‘SOCRATES’ (great philosopher known for encouraging people to question and seek explanations through maieutics) + ‘STICKERS’. They are a way of spreading our thoughts, ideas, poems, drawings, and also of great philosophers, artists, and writers, who changed the world during history, however, many people have never heard about them.
               </p>
@@ -390,7 +390,7 @@ export default function Projects(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>ALUMINIONS</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>ALUMINIONS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   Aluminions are small creatures formed by aluminum seals, 13, which developed and gained consciousness after a Big Bang occurred in my mind. Like us, human beings, they've learned how to communicate and express their feelings. They live a lot of adventures and are always looking for answers to their existential questions.
               </p>
@@ -419,7 +419,7 @@ export default function Projects(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>FORA DA CAIXA</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>FORA DA CAIXA</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                   I play making art<br />
                 the inspiration<br />
@@ -453,7 +453,7 @@ export default function Projects(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>ANTIGR1F3</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>ANTIGR1F3</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   Clothing can also be used to spread our art and ideas. Screen printing and hand painting are something very creative and original, as well as making buttons, patches, and the like. Based on this, ANTIGR1F3 intends to seek a way to subvert the consumerist logic, even if modestly, and develop our social awareness and artistic skills.
               </p>
@@ -482,7 +482,7 @@ export default function Projects(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>GALERIA MARGINAL</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>GALERIA MARGINAL</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   Galeria Marginal is a virtual space that seeks to promote a type of visual literacy through the analysis of works, encouraging people to "read" the paintings and to identify the characteristics of the various artistic movements that have marked the history, as well as the artists who participate in them.
               </p>

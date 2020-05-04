@@ -185,7 +185,7 @@ export default function Blog(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POLYMATUS</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>POLYMATUS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                   Where I talk about everything and the like...
               </p>
@@ -214,7 +214,7 @@ export default function Blog(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>POEMS</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>POEMS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                   <a href="https://pensador.uol.com.br/colecao/danielbrito41/" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="Pensador collection">Verses</a>, concretisms, haiku, sonnets...
               </p>
@@ -243,7 +243,7 @@ export default function Blog(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>NEWS</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>NEWS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                   What's going on in the world...
               </p>
@@ -272,7 +272,7 @@ export default function Blog(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>READINGS</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>READINGS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                   Reviews, excerpts, <a href="https://www.skoob.com.br/usuario/1021319-dan" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="Skoob profile">recommendations</a>...
               </p>
@@ -301,7 +301,7 @@ export default function Blog(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>REFLECTIONS</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>REFLECTIONS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                   The unexamined life is not worth living...
               </p>
@@ -330,7 +330,7 @@ export default function Blog(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>DESIGN</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>DESIGN</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                 Sketches, paintings, digital <a href="https://www.deviantart.com/danielhbrito" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="DeviantArt profile">art</a>...
               </p>
@@ -359,7 +359,7 @@ export default function Blog(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>CH4LL3N635</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>CH4LL3N635</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                   Brain: use it or lose it...
               </p>
@@ -388,7 +388,7 @@ export default function Blog(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>AUDIO&VISUAL</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>AUDIO&VISUAL</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                   Music, documentaries, movies, <a href="https://myanimelist.net/profile/danielbrito41" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", color: "white" }} title="MyAnimeList profile">animes</a>...
               </p>
@@ -417,7 +417,7 @@ export default function Blog(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>EVENTS</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>EVENTS</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "center" }}>
                   Poetry reunions, exhibitions, lectures, workshops...
               </p>

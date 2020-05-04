@@ -19,7 +19,7 @@ import styles from "../../assets/jss/home/views/home.js";
 
 import srcLogo from "../../assets/img/logo.png"
 
-import { FaEnvelope, FaTelegramPlane, FaFacebookSquare, FaInstagram, FaPinterest, FaTwitter, FaGithub, FaYoutube, FaLinkedin, FaSoundcloud, FaQuestion } from "react-icons/fa";
+import { FaEnvelope, FaTelegramPlane, FaFacebookSquare, FaInstagram, FaPinterest, FaTwitter, FaGithub, FaYoutube, FaLinkedin, FaSoundcloud, FaQuestion, FaLink } from "react-icons/fa";
 
 import imgContact from "../../assets/img/contact/message.jpg"
 import imgSocialNetworks from "../../assets/img/contact/social_networks.jpg"
@@ -176,7 +176,7 @@ export default function Media(props) {
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
                 <HeadShake>
-                  <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>SEND A MESSAGE</h1>
+                  <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>SEND A MESSAGE</h1>
                 </HeadShake>
                 <FaEnvelope color="yellow" size="0.9em" className={classes.icons} style={{ marginRight: "10px" }} /><em><a href="mailto: danielhbrito@outlook.com" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", color: "white" }} title="Send an email">danielhbrito@outlook.com</a></em><br /><br />
 
@@ -198,7 +198,7 @@ export default function Media(props) {
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
                 <HeadShake>
-                  <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>FOLLOW ME</h1>
+                  <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>FOLLOW ME</h1>
                 </HeadShake>
                 <FaFacebookSquare color="#3b5998" size="0.9em" className={classes.icons} style={{ marginRight: "10px" }} /><a href="https://www.facebook.com/daniel.brito.jumper" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Friend me on Facebook">Facebook</a><br /><br />
 
@@ -216,7 +216,9 @@ export default function Media(props) {
 
                 <FaSoundcloud color="#ff8800" size="0.9em" className={classes.icons} style={{ marginRight: "10px" }} /><a href="https://soundcloud.com/dani-el-brito" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Follow me on Soundcloud">Soundcloud</a><br /><br />
 
-                <FaQuestion color="#db3552" size="0.9em" className={classes.icons} style={{ marginRight: "10px" }} /><a href="https://ask.fm/danielbrito41" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Ask me something">Ask.fm</a>
+                <FaQuestion color="#db3552" size="0.9em" className={classes.icons} style={{ marginRight: "10px" }} /><a href="https://ask.fm/danielbrito41" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Ask me something">Ask.fm</a><br/><br/>
+
+                <FaLink color="#ffc168" size="0.9em" className={classes.icons} style={{ marginRight: "10px" }} /><a href="https://allmylinks.com/danielbrito" target="_blank" rel="noopener noreferrer" className={classes.contactLink} style={{ textDecoration: "none", fontWeight: "bold", color: "white" }} title="Access all my links">AllMyLinks</a>
               </div>
             </Fade>
           </Grid>

@@ -180,7 +180,7 @@ export default function Media(props) {
           <Grid item lg={6}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                <p><em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span><Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLugar</Link> has gained the attention of the city residents. In a few days after its launch, it already had advertisements registered. For the professor of the discipline, who encouraged the publication of the software, this initiative will encourage the development of more ideas by students.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em></p>
+                <p style={{ marginTop: "0px"}}><em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span><Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLugar</Link> has gained the attention of the city residents. In a few days after its launch, it already had advertisements registered. For the professor of the discipline, who encouraged the publication of the software, this initiative will encourage the development of more ideas by students.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em></p>
                 <HeadShake>
                   <Button
                     color="neon" round style={{ marginTop: "20px" }} size="md"
@@ -206,7 +206,7 @@ export default function Media(props) {
           <Grid item lg={6}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                <p><em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span><Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLugar</Link> was developed by Daniel Brito, a Computer Science student at the Federal University of Ceará (Crateús Campus), during the disciplines of Web and Mobile Development, taught by professor Francisco Anderson de Almada Gomes.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em></p>
+                <p style={{ marginTop: "0px"}}><em><span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span><Link to="/projects" style={{ textDecoration: "none" }} title="More" className={classes.externalLink}>HáLugar</Link> was developed by Daniel Brito, a Computer Science student at the Federal University of Ceará (Crateús Campus), during the disciplines of Web and Mobile Development, taught by professor Francisco Anderson de Almada Gomes.<span style={{ fontWeight: "bold", fontSize: "20px", fontFamily: "monospace", color: "#39ff14" }}>"</span></em></p>
                 <HeadShake>
                   <Button
                     color="neon" round style={{ marginTop: "20px" }} size="md"

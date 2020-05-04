@@ -182,11 +182,11 @@ export default function Books(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>NO RITMO DE ALGO (20XX)</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>NO RITMO DE ALGO (20XX)</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   As I said on a previous occasion, my poems are files extracted from the <em>heart.zip</em>. Thus, following the school of Paulo Leminski and Millôr Fernandes, "No Ritmo de Algo" will be a directory composed of verses with wisdom, talking about the most varied subjects that alter our heart rhythm.<br /><br />
 
-                  It was expected to be published in 2018, but academic issues made such a plan impossible. However, with the experiences of my previous books, the entire process of making it is already known to me, which will turn everything simpler when it comes time to publish it.<br /><br />
+                  It was expected to be published in 2018, but academic issues made such a plan impossible. However, with the experiences of my previous books, the entire process of making it is already known to me, which will make everything simpler when it comes time to publish it.<br /><br />
 
                   For those who like computing and poetry, I created a repository on GitHub with some poems that will be part of it, which use metaphors about programming, mathematics, technology, and the like.
               </p>
@@ -215,11 +215,11 @@ export default function Books(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>A LER VAZIOS (2016)</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>A LER VAZIOS (2016)</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   Every poem is visual. But, in my case, I elevate this concept to the square and the cube, with poetry tending to infinity.<br /><br />
 
-                  It turns out that, one day, I discovered that all forms keep internal secrets in their structures, and with the help of semiotics, I managed to unveil some of them. But do not think I'll tell you what they are like that, on a silver platter. I'll present only a re-reading of them. In A LER VAZIOS, besides the various geometric shapes, numbers, and letter-words arranged on the page, the empty spaces can also be read. It'll depend only on the perception of each person.<br /><br />
+                  It turns out that, one day, I discovered that all forms keep internal secrets in their structures, and with the help of semiotics, I managed to unveil some of them. But do not think I'll tell you what they are, like that, on a silver platter. I'll present only a re-reading of them. In A LER VAZIOS, besides the various geometric shapes, numbers, and letter-words arranged on the page, the empty spaces can also be read. It'll depend only on the perception of each person.<br /><br />
 
                   And I say more: Who said that concrete and visual poetry is just a mental exercise devoid of subjectivity and feeling? Well, I came here to subvert this idea. So, activate your heart, connect your neurons, and have a good trip.
               </p>
@@ -248,7 +248,7 @@ export default function Books(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>PROTESTIZANDO (2015)</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>PROTESTIZANDO (2015)</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   As an enthusiast of the DIY attitude, marginal literature, and the philosophy of copyleft and poetic license, I released my first book independently, running away from any form of censorship that it might suffer if it were published by bureaucratic means, which deprive people of spreading and absorbing knowledge freely.<br /><br />
 
@@ -281,7 +281,7 @@ export default function Books(props) {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1 style={{ color: "#FFFFFF", textAlign: "center" }}>(FAN)ZINES</h1>
+                <h1 style={{ color: "#FFFFFF", textAlign: "center", marginTop: "0px" }}>(FAN)ZINES</h1>
                 <p style={{ color: "#FFFFFF", fontSize: "16px", textAlign: "justify" }}>
                   Since I was a teenager, I've been a regular on the underground cultural scene. Therefore, I started having contact with the various independent media, such as flyers, zines, CDs, K7 tapes, and like, where much of the material is made and distributed by the people themselves at the events they organize.<br /><br />
 
