@@ -21,7 +21,7 @@ export default function Footer(props) {
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
-        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", fontWeight: "bold", color: "#39ff14" }} title="Cretive Commons licence">(ɔ) {1900 + new Date().getYear()} - Daniel Brito</a>
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer" className={classes.externalLink} style={{ textDecoration: "none", fontWeight: "bold", color: "#39ff14" }} title="Creative Commons license">(ɔ) {1900 + new Date().getYear()} - Daniel Brito</a>
       </div>
     </footer>
   );
