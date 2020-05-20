@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e770f393d8d2757483a5e91d8cd9502",
+    "revision": "730454106fb0aad4f3b743fa0d8ad8c4",
     "url": "/home/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "65fcae937a0a93791e36",
+    "revision": "6972a781c86b2ab80c0f",
     "url": "/home/static/css/main.c20386c2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/js/2.76798175.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "65fcae937a0a93791e36",
-    "url": "/home/static/js/main.0058754a.chunk.js"
+    "revision": "6972a781c86b2ab80c0f",
+    "url": "/home/static/js/main.3c41ff0f.chunk.js"
   },
   {
     "revision": "9a21ece79eae19b95cd8",
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/media/img11.da259a26.jpg"
   },
   {
-    "revision": "b4689ed07619d74c33a7931a9da64e50",
-    "url": "/home/static/media/img12.b4689ed0.jpg"
+    "revision": "6bfe55c3a90a5180b009e418528c993e",
+    "url": "/home/static/media/img12.6bfe55c3.jpg"
   },
   {
     "revision": "5479d28916709e7ffcd8d61a7398e352",
@@ -192,8 +192,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/media/img28.3f7a81e5.jpg"
   },
   {
-    "revision": "e8c6b90ec50348a1d76419e5ea5a652e",
-    "url": "/home/static/media/img29.e8c6b90e.jpg"
+    "revision": "fc169485281ea3484c016ac132b96ed2",
+    "url": "/home/static/media/img29.fc169485.jpg"
   },
   {
     "revision": "a033e8c25cf59dcefeab8b2e36e0832b",
@@ -352,8 +352,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/media/socrastickers.b7778737.jpg"
   },
   {
-    "revision": "cc57b41a72a523c9cf2681f2aa3c22aa",
-    "url": "/home/static/media/teorema-poesia-visual-alessa-melo.cc57b41a.jpg"
+    "revision": "76957f9c82252f8a3e10b86038ddc42b",
+    "url": "/home/static/media/teorema-poesia-visual-alessa-melo.76957f9c.jpg"
   },
   {
     "revision": "b4bfc00f8552c6dcb10e67ccc9377e96",

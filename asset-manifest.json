@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/home/static/css/main.c20386c2.chunk.css",
-    "main.js": "/home/static/js/main.0058754a.chunk.js",
-    "main.js.map": "/home/static/js/main.0058754a.chunk.js.map",
+    "main.js": "/home/static/js/main.3c41ff0f.chunk.js",
+    "main.js.map": "/home/static/js/main.3c41ff0f.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.68cf1828.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.68cf1828.js.map",
     "static/css/2.9522b9fe.chunk.css": "/home/static/css/2.9522b9fe.chunk.css",
     "static/js/2.76798175.chunk.js": "/home/static/js/2.76798175.chunk.js",
     "static/js/2.76798175.chunk.js.map": "/home/static/js/2.76798175.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.4177599af89050887e7426cca52c25cf.js": "/home/precache-manifest.4177599af89050887e7426cca52c25cf.js",
+    "precache-manifest.26096d368590be351338889cb25a4abf.js": "/home/precache-manifest.26096d368590be351338889cb25a4abf.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/2.9522b9fe.chunk.css.map": "/home/static/css/2.9522b9fe.chunk.css.map",
     "static/css/main.c20386c2.chunk.css.map": "/home/static/css/main.c20386c2.chunk.css.map",
@@ -37,7 +37,7 @@
     "static/media/img1.jpg": "/home/static/media/img1.9aae200c.jpg",
     "static/media/img10.jpg": "/home/static/media/img10.12dd42e9.jpg",
     "static/media/img11.jpg": "/home/static/media/img11.da259a26.jpg",
-    "static/media/img12.jpg": "/home/static/media/img12.b4689ed0.jpg",
+    "static/media/img12.jpg": "/home/static/media/img12.6bfe55c3.jpg",
     "static/media/img13.jpg": "/home/static/media/img13.5479d289.jpg",
     "static/media/img14.jpg": "/home/static/media/img14.23494112.jpg",
     "static/media/img15.jpg": "/home/static/media/img15.1df905ee.jpg",
@@ -55,7 +55,7 @@
     "static/media/img26.jpg": "/home/static/media/img26.819562aa.jpg",
     "static/media/img27.jpg": "/home/static/media/img27.35d8d52e.jpg",
     "static/media/img28.jpg": "/home/static/media/img28.3f7a81e5.jpg",
-    "static/media/img29.jpg": "/home/static/media/img29.e8c6b90e.jpg",
+    "static/media/img29.jpg": "/home/static/media/img29.fc169485.jpg",
     "static/media/img3.jpg": "/home/static/media/img3.a033e8c2.jpg",
     "static/media/img30.jpg": "/home/static/media/img30.158595f1.jpg",
     "static/media/img31.jpg": "/home/static/media/img31.9186c5fe.jpg",
@@ -95,7 +95,7 @@
     "static/media/sobrenome-liberdade-alessa-melo.jpg": "/home/static/media/sobrenome-liberdade-alessa-melo.5f988aaf.jpg",
     "static/media/social_networks.jpg": "/home/static/media/social_networks.33843bee.jpg",
     "static/media/socrastickers.jpg": "/home/static/media/socrastickers.b7778737.jpg",
-    "static/media/teorema-poesia-visual-alessa-melo.jpg": "/home/static/media/teorema-poesia-visual-alessa-melo.cc57b41a.jpg",
+    "static/media/teorema-poesia-visual-alessa-melo.jpg": "/home/static/media/teorema-poesia-visual-alessa-melo.76957f9c.jpg",
     "static/media/zine_capa.jpg": "/home/static/media/zine_capa.b4bfc00f.jpg"
   },
   "entrypoints": [
@@ -103,6 +103,6 @@
     "static/css/2.9522b9fe.chunk.css",
     "static/js/2.76798175.chunk.js",
     "static/css/main.c20386c2.chunk.css",
-    "static/js/main.0058754a.chunk.js"
+    "static/js/main.3c41ff0f.chunk.js"
   ]
 }
