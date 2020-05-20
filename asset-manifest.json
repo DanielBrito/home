@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/home/static/css/main.c20386c2.chunk.css",
-    "main.js": "/home/static/js/main.3c41ff0f.chunk.js",
-    "main.js.map": "/home/static/js/main.3c41ff0f.chunk.js.map",
+    "main.js": "/home/static/js/main.dace171c.chunk.js",
+    "main.js.map": "/home/static/js/main.dace171c.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.68cf1828.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.68cf1828.js.map",
     "static/css/2.9522b9fe.chunk.css": "/home/static/css/2.9522b9fe.chunk.css",
-    "static/js/2.76798175.chunk.js": "/home/static/js/2.76798175.chunk.js",
-    "static/js/2.76798175.chunk.js.map": "/home/static/js/2.76798175.chunk.js.map",
+    "static/js/2.11330b25.chunk.js": "/home/static/js/2.11330b25.chunk.js",
+    "static/js/2.11330b25.chunk.js.map": "/home/static/js/2.11330b25.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.26096d368590be351338889cb25a4abf.js": "/home/precache-manifest.26096d368590be351338889cb25a4abf.js",
+    "precache-manifest.3f037c9e72864ca11fd794881a90bde9.js": "/home/precache-manifest.3f037c9e72864ca11fd794881a90bde9.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/2.9522b9fe.chunk.css.map": "/home/static/css/2.9522b9fe.chunk.css.map",
     "static/css/main.c20386c2.chunk.css.map": "/home/static/css/main.c20386c2.chunk.css.map",
-    "static/js/2.76798175.chunk.js.LICENSE.txt": "/home/static/js/2.76798175.chunk.js.LICENSE.txt",
+    "static/js/2.11330b25.chunk.js.LICENSE.txt": "/home/static/js/2.11330b25.chunk.js.LICENSE.txt",
     "static/media/a-ler-vazios-capa.jpg": "/home/static/media/a-ler-vazios-capa.efe9ad5e.jpg",
     "static/media/aluminions.jpg": "/home/static/media/aluminions.e3932355.jpg",
     "static/media/antigrife.jpg": "/home/static/media/antigrife.711031f7.jpg",
@@ -89,6 +89,7 @@
     "static/media/polymatus_logo.jpg": "/home/static/media/polymatus_logo.97bb148a.jpg",
     "static/media/protestizando-capa.jpg": "/home/static/media/protestizando-capa.fdaec361.jpg",
     "static/media/reflections.jpg": "/home/static/media/reflections.3e46167b.jpg",
+    "static/media/researches.jpg": "/home/static/media/researches.a115d48e.jpg",
     "static/media/sarau-do-grajau-daniel-alexandrino.jpg": "/home/static/media/sarau-do-grajau-daniel-alexandrino.d3d12ac7.jpg",
     "static/media/sarau-do-grajau-johnny-nogueira.jpg": "/home/static/media/sarau-do-grajau-johnny-nogueira.dc17cdfc.jpg",
     "static/media/sarau-do-grajau.jpg": "/home/static/media/sarau-do-grajau.d32c1eb0.jpg",
@@ -101,8 +102,8 @@
   "entrypoints": [
     "static/js/runtime-main.68cf1828.js",
     "static/css/2.9522b9fe.chunk.css",
-    "static/js/2.76798175.chunk.js",
+    "static/js/2.11330b25.chunk.js",
     "static/css/main.c20386c2.chunk.css",
-    "static/js/main.3c41ff0f.chunk.js"
+    "static/js/main.dace171c.chunk.js"
   ]
 }
