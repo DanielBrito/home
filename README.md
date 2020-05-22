@@ -1,3 +1,9 @@
+# HOME
+
+This [website](https://danielbrito.github.io/home/) is the result of my studies on front-end development using technologies such as ReactJS, Material-UI and more.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
