@@ -1,26 +1,26 @@
 import React from "react";
-// nodejs library that concatenates classes
+
 import classNames from "classnames";
-// nodejs library to set properties for components
+
 import PropTypes from "prop-types";
-// @material-ui/core components
+
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
-// @material-ui/icons
+
 import Menu from "@material-ui/icons/Menu";
-// core components
+
 import styles from "../../assets/jss/home/components/headerStyle.js";
 
 const useStyles = makeStyles(styles);
 
 export default function Header(props) {
   const classes = useStyles();
-  
   const [mobileOpen, setMobileOpen] = React.useState(false);
+
   React.useEffect(() => {
     if (props.changeColorOnScroll) {
       window.addEventListener("scroll", headerColorChange);
@@ -31,9 +31,11 @@ export default function Header(props) {
       }
     };
   });
+
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
+
   const headerColorChange = () => {
     const { color, changeColorOnScroll } = props;
     const windowsScrollTop = window.pageYOffset;
@@ -53,15 +55,18 @@ export default function Header(props) {
         .classList.remove(classes[changeColorOnScroll.color]);
     }
   };
+
   const { color, rightLinks, leftLinks, brand, fixed, absolute } = props;
+
   const appBarClasses = classNames({
     [classes.appBar]: true,
     [classes[color]]: color,
     [classes.absolute]: absolute,
-    [classes.fixed]: fixed
+    [classes.fixed]: fixed,
   });
 
-  const brandComponent = brand
+  const brandComponent = brand;
+
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
@@ -72,9 +77,8 @@ export default function Header(props) {
               {leftLinks}
             </Hidden>
           ) : (
-
-              brandComponent
-            )}
+            brandComponent
+          )}
         </div>
 
         <Hidden mdDown implementation="css">
@@ -83,7 +87,7 @@ export default function Header(props) {
 
         <Hidden lgUp>
           <IconButton
-            style={{color: "#39ff14", position: "absolute", left: "85%"}}
+            style={{ color: "#39ff14", position: "absolute", left: "85%" }}
             aria-label="open drawer"
             onClick={handleDrawerToggle}
           >
@@ -98,22 +102,19 @@ export default function Header(props) {
           anchor={"right"}
           open={mobileOpen}
           classes={{
-            paper: classes.drawerPaper
+            paper: classes.drawerPaper,
           }}
           onClose={handleDrawerToggle}
         >
-          <div className={classes.appResponsive}>
-            {rightLinks}
-          </div>
+          <div className={classes.appResponsive}>{rightLinks}</div>
         </Drawer>
       </Hidden>
-
     </AppBar>
   );
 }
 
 Header.defaultProp = {
-  color: "white"
+  color: "white",
 };
 
 Header.propTypes = {
@@ -127,7 +128,7 @@ Header.propTypes = {
     "white",
     "rose",
     "dark",
-    "neon"
+    "neon",
   ]),
   rightLinks: PropTypes.node,
   leftLinks: PropTypes.node,
@@ -152,7 +153,7 @@ Header.propTypes = {
       "white",
       "rose",
       "dark",
-      "neon"
-    ]).isRequired
-  })
+      "neon",
+    ]).isRequired,
+  }),
 };

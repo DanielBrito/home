@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
 
-// nodejs library that concatenates classes
 import classNames from "classnames";
 
-// @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 
@@ -25,7 +23,6 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import HeadShake from "react-reveal/HeadShake";
 
-// @font-awesome/icons
 import {
   FaMousePointer,
   FaGooglePlay,
@@ -61,9 +58,8 @@ import Snakke from "react-snakke";
 
 const useStyles = makeStyles(styles);
 
-export default function Projects(props) {
+export default function Projects() {
   const classes = useStyles();
-  const { ...rest } = props;
   const logo = (
     <img
       src={srcLogo}
@@ -100,7 +96,6 @@ export default function Projects(props) {
           height: 50,
           color: "neon",
         }}
-        {...rest}
       />
 
       <Parallax image={require("../../assets/img/background.svg")}>
@@ -117,7 +112,7 @@ export default function Projects(props) {
                       delay: 150,
                     }}
                     onInit={(typewriter) => {
-                      typewriter.typeString("~$ PROJECTS").start();
+                      typewriter.typeString("~$ PORTFOLIO").start();
                     }}
                   />
                 </h1>
@@ -233,7 +228,7 @@ export default function Projects(props) {
                     textAlign: "justify",
                   }}
                 >
-                  Compixelar intends to apply the concepts of creative
+                  Compixelar intends to apply some concepts of creative
                   programming on the development of poetic-visual experiments
                   and the composition of multimedia animations. The name intends
                   to bring up some ideas that express its purpose, such as{" "}

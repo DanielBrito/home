@@ -1,25 +1,21 @@
-/*eslint-disable*/
 import React from "react";
 
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 
-// @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 
-// @material-ui/icons
-import HomeIcon from '@material-ui/icons/Home';
-import AboutIcon from '@material-ui/icons/AccountCircle';
-import BooksIcon from '@material-ui/icons/MenuBook';
-import ProjectsIcon from '@material-ui/icons/EmojiObjects';
-import PicturesIcon from '@material-ui/icons/PhotoLibrary';
-import VideoIcon from '@material-ui/icons/Videocam';
-import ContactIcon from '@material-ui/icons/Mail';
-// @font-awesome/icons
+import HomeIcon from "@material-ui/icons/Home";
+import AboutIcon from "@material-ui/icons/AccountCircle";
+import BooksIcon from "@material-ui/icons/MenuBook";
+import ProjectsIcon from "@material-ui/icons/EmojiObjects";
+import PicturesIcon from "@material-ui/icons/PhotoLibrary";
+import VideoIcon from "@material-ui/icons/Videocam";
+import ContactIcon from "@material-ui/icons/Mail";
+
 import { FaBlogger, FaNewspaper } from "react-icons/fa";
 
-// core components
 import Button from "../CustomButtons/Button";
 
 import styles from "../../assets/jss/home/components/headerLinksStyle";
@@ -28,142 +24,143 @@ const useStyles = makeStyles(styles);
 
 export default function HeaderLinks() {
   const classes = useStyles();
+
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <NavLink activeStyle={{ 
-            color: '#000000', 
-            background: '#39ff14',
+        <NavLink
+          activeStyle={{
+            color: "#000000",
+            background: "#39ff14",
             borderRadius: "10px",
-           }}
-            exact to='/' className={classes.listItem}>
-          <Button
-            href=""
-            color="transparent"
-            className={classes.navLink}
-          >
+          }}
+          exact
+          to="/"
+          className={classes.listItem}
+        >
+          <Button href="" color="transparent" className={classes.navLink}>
             <HomeIcon className={classes.icons} /> Home
-        </Button>
+          </Button>
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink activeStyle={{ 
-            color: '#000000', 
-            background: '#39ff14',
+        <NavLink
+          activeStyle={{
+            color: "#000000",
+            background: "#39ff14",
             borderRadius: "10px",
-           }} to='/about' className={classes.listItem}>
-          <Button
-            href=""
-            color="transparent"
-            className={classes.navLink}
-          >
+          }}
+          to="/about"
+          className={classes.listItem}
+        >
+          <Button href="" color="transparent" className={classes.navLink}>
             <AboutIcon className={classes.icons} /> About
-        </Button>
+          </Button>
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink activeStyle={{ 
-            color: '#000000', 
-            background: '#39ff14',
+        <NavLink
+          activeStyle={{
+            color: "#000000",
+            background: "#39ff14",
             borderRadius: "10px",
-           }} to='/books' className={classes.listItem}>
-          <Button
-            href=""
-            color="transparent"
-            className={classes.navLink}
-          >
+          }}
+          to="/books"
+          className={classes.listItem}
+        >
+          <Button href="" color="transparent" className={classes.navLink}>
             <BooksIcon className={classes.icons} /> Books
-        </Button>
+          </Button>
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink activeStyle={{ 
-            color: '#000000', 
-            background: '#39ff14',
+        <NavLink
+          activeStyle={{
+            color: "#000000",
+            background: "#39ff14",
             borderRadius: "10px",
-           }} to='/projects' className={classes.listItem}>
-          <Button
-            href=""
-            color="transparent"
-            className={classes.navLink}
-          >
+          }}
+          to="/projects"
+          className={classes.listItem}
+        >
+          <Button href="" color="transparent" className={classes.navLink}>
             <ProjectsIcon className={classes.icons} /> Projects
-        </Button>
+          </Button>
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink activeStyle={{ 
-            color: '#000000', 
-            background: '#39ff14',
+        <NavLink
+          activeStyle={{
+            color: "#000000",
+            background: "#39ff14",
             borderRadius: "10px",
-           }} to='/pictures' className={classes.listItem}>
-          <Button
-            href=""
-            color="transparent"
-            className={classes.navLink}
-          >
+          }}
+          to="/pictures"
+          className={classes.listItem}
+        >
+          <Button href="" color="transparent" className={classes.navLink}>
             <PicturesIcon className={classes.icons} /> Pictures
-        </Button>
+          </Button>
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink activeStyle={{ 
-            color: '#000000', 
-            background: '#39ff14',
+        <NavLink
+          activeStyle={{
+            color: "#000000",
+            background: "#39ff14",
             borderRadius: "10px",
-           }} to='/videos' className={classes.listItem}>
-          <Button
-            href=""
-            color="transparent"
-            className={classes.navLink}
-          >
+          }}
+          to="/videos"
+          className={classes.listItem}
+        >
+          <Button href="" color="transparent" className={classes.navLink}>
             <VideoIcon className={classes.icons} /> Videos
-        </Button>
+          </Button>
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink activeStyle={{ 
-            color: '#000000', 
-            background: '#39ff14',
+        <NavLink
+          activeStyle={{
+            color: "#000000",
+            background: "#39ff14",
             borderRadius: "10px",
-           }} to='/blog' className={classes.listItem}>
-          <Button
-            href=""
-            color="transparent"
-            className={classes.navLink}
-          >
+          }}
+          to="/blog"
+          className={classes.listItem}
+        >
+          <Button href="" color="transparent" className={classes.navLink}>
             <FaBlogger className={classes.icons} /> Blog
-        </Button>
+          </Button>
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink activeStyle={{ 
-            color: '#000000', 
-            background: '#39ff14',
+        <NavLink
+          activeStyle={{
+            color: "#000000",
+            background: "#39ff14",
             borderRadius: "10px",
-           }} to='/media' className={classes.listItem}>
-          <Button
-            href=""
-            color="transparent"
-            className={classes.navLink}
-          >
+          }}
+          to="/media"
+          className={classes.listItem}
+        >
+          <Button href="" color="transparent" className={classes.navLink}>
             <FaNewspaper className={classes.icons} /> Media
-        </Button>
+          </Button>
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink activeStyle={{ 
-            color: '#000000', 
-            background: '#39ff14',
+        <NavLink
+          activeStyle={{
+            color: "#000000",
+            background: "#39ff14",
             borderRadius: "10px",
-           }} to='/contact' className={classes.listItem}>
-          <Button
-            href=""
-            color="transparent"
-            className={classes.navLink}
-          >
+          }}
+          to="/contact"
+          className={classes.listItem}
+        >
+          <Button href="" color="transparent" className={classes.navLink}>
             <ContactIcon className={classes.icons} /> Contact
-        </Button>
+          </Button>
         </NavLink>
       </ListItem>
     </List>

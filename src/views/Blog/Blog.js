@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
 
-// nodejs library that concatenates classes
 import classNames from "classnames";
 
-// @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 
@@ -25,7 +23,6 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import HeadShake from "react-reveal/HeadShake";
 
-// @font-awesome/icons
 import {
   FaBloggerB,
   FaPenNib,
@@ -56,9 +53,8 @@ import Snakke from "react-snakke";
 
 const useStyles = makeStyles(styles);
 
-export default function Blog(props) {
+export default function Blog() {
   const classes = useStyles();
-  const { ...rest } = props;
   const logo = (
     <img
       src={srcLogo}
@@ -95,7 +91,6 @@ export default function Blog(props) {
           height: 50,
           color: "neon",
         }}
-        {...rest}
       />
 
       <Parallax image={require("../../assets/img/background.svg")}>
@@ -112,7 +107,7 @@ export default function Blog(props) {
                       delay: 150,
                     }}
                     onInit={(typewriter) => {
-                      typewriter.typeString("~$ BLOG").start();
+                      typewriter.typeString("~$ POLYMATHY").start();
                     }}
                   />
                 </h1>
@@ -759,7 +754,17 @@ export default function Blog(props) {
                     textAlign: "center",
                   }}
                 >
-                  Music, documentaries, movies,{" "}
+                  <a
+                    href="https://www.last.fm/pt/user/danielbrito41"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={classes.externalLink}
+                    style={{ textDecoration: "none", color: "white" }}
+                    title="Last.fm profile"
+                  >
+                    Music
+                  </a>
+                  , documentaries, movies,{" "}
                   <a
                     href="https://myanimelist.net/profile/danielbrito41"
                     target="_blank"
