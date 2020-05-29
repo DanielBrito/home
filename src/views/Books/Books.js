@@ -219,7 +219,7 @@ export default function Books() {
                   It was expected to be published in 2018, but academic issues
                   made such a plan impossible. However, with the experiences of
                   my previous books, the entire process of making it is already
-                  known to me, which will make everything simpler when it comes
+                  known to me, which will turn everything simpler when it comes
                   time to publish it.
                   <br />
                   <br />
@@ -466,7 +466,7 @@ export default function Books() {
                   <br />
                   PROTESTIZANDO comes from the combination of the words
                   PROTESTANDO (protesting) + POETIZANDO (making poetry), because
-                  at the time I created it, in 2014, I mostly talked about
+                  at the time I've created it, in 2014, I mostly talked about
                   subversive themes.
                 </p>
                 <HeadShake>

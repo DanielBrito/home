@@ -254,7 +254,7 @@ export default function About() {
                     style={{ textDecoration: "none", color: "white" }}
                     title="Access"
                   >
-                    lattes curriculum
+                    Lattes curriculum
                   </a>
                   , currently, I'm an intern developing intelligent applications
                   to the health public system management.

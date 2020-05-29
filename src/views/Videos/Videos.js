@@ -260,7 +260,7 @@ export default function Videos() {
                 >
                   Competitive Programming
                 </a>
-                : Evolving through analysis and resolution of challenges.
+                : Evolving through the analysis and resolution of challenges.
               </div>
             </Fade>
           </Grid>
@@ -357,8 +357,7 @@ export default function Videos() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                Using the stop motion technique to create this first animation
-                of the{" "}
+                This first animation of the{" "}
                 <Link
                   to="/projects"
                   style={{ textDecoration: "none" }}
@@ -366,8 +365,8 @@ export default function Videos() {
                   className={classes.externalLink}
                 >
                   Aluminions
-                </Link>
-                .
+                </Link>{" "}
+                was created using the stop motion technique.
               </div>
             </Fade>
           </Grid>
@@ -436,8 +435,8 @@ export default function Videos() {
                 >
                   Sarau do Grajaú
                 </Link>{" "}
-                collective makes a sensitive cut of the so-called poetic scene
-                in the suburb.
+                makes a sensitive cut of the so-called poetic scene in the
+                suburb.
               </div>
             </Fade>
           </Grid>
