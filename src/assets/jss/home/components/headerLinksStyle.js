@@ -1,6 +1,6 @@
 import { defaultFont } from "../../general";
 
-const headerLinksStyle = theme => ({
+const headerLinksStyle = (theme) => ({
   list: {
     ...defaultFont,
     fontSize: "14px",
@@ -9,7 +9,7 @@ const headerLinksStyle = theme => ({
     listStyle: "none",
     paddingTop: "0",
     paddingBottom: "0",
-    color: "#39ff14"
+    color: "#39ff14",
   },
   listItem: {
     float: "left",
@@ -20,34 +20,28 @@ const headerLinksStyle = theme => ({
     width: "auto",
     marginLeft: "3px",
     marginRight: "3px",
-    // marginBottom: "2px",
-    // marginTop: "2px",
     padding: "0",
     [theme.breakpoints.down("sm")]: {
       width: "100%",
       "&:after": {
         width: "calc(100%)",
-        // content: '""',
         display: "block",
-        // height: "0px",
         marginLeft: "15px",
-        backgroundColor: "#e5e5e5"
-      }
+        backgroundColor: "#e5e5e5",
+      },
     },
     [theme.breakpoints.down("md")]: {
       width: "100%",
       "&:after": {
         width: "calc(100%)",
-        // content: '""',
         display: "block",
-        // height: "0px",
         marginLeft: "15px",
-        backgroundColor: "#e5e5e5"
-      }
-    }
+        backgroundColor: "#e5e5e5",
+      },
+    },
   },
   listItemText: {
-    padding: "0 !important"
+    padding: "0 !important",
   },
   navLink: {
     color: "inherit",
@@ -59,34 +53,30 @@ const headerLinksStyle = theme => ({
     borderRadius: "10px",
     lineHeight: "20px",
     textDecoration: "none",
-    // marginTop: "5px",
-    // marginBottom: "5px",
     display: "block",
     "&:hover,&:focus": {
       color: "#000000",
       background: "#39ff14",
-      boxShadow: "0px 0px 5px #39ff14;"  /* bright */
+      boxShadow: "0px 0px 5px #39ff14;" /* bright */,
     },
     [theme.breakpoints.down("sm")]: {
       width: "calc(100%)",
-      // marginLeft: "15px",
       marginBottom: "3px",
       marginTop: "3px",
       textAlign: "left",
       "& > span:first-child": {
-        justifyContent: "flex-start"
-      }
+        justifyContent: "flex-start",
+      },
     },
     [theme.breakpoints.down("md")]: {
       width: "calc(100%)",
-      // marginLeft: "15px",
       marginBottom: "3px",
       marginTop: "3px",
       textAlign: "left",
       "& > span:first-child": {
-        justifyContent: "flex-start"
-      }
-    }
+        justifyContent: "flex-start",
+      },
+    },
   },
   notificationNavLink: {
     color: "inherit",
@@ -98,7 +88,7 @@ const headerLinksStyle = theme => ({
     textDecoration: "none",
     margin: "0px",
     display: "inline-flex",
-    top: "4px"
+    top: "4px",
   },
   registerNavLink: {
     top: "3px",
@@ -109,13 +99,13 @@ const headerLinksStyle = theme => ({
     lineHeight: "20px",
     textDecoration: "none",
     margin: "0px",
-    display: "inline-flex"
+    display: "inline-flex",
   },
   navLinkActive: {
     color: "#39ff14",
     position: "relative",
     background: "#000000",
-    boxShadow: "0px 0px 5px #39ff14;",  /* bright */
+    boxShadow: "0px 0px 5px #39ff14;" /* bright */,
     padding: "0.9375rem",
     fontWeight: "bold",
     fontSize: "12px",
@@ -129,7 +119,7 @@ const headerLinksStyle = theme => ({
     "&:hover,&:focus": {
       color: "#39ff14",
       background: "#39ff1433",
-      boxShadow: "0px 0px 5px #39ff14;",  /* bright */
+      boxShadow: "0px 0px 5px #39ff14;" /* bright */,
     },
     [theme.breakpoints.down("sm")]: {
       width: "calc(100% - 10px)",
@@ -138,37 +128,31 @@ const headerLinksStyle = theme => ({
       marginTop: "5px",
       textAlign: "left",
       "& > span:first-child": {
-        justifyContent: "flex-start"
-      }
-    }
-    // color: "#FFFF",
-    // padding: "0.9375rem",
-    // fontWeight: "bold",
-    // borderRadius: "10px",
-    // backgroundColor: "rgba(20, 255, 20, 0.5)",
-    // boxShadow: "0px 0px 10px #39ff14;"  /* bright */
+        justifyContent: "flex-start",
+      },
+    },
   },
   icons: {
     width: "20px",
     height: "20px",
-    marginRight: "5px"
+    marginRight: "5px",
   },
   socialIcons: {
     position: "relative",
     fontSize: "20px !important",
-    marginRight: "4px"
+    marginRight: "4px",
   },
   dropdownLink: {
     "&,&:hover,&:focus": {
       color: "inherit",
       textDecoration: "none",
       display: "block",
-      padding: "10px 20px"
-    }
+      padding: "10px 20px",
+    },
   },
   marginRight5: {
-    marginRight: "5px"
-  }
+    marginRight: "5px",
+  },
 });
 
 export default headerLinksStyle;

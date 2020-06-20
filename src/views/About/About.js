@@ -23,7 +23,7 @@ import imgEducationWork from "../../assets/img/about/brito.gif";
 import imgProjects from "../../assets/img/about/observar-absorver-alessa-melo.gif";
 import imgInterests from "../../assets/img/about/insight.gif";
 
-import Particles from "react-particles-js";
+import Stars from "../../components/Stars/Stars";
 import Typewriter from "typewriter-effect";
 
 import Zoom from "react-reveal/Zoom";
@@ -106,71 +106,7 @@ export default function About() {
         </div>
       </Parallax>
 
-      <Particles
-        id="particles-js"
-        params={{
-          particles: {
-            number: {
-              value: 200,
-              density: {
-                enable: false,
-              },
-            },
-            size: {
-              value: 3,
-              random: true,
-              anim: {
-                speed: 3,
-                size_min: 0.3,
-              },
-            },
-            line_linked: {
-              enable: false,
-            },
-            move: {
-              random: true,
-              speed: 0.1,
-              direction: "top",
-              out_mode: "out",
-            },
-          },
-          interactivity: {
-            events: {
-              onhover: {
-                enable: true,
-                mode: "bubble",
-              },
-              onclick: {
-                enable: true,
-                mode: "repulse",
-              },
-            },
-            modes: {
-              bubble: {
-                distance: 250,
-                duration: 2,
-                size: 0,
-                opacity: 0,
-              },
-              repulse: {
-                distance: 400,
-                duration: 4,
-              },
-            },
-          },
-        }}
-        style={{
-          backgroundColor: "#000000",
-          opacity: 1,
-          float: "left",
-          left: 0,
-          top: 0,
-          position: "fixed",
-          width: "100%",
-          height: "100%",
-          zIndex: "-1",
-        }}
-      />
+      <Stars />
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Grid
@@ -234,7 +170,7 @@ export default function About() {
                   Federal University of Ceará (UFC), where I've gotten some
                   scholarships to work on projects in the fields of mobile and
                   web development, computer graphics, and education. As
-                  described on my{" "}
+                  described in my{" "}
                   <a
                     href="https://drive.google.com/file/d/1bOFjCfhoyabvcZ7LXf5T3EtY9h6umsaR/view"
                     target="_blank"
@@ -256,8 +192,19 @@ export default function About() {
                   >
                     Lattes curriculum
                   </a>
-                  , currently, I'm an intern developing intelligent applications
-                  to the health public system management.
+                  , I'm an intern developing intelligent applications to the
+                  health public system management. I'm also a member of{" "}
+                  <a
+                    href="https://github.com/GEMP-UFC-Crateus"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={classes.externalLink}
+                    style={{ textDecoration: "none", color: "white" }}
+                    title="More"
+                  >
+                    GEMP
+                  </a>
+                  , a group of studies for the SBC Programming Marathon.
                 </p>
               </div>
             </Fade>

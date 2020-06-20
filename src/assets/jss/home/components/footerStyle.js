@@ -1,4 +1,4 @@
-import { container, primaryColor } from "../../general";
+import { container } from "../../general";
 
 const footerStyle = {
   block: {
@@ -10,16 +10,16 @@ const footerStyle = {
     borderRadius: "3px",
     textDecoration: "none",
     position: "relative",
-    display: "block"
+    display: "block",
   },
   left: {
     float: "left!important",
-    display: "block"
+    display: "block",
   },
   right: {
     padding: "15px 0",
     margin: "0",
-    float: "right!important"
+    float: "right!important",
   },
   footer: {
     padding: "0.9375rem 0",
@@ -31,31 +31,31 @@ const footerStyle = {
     height: "40px",
   },
   a: {
-    color: primaryColor,
+    color: "#39ff14",
     textDecoration: "none",
-    backgroundColor: "transparent"
+    backgroundColor: "transparent",
   },
   footerWhiteFont: {
     "&,&:hover,&:focus": {
-      color: "#FFFFFF"
-    }
+      color: "#FFFFFF",
+    },
   },
   container,
   list: {
     marginBottom: "0",
     padding: "0",
-    marginTop: "0"
+    marginTop: "0",
   },
   inlineBlock: {
     display: "inline-block",
     padding: "0px",
-    width: "auto"
+    width: "auto",
   },
   icon: {
     width: "18px",
     height: "18px",
     position: "relative",
-    top: "3px"
-  }
+    top: "3px",
+  },
 };
 export default footerStyle;

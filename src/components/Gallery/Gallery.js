@@ -3,7 +3,7 @@ import Lightbox from "react-image-lightbox";
 
 import { FaPlay } from "react-icons/fa";
 
-import "react-image-lightbox/style.css"; // This only needs to be imported once in your app
+import "react-image-lightbox/style.css"; // This only needs to be imported once
 
 import Button from "../../components/CustomButtons/Button";
 
@@ -196,7 +196,6 @@ export default class Gallery extends Component {
 
   render() {
     const { photoIndex, isOpen } = this.state;
-
     return (
       <div>
         <HeadShake>

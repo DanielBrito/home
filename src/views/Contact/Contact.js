@@ -12,6 +12,7 @@ import Footer from "../../components/Footer/Footer";
 import GridContainer from "../../components/Grid/GridContainer";
 import GridItem from "../../components/Grid/GridItem";
 import Parallax from "../../components/Parallax/Parallax";
+import Stars from "../../components/Stars/Stars";
 
 import styles from "../../assets/jss/home/views/home.js";
 
@@ -35,7 +36,6 @@ import {
 import imgContact from "../../assets/img/contact/message.jpg";
 import imgSocialNetworks from "../../assets/img/contact/social_networks.jpg";
 
-import Particles from "react-particles-js";
 import Typewriter from "typewriter-effect";
 
 import Zoom from "react-reveal/Zoom";
@@ -110,71 +110,7 @@ export default function Media() {
         </div>
       </Parallax>
 
-      <Particles
-        id="particles-js"
-        params={{
-          particles: {
-            number: {
-              value: 200,
-              density: {
-                enable: false,
-              },
-            },
-            size: {
-              value: 3,
-              random: true,
-              anim: {
-                speed: 3,
-                size_min: 0.3,
-              },
-            },
-            line_linked: {
-              enable: false,
-            },
-            move: {
-              random: true,
-              speed: 0.1,
-              direction: "top",
-              out_mode: "out",
-            },
-          },
-          interactivity: {
-            events: {
-              onhover: {
-                enable: true,
-                mode: "bubble",
-              },
-              onclick: {
-                enable: true,
-                mode: "repulse",
-              },
-            },
-            modes: {
-              bubble: {
-                distance: 250,
-                duration: 2,
-                size: 0,
-                opacity: 0,
-              },
-              repulse: {
-                distance: 400,
-                duration: 4,
-              },
-            },
-          },
-        }}
-        style={{
-          backgroundColor: "#000000",
-          opacity: 1,
-          float: "left",
-          left: 0,
-          top: 0,
-          position: "fixed",
-          width: "100%",
-          height: "100%",
-          zIndex: "-1",
-        }}
-      />
+      <Stars />
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Grid
