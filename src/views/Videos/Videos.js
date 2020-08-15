@@ -362,14 +362,14 @@ export default function Videos() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                This documentary produced by{" "}
+                This documentary, produced by{" "}
                 <Link
                   to="/projects"
                   style={{ textDecoration: "none" }}
                   title="More"
                   className={classes.externalLink}
                 >
-                  Sarau do Grajaú
+                  Sarau do Grajaú,
                 </Link>{" "}
                 makes a sensitive cut of the so-called poetic scene in the
                 suburb.

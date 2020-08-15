@@ -115,7 +115,7 @@ export default function Home() {
               <Zoom>
                 <img
                   src={imgPinacograma}
-                  alt="Learn"
+                  alt="Daniel Brito Pinacograma"
                   width="100%"
                   style={{ borderRadius: "10px" }}
                 ></img>
@@ -232,7 +232,7 @@ export default function Home() {
                 <Zoom>
                   <img
                     src={imgSophia}
-                    alt="Learn"
+                    alt="Daniel Brito Sarau"
                     width="100%"
                     style={{
                       borderRadius: "10px",
@@ -316,7 +316,7 @@ export default function Home() {
               <Zoom>
                 <img
                   src={imgAntonioMiotto}
-                  alt="Learn"
+                  alt="Daniel Brito Sarau"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -398,7 +398,7 @@ export default function Home() {
               <Zoom>
                 <img
                   src={imgEdileneSantos}
-                  alt="Learn"
+                  alt="Daniel Brito Sarau"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -478,7 +478,7 @@ export default function Home() {
               <Zoom>
                 <img
                   src={imgLessioCardoso}
-                  alt="Learn"
+                  alt="Daniel Brito Sarau"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -560,7 +560,7 @@ export default function Home() {
               <Zoom>
                 <img
                   src={imgCasulo}
-                  alt="Learn"
+                  alt="Daniel Brito Sarau"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>

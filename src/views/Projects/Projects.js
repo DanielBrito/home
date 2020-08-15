@@ -37,8 +37,10 @@ import {
   FaTshirt,
   FaPalette,
   FaGlobe,
+  FaFire,
 } from "react-icons/fa";
 
+import imgFireTasks from "../../assets/img/projects/fire-tasks.jpg";
 import imgCompixelar from "../../assets/img/projects/compixelar.jpg";
 import imgHaLugar from "../../assets/img/projects/ha-lugar.jpg";
 import imgPolymApp from "../../assets/img/projects/polymapp.jpg";
@@ -126,7 +128,7 @@ export default function Projects() {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Grid
-          id={"compixelar"}
+          id={"fire-tasks"}
           container
           spacing={5}
           justify="center"
@@ -137,8 +139,76 @@ export default function Projects() {
             <div>
               <Zoom>
                 <img
+                  src={imgFireTasks}
+                  alt="Fire Tasks Logo"
+                  width="100%"
+                  style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
+                ></img>
+              </Zoom>
+            </div>
+          </Grid>
+          <Grid item lg={7}>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1
+                  style={{
+                    color: "#FFFFFF",
+                    textAlign: "center",
+                    marginTop: "0px",
+                  }}
+                >
+                  FIRE TASKS
+                </h1>
+                <p
+                  style={{
+                    color: "#FFFFFF",
+                    fontSize: "16px",
+                    textAlign: "justify",
+                  }}
+                >
+                  Fire Tasks is an application for task management, which allows
+                  the user to register and list the activities to be performed
+                  on a given day, as well as edit, remove, and order based on
+                  priority. It was developed using ReactJS, Styled Components
+                  and Firestore, for educational purposes.
+                </p>
+                <HeadShake>
+                  <Button
+                    color="neon"
+                    round
+                    style={{ marginTop: "20px" }}
+                    size="md"
+                    href="https://github.com/DanielBrito/fire-tasks"
+                    target="_blank"
+                    title="Access repository"
+                  >
+                    <FaFire
+                      className={classes.icons}
+                      style={{ marginRight: "5px" }}
+                    />{" "}
+                    MORE
+                  </Button>
+                </HeadShake>
+              </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid
+          id={"compixelar"}
+          container
+          spacing={5}
+          justify="center"
+          alignItems="center"
+          direction="row-reverse"
+          style={{ marginTop: "50px", marginBottom: "50px" }}
+        >
+          <Grid item lg={5}>
+            <div>
+              <Zoom>
+                <img
                   src={imgCompixelar}
-                  alt="Learn"
+                  alt="Compixelar Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -202,7 +272,6 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -210,7 +279,7 @@ export default function Projects() {
               <Zoom>
                 <img
                   src={imgHaLugar}
-                  alt="Learn"
+                  alt="HáLugar Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -270,6 +339,7 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -277,7 +347,7 @@ export default function Projects() {
               <Zoom>
                 <img
                   src={imgPolymApp}
-                  alt="Learn"
+                  alt="PolymApp Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -304,11 +374,11 @@ export default function Projects() {
                   }}
                 >
                   PolymApp is a personal management tool to control readings and
-                  studies, make long-term activity plans, budget to measure
-                  expenses, list ongoing and future projects, and other
-                  features. The name is inspired by the term polymath, which
-                  refers to an individual whose knowledge covers a significant
-                  number of subjects.
+                  studies, make long-term plans, budget to measure expenses,
+                  list ongoing and future projects, and other features. The name
+                  is inspired by the term <em>polymath</em>, which refers to an
+                  individual whose knowledge covers a significant number of
+                  subjects.
                 </p>
                 <HeadShake>
                   <Button
@@ -338,7 +408,6 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -346,7 +415,7 @@ export default function Projects() {
               <Zoom>
                 <img
                   src={imgCelerebro}
-                  alt="Learn"
+                  alt="Célerebro Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -408,6 +477,7 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -415,7 +485,7 @@ export default function Projects() {
               <Zoom>
                 <img
                   src={imgSarauDoGrajau}
-                  alt="Learn"
+                  alt="Sarau do Grajaú Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -476,7 +546,6 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -484,7 +553,7 @@ export default function Projects() {
               <Zoom>
                 <img
                   src={imgConcretagens}
-                  alt="Learn"
+                  alt="Concretagens Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -544,6 +613,7 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -551,7 +621,7 @@ export default function Projects() {
               <Zoom>
                 <img
                   src={imgSocrastickers}
-                  alt="Learn"
+                  alt="Socrastickers Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -613,7 +683,6 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -621,7 +690,7 @@ export default function Projects() {
               <Zoom>
                 <img
                   src={imgAluminions}
-                  alt="Learn"
+                  alt="Aluminions Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -682,6 +751,7 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -689,7 +759,7 @@ export default function Projects() {
               <Zoom>
                 <img
                   src={imgForaDaCaixa}
-                  alt="Learn"
+                  alt="Fora da Caixa Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -715,13 +785,13 @@ export default function Projects() {
                     textAlign: "center",
                   }}
                 >
-                  I play making art
+                  i play making art
                   <br />
                   the inspiration
                   <br />
                   always finds me
                   <br />
-                  then I put my ideas
+                  then i put my ideas
                   <br />
                   all
                   <br />
@@ -755,7 +825,6 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -763,7 +832,7 @@ export default function Projects() {
               <Zoom>
                 <img
                   src={imgAntigrife}
-                  alt="Learn"
+                  alt="Antigr1f3 Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -824,6 +893,7 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "50px" }}
         >
           <Grid item lg={5}>
@@ -831,7 +901,7 @@ export default function Projects() {
               <Zoom>
                 <img
                   src={imgGaleriaMarginal}
-                  alt="Learn"
+                  alt="Galeria Marginal Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -892,7 +962,6 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "50px" }}
         >
           <Grid item lg={5}>
@@ -900,7 +969,7 @@ export default function Projects() {
               <Zoom>
                 <img
                   src={imgFirstSite}
-                  alt="Learn"
+                  alt="Daniel Brito Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>

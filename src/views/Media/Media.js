@@ -117,7 +117,7 @@ export default function Media() {
               <Zoom>
                 <img
                   src={imgUFC}
-                  alt="Learn"
+                  alt="Daniel Brito UFC HáLugar"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -170,7 +170,7 @@ export default function Media() {
                     round
                     style={{ marginTop: "20px" }}
                     size="md"
-                    href="http://crateus.ufc.br/estudante-de-ciencia-da-computacao-desenvolve-aplicativo-para-quem-deseja-compartilhar-moradia/"
+                    href="http://crateus.ufc.br/cc/2020/03/01/estudante-de-ciencia-da-computacao-desenvolve-aplicativo-para-quem-deseja-compartilhar-moradia/"
                     target="_blank"
                     title="Read full article"
                   >
@@ -199,7 +199,7 @@ export default function Media() {
               <Zoom>
                 <img
                   src={imgPortalSertoes}
-                  alt="Learn"
+                  alt="Daniel Brito Portal Sertões HáLugar"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>

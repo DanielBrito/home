@@ -125,7 +125,7 @@ export default function Media() {
               <Zoom>
                 <img
                   src={imgContact}
-                  alt="Learn"
+                  alt="Daniel Brito Contact"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -203,7 +203,7 @@ export default function Media() {
               <Zoom>
                 <img
                   src={imgSocialNetworks}
-                  alt="Learn"
+                  alt="Daniel Brito Social Networks"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>

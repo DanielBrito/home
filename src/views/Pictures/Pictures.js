@@ -145,7 +145,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img0}
-                alt="Learn"
+                alt="Daniel Brito Sarau"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -156,7 +156,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img1}
-                alt="Learn"
+                alt="Aluminion"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -167,7 +167,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img2}
-                alt="Learn"
+                alt="Daniel Brito Books"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -178,7 +178,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img3}
-                alt="Learn"
+                alt="Daniel Brito Sarau"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -189,7 +189,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img4}
-                alt="Learn"
+                alt="Grajaú em Foco"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -200,7 +200,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img5}
-                alt="Learn"
+                alt="Daniel Brito Poem"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -211,7 +211,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img6}
-                alt="Learn"
+                alt="Daniel Brito Concrete Poetry"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -222,7 +222,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img7}
-                alt="Learn"
+                alt="Daniel Brito Concrete Poetry"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -233,7 +233,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img8}
-                alt="Learn"
+                alt="Daniel Brito"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -244,7 +244,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img9}
-                alt="Learn"
+                alt="Daniel Brito Poem"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -255,7 +255,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img10}
-                alt="Learn"
+                alt="HáLugar app"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -266,7 +266,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img11}
-                alt="Learn"
+                alt="Daniel Brito Concrete Poetry"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -277,7 +277,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img12}
-                alt="Learn"
+                alt="Daniel Brito"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -299,7 +299,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img14}
-                alt="Learn"
+                alt="Daniel Brito Books"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -310,7 +310,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img15}
-                alt="Learn"
+                alt="Daniel Brito Poem"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -321,7 +321,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img16}
-                alt="Learn"
+                alt="Daniel Brito Chess"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -332,7 +332,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img17}
-                alt="Learn"
+                alt="Daniel Brito Draw"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -343,7 +343,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img18}
-                alt="Learn"
+                alt="Daniel Brito Book Release"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -354,7 +354,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img19}
-                alt="Learn"
+                alt="Aluminion Compixelar"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -365,7 +365,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img20}
-                alt="Learn"
+                alt="Daniel Brito Poem"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -376,7 +376,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img21}
-                alt="Learn"
+                alt="Fora da Caixa"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -398,7 +398,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img23}
-                alt="Learn"
+                alt="Daniel Brito Skate Cruiser"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -409,7 +409,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img24}
-                alt="Learn"
+                alt="Daniel Brito BMX"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -420,7 +420,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img25}
-                alt="Learn"
+                alt="Concrete Poetry exhibition"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -431,7 +431,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img26}
-                alt="Learn"
+                alt="Concrete poetry lecture"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -442,7 +442,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img27}
-                alt="Learn"
+                alt="Daniel Brito Poem"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -453,7 +453,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img28}
-                alt="Learn"
+                alt="Antigr1f3 T-shirt"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -464,7 +464,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img29}
-                alt="Learn"
+                alt="Daniel Brito sandboarding"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -475,7 +475,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img30}
-                alt="Learn"
+                alt="Aluminions exhibition"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -486,7 +486,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img31}
-                alt="Learn"
+                alt="Daniel Brito sarau"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -497,7 +497,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img32}
-                alt="Learn"
+                alt="Daniel Brito Socrasticker"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -508,7 +508,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img33}
-                alt="Learn"
+                alt="Daniel Brito book release"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -519,7 +519,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img34}
-                alt="Learn"
+                alt="Daniel Brito slam"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -530,7 +530,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img35}
-                alt="Learn"
+                alt="Daniel Brito poem"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -541,7 +541,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img36}
-                alt="Learn"
+                alt="Daniel Brito sarau"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -552,7 +552,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img37}
-                alt="Learn"
+                alt="Daniel Brito exhibition"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -563,7 +563,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img38}
-                alt="Learn"
+                alt="Daniel Brito sarau"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -574,7 +574,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img39}
-                alt="Learn"
+                alt="Socrasticker"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -585,7 +585,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img40}
-                alt="Learn"
+                alt="Daniel Brito Slam"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -596,7 +596,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img41}
-                alt="Learn"
+                alt="Daniel Brito sarau"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -607,7 +607,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img42}
-                alt="Learn"
+                alt="Daniel Brito slam"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>
@@ -618,7 +618,7 @@ export default function Pictures() {
             <div>
               <img
                 src={img43}
-                alt="Learn"
+                alt="Veggie Aluminion"
                 width="100%"
                 style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
               ></img>

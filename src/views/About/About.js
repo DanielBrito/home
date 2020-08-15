@@ -121,7 +121,7 @@ export default function About() {
               <Zoom>
                 <img
                   src={imgEducationWork}
-                  alt="Learn"
+                  alt="Daniel Brito Tech Gif"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -224,7 +224,7 @@ export default function About() {
               <Zoom>
                 <img
                   src={imgProjects}
-                  alt="Learn"
+                  alt="Daniel Brito Gif"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -350,7 +350,7 @@ export default function About() {
                   >
                     SARAU DO GRAJAÚ
                   </Link>{" "}
-                  collective, which produced a documentary called{" "}
+                  collective, which produced the documentary{" "}
                   <Link
                     to="/videos"
                     style={{ textDecoration: "none" }}
@@ -369,8 +369,7 @@ export default function About() {
                   >
                     PROTESTIZANDO
                   </Link>{" "}
-                  (2015) independently, which compiles my first poems. I
-                  published the book{" "}
+                  (2015), which compiles my first poems. I published the book{" "}
                   <Link
                     to="/books"
                     style={{ textDecoration: "none" }}
@@ -379,9 +378,9 @@ export default function About() {
                   >
                     A LER VAZIOS
                   </Link>{" "}
-                  (2016) independently, which includes some of my poetic and
-                  visual experiments. I've also been published in several
-                  anthologies with other marginal authors.
+                  (2016), which includes some of my poetic and visual
+                  experiments. I've also been published in several anthologies
+                  with other marginal authors.
                   <br />
                   <br />
                   As an inborn scientist and visual artist, I focus my research
@@ -419,7 +418,7 @@ export default function About() {
               <Zoom>
                 <img
                   src={imgInterests}
-                  alt="Learn"
+                  alt="Daniel Brito Gif"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>

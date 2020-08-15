@@ -133,7 +133,7 @@ export default function Blog() {
               <Zoom>
                 <img
                   src={imgPolymatus}
-                  alt="Learn"
+                  alt="Polymatus Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -196,7 +196,7 @@ export default function Blog() {
               <Zoom>
                 <img
                   src={imgPoems}
-                  alt="Learn"
+                  alt="Daniel Brito Poems"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -268,7 +268,7 @@ export default function Blog() {
               <Zoom>
                 <img
                   src={imgArticles}
-                  alt="Learn"
+                  alt="Newspaper"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -331,7 +331,7 @@ export default function Blog() {
               <Zoom>
                 <img
                   src={imgReadings}
-                  alt="Learn"
+                  alt="Daniel Brito books"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -404,7 +404,7 @@ export default function Blog() {
               <Zoom>
                 <img
                   src={imgReflections}
-                  alt="Learn"
+                  alt="Daniel Brito Reflection"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -467,7 +467,7 @@ export default function Blog() {
               <Zoom>
                 <img
                   src={imgResearches}
-                  alt="Learn"
+                  alt="Research"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -529,7 +529,7 @@ export default function Blog() {
               <Zoom>
                 <img
                   src={imgDrawings}
-                  alt="Learn"
+                  alt="Daniel Brito Draw"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -603,7 +603,7 @@ export default function Blog() {
               <Zoom>
                 <img
                   src={imgChallenges}
-                  alt="Learn"
+                  alt="Daniel Brito magazines"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -665,7 +665,7 @@ export default function Blog() {
               <Zoom>
                 <img
                   src={imgAudioVisual}
-                  alt="Learn"
+                  alt="Daniel Brito favorite artists"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -749,7 +749,7 @@ export default function Blog() {
               <Zoom>
                 <img
                   src={imgEvents}
-                  alt="Learn"
+                  alt="Daniel Brito events"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>

@@ -119,7 +119,7 @@ export default function Books() {
               <Zoom>
                 <img
                   src={imgNoRitmoDeAlgo}
-                  alt="Learn"
+                  alt="Daniel Brito - No Ritmo de Algo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -200,7 +200,7 @@ export default function Books() {
               <Zoom>
                 <img
                   src={imgALerVazios}
-                  alt="Learn"
+                  alt="Daniel Brito - A Ler Vazios"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -280,7 +280,7 @@ export default function Books() {
               <Zoom>
                 <img
                   src={imgProtestizando}
-                  alt="Learn"
+                  alt="Daniel Brito - Protestizando"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -360,7 +360,7 @@ export default function Books() {
               <Zoom>
                 <img
                   src={imgZine}
-                  alt="Learn"
+                  alt="Daniel Brito - Zines"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -402,7 +402,7 @@ export default function Books() {
                   <br />
                   PROTESTIZANDO comes from the combination of the words
                   PROTESTANDO (protesting) + POETIZANDO (making poetry), because
-                  at the time I've created it, in 2014, I mostly talked about
+                  at the time I created it, in 2014, I mostly talked about
                   subversive themes.
                 </p>
                 <HeadShake>
