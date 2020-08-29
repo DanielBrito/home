@@ -105,6 +105,40 @@ export default function Videos() {
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <ReactPlayer
                 width="100%"
+                url="https://www.youtube.com/playlist?list=PLckh4uyjCOmgV4vtHXVed1X4N04-ah0Ev"
+              />
+            </div>
+          </Grid>
+          <Grid item lg={5}>
+            <Fade>
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                Compiling art through{" "}
+                <Link
+                  to="/projects"
+                  style={{ textDecoration: "none" }}
+                  title="More"
+                  className={classes.externalLink}
+                >
+                  creative coding
+                </Link>{" "}
+                experiments.
+              </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid
+          container
+          spacing={5}
+          justify="center"
+          alignItems="center"
+          direction="row-reverse"
+          style={{ marginBottom: "30px" }}
+        >
+          <Grid item lg={7}>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+              <ReactPlayer
+                width="100%"
                 url="https://www.youtube.com/watch?v=9wHZYrn7aEE"
               />
             </div>
@@ -132,7 +166,6 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
@@ -169,6 +202,7 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
@@ -182,21 +216,24 @@ export default function Videos() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                <a
-                  href="https://github.com/DanielBrito/competitive-programming"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={classes.contactLink}
-                  style={{
-                    textDecoration: "none",
-                    fontWeight: "bold",
-                    color: "white",
-                  }}
-                  title="Access repository"
-                >
-                  Competitive Programming
-                </a>
-                : Evolving through the analysis and resolution of challenges.
+                Evolving through the analysis and resolution of challenges from{" "}
+                <em>
+                  <a
+                    href="https://github.com/DanielBrito/competitive-programming"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={classes.contactLink}
+                    style={{
+                      textDecoration: "none",
+                      fontWeight: "bold",
+                      color: "white",
+                    }}
+                    title="Access repository"
+                  >
+                    competitive programming
+                  </a>
+                  .
+                </em>
               </div>
             </Fade>
           </Grid>
@@ -207,7 +244,6 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
@@ -221,20 +257,22 @@ export default function Videos() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                <a
-                  href="https://github.com/DanielBrito/videos-youtube"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={classes.contactLink}
-                  style={{
-                    textDecoration: "none",
-                    fontWeight: "bold",
-                    color: "white",
-                  }}
-                  title="Access repository"
-                >
-                  Programming Fundamentals
-                </a>{" "}
+                <em>
+                  <a
+                    href="https://github.com/DanielBrito/videos-youtube"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={classes.contactLink}
+                    style={{
+                      textDecoration: "none",
+                      fontWeight: "bold",
+                      color: "white",
+                    }}
+                    title="Access repository"
+                  >
+                    Programming fundamentals
+                  </a>
+                </em>{" "}
                 applied in practical scenarios.
               </div>
             </Fade>
@@ -246,6 +284,7 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
@@ -279,7 +318,6 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
@@ -313,6 +351,7 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
@@ -348,7 +387,6 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "30px" }}
         >
           <Grid item lg={7}>
