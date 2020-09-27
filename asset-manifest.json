@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/home/static/css/main.d9e1818c.chunk.css",
-    "main.js": "/home/static/js/main.80148a7a.chunk.js",
-    "main.js.map": "/home/static/js/main.80148a7a.chunk.js.map",
+    "main.js": "/home/static/js/main.6644fc35.chunk.js",
+    "main.js.map": "/home/static/js/main.6644fc35.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.68cf1828.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.68cf1828.js.map",
     "static/css/2.9522b9fe.chunk.css": "/home/static/css/2.9522b9fe.chunk.css",
-    "static/js/2.27bd3f16.chunk.js": "/home/static/js/2.27bd3f16.chunk.js",
-    "static/js/2.27bd3f16.chunk.js.map": "/home/static/js/2.27bd3f16.chunk.js.map",
+    "static/js/2.34bda1d0.chunk.js": "/home/static/js/2.34bda1d0.chunk.js",
+    "static/js/2.34bda1d0.chunk.js.map": "/home/static/js/2.34bda1d0.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.2e9648bc76ca50130db08edfc5ffb1cf.js": "/home/precache-manifest.2e9648bc76ca50130db08edfc5ffb1cf.js",
+    "precache-manifest.85a735d2b056ae69753cc956864039ec.js": "/home/precache-manifest.85a735d2b056ae69753cc956864039ec.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/2.9522b9fe.chunk.css.map": "/home/static/css/2.9522b9fe.chunk.css.map",
     "static/css/main.d9e1818c.chunk.css.map": "/home/static/css/main.d9e1818c.chunk.css.map",
-    "static/js/2.27bd3f16.chunk.js.LICENSE.txt": "/home/static/js/2.27bd3f16.chunk.js.LICENSE.txt",
+    "static/js/2.34bda1d0.chunk.js.LICENSE.txt": "/home/static/js/2.34bda1d0.chunk.js.LICENSE.txt",
     "static/media/a-ler-vazios-capa.jpg": "/home/static/media/a-ler-vazios-capa.efe9ad5e.jpg",
     "static/media/aluminions.jpg": "/home/static/media/aluminions.e3932355.jpg",
     "static/media/antigrife.jpg": "/home/static/media/antigrife.711031f7.jpg",
@@ -98,14 +98,14 @@
     "static/media/sobrenome-liberdade-alessa-melo.jpg": "/home/static/media/sobrenome-liberdade-alessa-melo.5f988aaf.jpg",
     "static/media/social_networks.jpg": "/home/static/media/social_networks.33843bee.jpg",
     "static/media/socrastickers.jpg": "/home/static/media/socrastickers.b7778737.jpg",
-    "static/media/teorema-poesia-visual-alessa-melo.jpg": "/home/static/media/teorema-poesia-visual-alessa-melo.76957f9c.jpg",
+    "static/media/teorema-poesia-visual-alessa-melo.jpg": "/home/static/media/teorema-poesia-visual-alessa-melo.f2d73c0b.jpg",
     "static/media/zine_capa.jpg": "/home/static/media/zine_capa.b4bfc00f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.68cf1828.js",
     "static/css/2.9522b9fe.chunk.css",
-    "static/js/2.27bd3f16.chunk.js",
+    "static/js/2.34bda1d0.chunk.js",
     "static/css/main.d9e1818c.chunk.css",
-    "static/js/main.80148a7a.chunk.js"
+    "static/js/main.6644fc35.chunk.js"
   ]
 }

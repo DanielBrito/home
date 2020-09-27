@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aca28d75127a7d03a7c7b99c8d12f787",
+    "revision": "6ea044cee9adce9f5801797a028db517",
     "url": "/home/index.html"
   },
   {
-    "revision": "1493c81c2c92ec7b89ee",
+    "revision": "36733477ba748e98fe71",
     "url": "/home/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "9359ed7e4042a6d38cb0",
+    "revision": "63fd8a4e598d662a3da1",
     "url": "/home/static/css/main.d9e1818c.chunk.css"
   },
   {
-    "revision": "1493c81c2c92ec7b89ee",
-    "url": "/home/static/js/2.27bd3f16.chunk.js"
+    "revision": "36733477ba748e98fe71",
+    "url": "/home/static/js/2.34bda1d0.chunk.js"
   },
   {
     "revision": "213bca7ce55773509172dbee394af2a1",
-    "url": "/home/static/js/2.27bd3f16.chunk.js.LICENSE.txt"
+    "url": "/home/static/js/2.34bda1d0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9359ed7e4042a6d38cb0",
-    "url": "/home/static/js/main.80148a7a.chunk.js"
+    "revision": "63fd8a4e598d662a3da1",
+    "url": "/home/static/js/main.6644fc35.chunk.js"
   },
   {
     "revision": "9a21ece79eae19b95cd8",
@@ -364,8 +364,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/media/socrastickers.b7778737.jpg"
   },
   {
-    "revision": "76957f9c82252f8a3e10b86038ddc42b",
-    "url": "/home/static/media/teorema-poesia-visual-alessa-melo.76957f9c.jpg"
+    "revision": "f2d73c0b6bd0ea172c9af78e579a2551",
+    "url": "/home/static/media/teorema-poesia-visual-alessa-melo.f2d73c0b.jpg"
   },
   {
     "revision": "b4bfc00f8552c6dcb10e67ccc9377e96",
