@@ -105,6 +105,41 @@ export default function Videos() {
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
               <ReactPlayer
                 width="100%"
+                url="https://www.youtube.com/playlist?list=PLckh4uyjCOmhoNX55YHSDAlVW6cRjkwT_"
+              />
+            </div>
+          </Grid>
+          <Grid item lg={5}>
+            <Fade>
+              <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+                Tutorial to build{" "}
+                <Link
+                  to="/projects"
+                  style={{ textDecoration: "none" }}
+                  title="More"
+                  className={classes.externalLink}
+                >
+                  Fire Tasks
+                </Link>
+                , an awesome to-do list application using ReactJS, Styled
+                Components and Firestore.
+              </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid
+          container
+          spacing={5}
+          justify="center"
+          alignItems="center"
+          direction="row-reverse"
+          style={{ marginTop: "30px", marginBottom: "30px" }}
+        >
+          <Grid item lg={7}>
+            <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
+              <ReactPlayer
+                width="100%"
                 url="https://www.youtube.com/playlist?list=PLckh4uyjCOmgV4vtHXVed1X4N04-ah0Ev"
               />
             </div>
@@ -132,8 +167,7 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
-          style={{ marginBottom: "30px" }}
+          style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
             <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
@@ -166,6 +200,7 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
@@ -202,7 +237,6 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
@@ -244,6 +278,7 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
@@ -284,7 +319,6 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
@@ -318,6 +352,7 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
@@ -351,7 +386,6 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "30px", marginBottom: "30px" }}
         >
           <Grid item lg={7}>
@@ -387,6 +421,7 @@ export default function Videos() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "30px" }}
         >
           <Grid item lg={7}>
