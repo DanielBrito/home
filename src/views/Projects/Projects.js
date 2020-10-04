@@ -38,8 +38,10 @@ import {
   FaPalette,
   FaGlobe,
   FaFire,
+  FaAtom,
 } from "react-icons/fa";
 
+import imgSturing from "../../assets/img/projects/sturing.jpg";
 import imgFireTasks from "../../assets/img/projects/fire-tasks.jpg";
 import imgCompixelar from "../../assets/img/projects/compixelar.jpg";
 import imgHaLugar from "../../assets/img/projects/ha-lugar.jpg";
@@ -128,12 +130,82 @@ export default function Projects() {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Grid
-          id={"fire-tasks"}
+          id={"sturing"}
           container
           spacing={5}
           justify="center"
           alignItems="center"
           style={{ marginBottom: "50px" }}
+        >
+          <Grid item lg={5}>
+            <div>
+              <Zoom>
+                <img
+                  src={imgSturing}
+                  alt="sTuring Logo"
+                  width="100%"
+                  style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
+                ></img>
+              </Zoom>
+            </div>
+          </Grid>
+          <Grid item lg={7}>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1
+                  style={{
+                    color: "#FFFFFF",
+                    textAlign: "center",
+                    marginTop: "0px",
+                  }}
+                >
+                  STURING
+                </h1>
+                <p
+                  style={{
+                    color: "#FFFFFF",
+                    fontSize: "16px",
+                    textAlign: "justify",
+                  }}
+                >
+                  sTuring was proposed as a project for cooperative studying at
+                  the Federal University of Ceará, where I study Computer
+                  Science. But, unfortunately, it wasn't accepted during the
+                  selection process. Based on that, I decided to create this
+                  alternative project for scientific divulgation to share the
+                  knowledge that I've been acquiring during my graduation
+                  process.
+                </p>
+                <HeadShake>
+                  <Button
+                    color="neon"
+                    round
+                    style={{ marginTop: "20px" }}
+                    size="md"
+                    href="https://www.instagram.com/sturing.compsci/"
+                    target="_blank"
+                    title="Access Instagram page"
+                  >
+                    <FaAtom
+                      className={classes.icons}
+                      style={{ marginRight: "5px" }}
+                    />{" "}
+                    MORE
+                  </Button>
+                </HeadShake>
+              </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid
+          id={"fire-tasks"}
+          container
+          spacing={5}
+          justify="center"
+          alignItems="center"
+          direction="row-reverse"
+          style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
             <div>
@@ -200,7 +272,6 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -272,6 +343,7 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -339,7 +411,6 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -408,6 +479,7 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -477,7 +549,6 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -546,6 +617,7 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -613,7 +685,6 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -683,6 +754,7 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -751,7 +823,6 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -825,6 +896,7 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -893,7 +965,6 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
-          direction="row-reverse"
           style={{ marginTop: "50px" }}
         >
           <Grid item lg={5}>
@@ -962,6 +1033,7 @@ export default function Projects() {
           spacing={5}
           justify="center"
           alignItems="center"
+          direction="row-reverse"
           style={{ marginTop: "50px" }}
         >
           <Grid item lg={5}>

@@ -250,7 +250,16 @@ export default function About() {
                     textAlign: "justify",
                   }}
                 >
-                  I'm the author of{" "}
+                  I make scientific divulgation through{" "}
+                  <Link
+                    to="/projects"
+                    style={{ textDecoration: "none" }}
+                    title="More"
+                    className={classes.externalLink}
+                  >
+                    STURING
+                  </Link>
+                  . I'm the author of{" "}
                   <Link
                     to="/projects"
                     style={{ textDecoration: "none" }}
