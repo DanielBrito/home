@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7197da215815f4c30115dddaf1ec02cf",
+    "revision": "4a27b3e5c2c34c32affccf9c145b7833",
     "url": "/home/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "353516aeb3d8b7f20bb7",
+    "revision": "39d5ecaea2b7ecc90d62",
     "url": "/home/static/css/main.d9e1818c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/js/2.89b804de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "353516aeb3d8b7f20bb7",
-    "url": "/home/static/js/main.b888c7a8.chunk.js"
+    "revision": "39d5ecaea2b7ecc90d62",
+    "url": "/home/static/js/main.5d078cfd.chunk.js"
   },
   {
     "revision": "9a21ece79eae19b95cd8",
@@ -364,8 +364,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/media/socrastickers.b7778737.jpg"
   },
   {
-    "revision": "e4be8581125095cfae7d7c56c16f80c7",
-    "url": "/home/static/media/sturing.e4be8581.jpg"
+    "revision": "2f679473402ad76529af9a21de67cca5",
+    "url": "/home/static/media/sturing.2f679473.jpg"
   },
   {
     "revision": "f2d73c0b6bd0ea172c9af78e579a2551",

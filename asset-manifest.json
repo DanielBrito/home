@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/home/static/css/main.d9e1818c.chunk.css",
-    "main.js": "/home/static/js/main.b888c7a8.chunk.js",
-    "main.js.map": "/home/static/js/main.b888c7a8.chunk.js.map",
+    "main.js": "/home/static/js/main.5d078cfd.chunk.js",
+    "main.js.map": "/home/static/js/main.5d078cfd.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.68cf1828.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.68cf1828.js.map",
     "static/css/2.9522b9fe.chunk.css": "/home/static/css/2.9522b9fe.chunk.css",
     "static/js/2.89b804de.chunk.js": "/home/static/js/2.89b804de.chunk.js",
     "static/js/2.89b804de.chunk.js.map": "/home/static/js/2.89b804de.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.76cc1ffb9025ee10b4e480a5f7b40f30.js": "/home/precache-manifest.76cc1ffb9025ee10b4e480a5f7b40f30.js",
+    "precache-manifest.875f0ca4b134f94b636886b0f3f927d8.js": "/home/precache-manifest.875f0ca4b134f94b636886b0f3f927d8.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/2.9522b9fe.chunk.css.map": "/home/static/css/2.9522b9fe.chunk.css.map",
     "static/css/main.d9e1818c.chunk.css.map": "/home/static/css/main.d9e1818c.chunk.css.map",
@@ -98,7 +98,7 @@
     "static/media/sobrenome-liberdade-alessa-melo.jpg": "/home/static/media/sobrenome-liberdade-alessa-melo.5f988aaf.jpg",
     "static/media/social_networks.jpg": "/home/static/media/social_networks.33843bee.jpg",
     "static/media/socrastickers.jpg": "/home/static/media/socrastickers.b7778737.jpg",
-    "static/media/sturing.jpg": "/home/static/media/sturing.e4be8581.jpg",
+    "static/media/sturing.jpg": "/home/static/media/sturing.2f679473.jpg",
     "static/media/teorema-poesia-visual-alessa-melo.jpg": "/home/static/media/teorema-poesia-visual-alessa-melo.f2d73c0b.jpg",
     "static/media/zine_capa.jpg": "/home/static/media/zine_capa.b4bfc00f.jpg"
   },
@@ -107,6 +107,6 @@
     "static/css/2.9522b9fe.chunk.css",
     "static/js/2.89b804de.chunk.js",
     "static/css/main.d9e1818c.chunk.css",
-    "static/js/main.b888c7a8.chunk.js"
+    "static/js/main.5d078cfd.chunk.js"
   ]
 }
