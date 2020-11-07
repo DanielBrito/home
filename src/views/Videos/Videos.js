@@ -112,7 +112,6 @@ export default function Videos() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                Tutorial to build{" "}
                 <Link
                   to="/projects"
                   style={{ textDecoration: "none" }}
@@ -121,7 +120,7 @@ export default function Videos() {
                 >
                   Fire Tasks
                 </Link>
-                , an awesome to-do list application using ReactJS, Styled
+                  {" "} is an awesome to-do list application built with ReactJS, Styled
                 Components and Firestore.
               </div>
             </Fade>

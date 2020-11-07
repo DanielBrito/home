@@ -23,13 +23,10 @@ import {
   FaTelegramPlane,
   FaFacebookSquare,
   FaInstagram,
-  FaPinterest,
   FaTwitter,
   FaGithub,
   FaYoutube,
   FaLinkedin,
-  FaSoundcloud,
-  FaQuestion,
   FaLink,
 } from "react-icons/fa";
 
@@ -270,29 +267,6 @@ export default function Media() {
                 <br />
                 <br />
 
-                <FaPinterest
-                  color="#bd081c"
-                  size="0.9em"
-                  className={classes.icons}
-                  style={{ marginRight: "10px" }}
-                />
-                <a
-                  href="https://br.pinterest.com/danielbrito41/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={classes.contactLink}
-                  style={{
-                    textDecoration: "none",
-                    fontWeight: "bold",
-                    color: "white",
-                  }}
-                  title="Follow me on Pinterest"
-                >
-                  Pinterest
-                </a>
-                <br />
-                <br />
-
                 <FaTwitter
                   color="#1da1f2"
                   size="0.9em"
@@ -381,52 +355,6 @@ export default function Media() {
                   title="Subscribe to my channel"
                 >
                   YouTube
-                </a>
-                <br />
-                <br />
-
-                <FaSoundcloud
-                  color="#ff8800"
-                  size="0.9em"
-                  className={classes.icons}
-                  style={{ marginRight: "10px" }}
-                />
-                <a
-                  href="https://soundcloud.com/dani-el-brito"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={classes.contactLink}
-                  style={{
-                    textDecoration: "none",
-                    fontWeight: "bold",
-                    color: "white",
-                  }}
-                  title="Follow me on Soundcloud"
-                >
-                  Soundcloud
-                </a>
-                <br />
-                <br />
-
-                <FaQuestion
-                  color="#db3552"
-                  size="0.9em"
-                  className={classes.icons}
-                  style={{ marginRight: "10px" }}
-                />
-                <a
-                  href="https://ask.fm/danielbrito41"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={classes.contactLink}
-                  style={{
-                    textDecoration: "none",
-                    fontWeight: "bold",
-                    color: "white",
-                  }}
-                  title="Ask me something"
-                >
-                  Ask.fm
                 </a>
                 <br />
                 <br />
