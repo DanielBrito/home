@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/home/static/css/main.d9e1818c.chunk.css",
-    "main.js": "/home/static/js/main.5d078cfd.chunk.js",
-    "main.js.map": "/home/static/js/main.5d078cfd.chunk.js.map",
+    "main.js": "/home/static/js/main.99fba62b.chunk.js",
+    "main.js.map": "/home/static/js/main.99fba62b.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.68cf1828.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.68cf1828.js.map",
     "static/css/2.9522b9fe.chunk.css": "/home/static/css/2.9522b9fe.chunk.css",
-    "static/js/2.89b804de.chunk.js": "/home/static/js/2.89b804de.chunk.js",
-    "static/js/2.89b804de.chunk.js.map": "/home/static/js/2.89b804de.chunk.js.map",
+    "static/js/2.3a8c3ade.chunk.js": "/home/static/js/2.3a8c3ade.chunk.js",
+    "static/js/2.3a8c3ade.chunk.js.map": "/home/static/js/2.3a8c3ade.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.875f0ca4b134f94b636886b0f3f927d8.js": "/home/precache-manifest.875f0ca4b134f94b636886b0f3f927d8.js",
+    "precache-manifest.01e0932b1ee46cd6b360371bf2edc04d.js": "/home/precache-manifest.01e0932b1ee46cd6b360371bf2edc04d.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/2.9522b9fe.chunk.css.map": "/home/static/css/2.9522b9fe.chunk.css.map",
     "static/css/main.d9e1818c.chunk.css.map": "/home/static/css/main.d9e1818c.chunk.css.map",
-    "static/js/2.89b804de.chunk.js.LICENSE.txt": "/home/static/js/2.89b804de.chunk.js.LICENSE.txt",
+    "static/js/2.3a8c3ade.chunk.js.LICENSE.txt": "/home/static/js/2.3a8c3ade.chunk.js.LICENSE.txt",
     "static/media/a-ler-vazios-capa.jpg": "/home/static/media/a-ler-vazios-capa.efe9ad5e.jpg",
     "static/media/aluminions.jpg": "/home/static/media/aluminions.e3932355.jpg",
     "static/media/antigrife.jpg": "/home/static/media/antigrife.711031f7.jpg",
@@ -96,7 +96,7 @@
     "static/media/sarau-do-grajau-johnny-nogueira.jpg": "/home/static/media/sarau-do-grajau-johnny-nogueira.dc17cdfc.jpg",
     "static/media/sarau-do-grajau.jpg": "/home/static/media/sarau-do-grajau.d32c1eb0.jpg",
     "static/media/sobrenome-liberdade-alessa-melo.jpg": "/home/static/media/sobrenome-liberdade-alessa-melo.5f988aaf.jpg",
-    "static/media/social_networks.jpg": "/home/static/media/social_networks.33843bee.jpg",
+    "static/media/social_networks.jpg": "/home/static/media/social_networks.67b3321f.jpg",
     "static/media/socrastickers.jpg": "/home/static/media/socrastickers.b7778737.jpg",
     "static/media/sturing.jpg": "/home/static/media/sturing.2f679473.jpg",
     "static/media/teorema-poesia-visual-alessa-melo.jpg": "/home/static/media/teorema-poesia-visual-alessa-melo.f2d73c0b.jpg",
@@ -105,8 +105,8 @@
   "entrypoints": [
     "static/js/runtime-main.68cf1828.js",
     "static/css/2.9522b9fe.chunk.css",
-    "static/js/2.89b804de.chunk.js",
+    "static/js/2.3a8c3ade.chunk.js",
     "static/css/main.d9e1818c.chunk.css",
-    "static/js/main.5d078cfd.chunk.js"
+    "static/js/main.99fba62b.chunk.js"
   ]
 }
