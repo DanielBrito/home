@@ -249,7 +249,7 @@ export default function Home() {
                     style={{
                       color: "#FFFFFF",
                       fontSize: "19px",
-                      textAlign: "justify",
+                      textAlign: "center",
                       marginTop: "0px",
                     }}
                   >
@@ -330,7 +330,7 @@ export default function Home() {
                   style={{
                     color: "#FFFFFF",
                     fontSize: "19px",
-                    textAlign: "justify",
+                    textAlign: "center",
                     marginTop: "0px",
                   }}
                 >
@@ -412,7 +412,7 @@ export default function Home() {
                   style={{
                     color: "#FFFFFF",
                     fontSize: "19px",
-                    textAlign: "justify",
+                    textAlign: "center",
                     marginTop: "0px",
                   }}
                 >
@@ -492,7 +492,7 @@ export default function Home() {
                   style={{
                     color: "#FFFFFF",
                     fontSize: "19px",
-                    textAlign: "justify",
+                    textAlign: "center",
                     marginTop: "0px",
                   }}
                 >
@@ -574,7 +574,7 @@ export default function Home() {
                   style={{
                     color: "#FFFFFF",
                     fontSize: "19px",
-                    textAlign: "justify",
+                    textAlign: "center",
                     marginTop: "0px",
                   }}
                 >
