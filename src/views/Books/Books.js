@@ -253,7 +253,7 @@ export default function Books() {
                     size="md"
                     href="https://produto.mercadolivre.com.br/MLB-1181107457-a-ler-vazios-daniel-brito-_JM"
                     target="_blank"
-                    title="Buy it on Mercado Livre"
+                    title="Buy on Mercado Livre"
                   >
                     <MonetizationOnIcon
                       className={classes.icons}
@@ -332,7 +332,7 @@ export default function Books() {
                     size="md"
                     href="https://produto.mercadolivre.com.br/MLB-1366128820-protestizando-binio-poetico-daniel-brito-_JM?quantity=1"
                     target="_blank"
-                    title="Buy it on Mercado Livre"
+                    title="Buy on Mercado Livre"
                   >
                     <MonetizationOnIcon
                       className={classes.icons}
@@ -413,7 +413,7 @@ export default function Books() {
                     size="md"
                     href="https://issuu.com/daniel.brito"
                     target="_blank"
-                    title="Read it on Issuu"
+                    title="Read on Issuu"
                   >
                     <BookmarkIcon
                       className={classes.icons}

@@ -153,8 +153,7 @@ export default function About() {
                   period, I enjoyed playing soccer, video-games, and creating
                   stuff, like small towns with my toys and new technologies with
                   parts of them. Later, I got my first computer, and I just fell
-                  in love with it. I didn't know how to program yet, but I liked
-                  to hack it, play games, and surf on the (dial-up) internet.
+                  in love with it.
                   <br />
                   <br />
                   When I was 16, I got my first job as an apprentice at CAMP
@@ -169,15 +168,15 @@ export default function About() {
                   decided to move to Crateús to study Computer Science at the
                   Federal University of Ceará (UFC), where I've gotten some
                   scholarships to work on projects in the fields of mobile and
-                  web development, computer graphics, and education. As
-                  described in my{" "}
+                  web development, computer graphics, and teaching. Currently, 
+                  as described in my{" "}
                   <a
                     href="https://drive.google.com/file/d/1bOFjCfhoyabvcZ7LXf5T3EtY9h6umsaR/view"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={classes.externalLink}
                     style={{ textDecoration: "none", color: "white" }}
-                    title="Read"
+                    title="Open file"
                   >
                     resumé
                   </a>{" "}
@@ -200,7 +199,7 @@ export default function About() {
                     rel="noopener noreferrer"
                     className={classes.externalLink}
                     style={{ textDecoration: "none", color: "white" }}
-                    title="More"
+                    title="GitHub profile"
                   >
                     GEMP
                   </a>
@@ -491,7 +490,7 @@ export default function About() {
                   </a>
                   , and my{" "}
                   <a
-                    href="https://open.spotify.com/user/xb93kruabsjskn5chjqo127ep?si=oWza3WozRimzC7rt965_ww"
+                    href="https://open.spotify.com/user/xb93kruabsjskn5chjqo127ep"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={classes.externalLink}
@@ -505,7 +504,7 @@ export default function About() {
                   <br />I value respect for every sentient being, as well as the
                   DIY attitude, the self-learning lifestyle,{" "}
                   <a
-                    href="https://www.duolingo.com/DanBrito41"
+                    href="https://duome.eu/DanBrito41"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={classes.externalLink}

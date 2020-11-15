@@ -692,17 +692,25 @@ export default function Blog() {
                   }}
                 >
                   <a
-                    href="https://www.last.fm/pt/user/danielbrito41"
+                    href="https://open.spotify.com/user/xb93kruabsjskn5chjqo127ep"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={classes.externalLink}
                     style={{ textDecoration: "none", color: "white" }}
-                    title="Last.fm profile"
+                    title="Spotify profile"
                   >
                     Music
                   </a>
-                  , documentaries, movies,{" "}
-                  <a
+                  , documentaries, <a
+                    href="https://filmow.com/usuario/daniel_brito/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={classes.externalLink}
+                    style={{ textDecoration: "none", color: "white" }}
+                    title="Filmow profile"
+                  >
+                    movies
+                  </a>, <a
                     href="https://myanimelist.net/profile/danielbrito41"
                     target="_blank"
                     rel="noopener noreferrer"

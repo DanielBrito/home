@@ -391,7 +391,7 @@ export default function Projects() {
                     size="md"
                     href="https://play.google.com/store/apps/details?id=br.ufc.crateus.halugar"
                     target="_blank"
-                    title="Download app from Play Store"
+                    title="Download on Google Play"
                   >
                     <FaGooglePlay
                       className={classes.icons}

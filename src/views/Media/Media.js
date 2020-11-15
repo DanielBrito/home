@@ -285,8 +285,8 @@ export default function Media() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                A brief tribute by Paola Silva in her project called Curta
-                Poesias.
+                A brief tribute by Paola Silva in her project called <em>Curta
+                Poesias</em>.
               </div>
             </Fade>
           </Grid>
@@ -323,7 +323,7 @@ export default function Media() {
                     "
                   </span>
                   Art é Arte! shows the surprising harmony within this
-                  “anarchic” event and reveals the voice of artists from the
+                  'anarchic' event and reveals the voice of artists from the
                   suburb.
                   <span
                     style={{
@@ -359,8 +359,7 @@ export default function Media() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                My first interview, which was granted to my colleagues from TV
-                Grajaú.
+                In my first interview, which was granted to colleagues from TV Grajaú, I talk about myself, my projects and future plans.
               </div>
             </Fade>
           </Grid>

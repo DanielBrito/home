@@ -146,16 +146,15 @@ export default function Videos() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                Compiling art through{" "}
-                <Link
+              <Link
                   to="/projects"
                   style={{ textDecoration: "none" }}
                   title="More"
                   className={classes.externalLink}
                 >
-                  creative coding
-                </Link>{" "}
-                experiments.
+                  Compixelar
+                </Link>
+                {" "}: Compiling art through creative coding experiments.
               </div>
             </Fade>
           </Grid>
@@ -213,8 +212,7 @@ export default function Videos() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                Far from being a professional work, I created this brief
-                animation of{" "}
+                Far from being a professional work, this brief animation of{" "}
                 <Link
                   to="/projects"
                   style={{ textDecoration: "none" }}
@@ -223,8 +221,7 @@ export default function Videos() {
                 >
                   HáLugar
                 </Link>{" "}
-                app to practice some of the Blender content that I've been
-                learning.
+                app was created to put into practice some modeling and 3D animation techniques using Blender.
               </div>
             </Fade>
           </Grid>
@@ -263,7 +260,7 @@ export default function Videos() {
                     }}
                     title="Access repository"
                   >
-                    competitive programming
+                    Competitive Programming
                   </a>
                   .
                 </em>
@@ -304,7 +301,7 @@ export default function Videos() {
                     }}
                     title="Access repository"
                   >
-                    Programming fundamentals
+                    Programming Fundamentals
                   </a>
                 </em>{" "}
                 applied in practical scenarios.
@@ -434,17 +431,15 @@ export default function Videos() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                This documentary, produced by{" "}
+                Produced by{" "}
                 <Link
                   to="/projects"
                   style={{ textDecoration: "none" }}
                   title="More"
                   className={classes.externalLink}
                 >
-                  Sarau do Grajaú,
-                </Link>{" "}
-                makes a sensitive cut of the so-called poetic scene in the
-                suburb.
+                  Sarau do Grajaú
+                </Link>, {" "} this documentary makes a sensitive cut of the so-called poetic scene in the suburb.
               </div>
             </Fade>
           </Grid>
