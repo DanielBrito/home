@@ -173,8 +173,7 @@ export default function Projects() {
                   Science. But, unfortunately, it wasn't accepted during the
                   selection process. Based on that, I decided to create this
                   alternative project for scientific divulgation to share the
-                  knowledge that I've been acquiring during my graduation
-                  process.
+                  knowledge that I've been acquiring along my academic trajectory.
                 </p>
                 <HeadShake>
                   <Button
@@ -587,7 +586,7 @@ export default function Projects() {
                   Tia Nilde's Bar - Antônio Comenale Street, 166, Parque Cocaia,
                   04850-010, São Paulo/SP - Brazil. It brings together various
                   artists and people from the community who are hungry to
-                  express and absorb poetry in its various forms.
+                  express and absorb poetry (in its various forms).
                 </p>
                 <HeadShake>
                   <Button

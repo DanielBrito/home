@@ -131,7 +131,7 @@ export default function About() {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1
+                <h2
                   style={{
                     color: "#FFFFFF",
                     textAlign: "center",
@@ -139,7 +139,7 @@ export default function About() {
                   }}
                 >
                   <em>MY BRIEF HISTORY</em>
-                </h1>
+                </h2>
                 <p
                   style={{
                     color: "#FFFFFF",
@@ -150,9 +150,9 @@ export default function About() {
                   I was born in São Paulo/SP - Brazil, {diffDays} days ago. For
                   most of my life, I lived in the district of Grajaú, except for
                   a year I spent in Viçosa/CE during my childhood. In this
-                  period, I enjoyed playing soccer, video-games, and creating
+                  period, I enjoyed reading, playing soccer, videogames, and creating
                   stuff, like small towns with my toys and new technologies with
-                  parts of them. Later, I got my first computer, and I just fell
+                  parts of them. Later, I got my first computer and I just fell
                   in love with it.
                   <br />
                   <br />
@@ -192,7 +192,7 @@ export default function About() {
                     Lattes curriculum
                   </a>
                   , I'm an intern developing intelligent applications to the
-                  health public system management. I'm also a member of{" "}
+                  health public system management, and I'm also a member of{" "}
                   <a
                     href="https://github.com/GEMP-UFC-Crateus"
                     target="_blank"
@@ -233,7 +233,7 @@ export default function About() {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1
+                <h2
                   style={{
                     color: "#FFFFFF",
                     textAlign: "center",
@@ -241,7 +241,7 @@ export default function About() {
                   }}
                 >
                   <em>TO BE OR NOT TO BE</em>
-                </h1>
+                </h2>
                 <p
                   style={{
                     color: "#FFFFFF",
@@ -339,7 +339,7 @@ export default function About() {
                   >
                     COLETIVA CONCRETAGENS
                   </Link>
-                  . I disseminate Philosophy and Art through the{" "}
+                  . I spread art and philosophy through the{" "}
                   <Link
                     to="/projects"
                     style={{ textDecoration: "none" }}
@@ -406,8 +406,7 @@ export default function About() {
                   , which is a process of making algorithms to generate art.
                   <br />
                   <br />
-                  Moreover, I'm also following the steps to become a full-stack
-                  developer.
+                  Although my recent studies are more focused on the front-end, I'm following the steps to become a full-stack developer.
                 </p>
               </div>
             </Fade>
@@ -436,7 +435,7 @@ export default function About() {
           <Grid item lg={7}>
             <Fade>
               <div style={{ backgroundColor: "#000000" }}>
-                <h1
+                <h2
                   style={{
                     color: "#FFFFFF",
                     textAlign: "center",
@@ -444,7 +443,7 @@ export default function About() {
                   }}
                 >
                   <em>LIFE, THE UNIVERSE AND EVERYTHING</em>
-                </h1>
+                </h2>
                 <p
                   style={{
                     color: "#FFFFFF",
@@ -453,12 +452,12 @@ export default function About() {
                   }}
                 >
                   After escaping from Plato's cave, John Keating taught me to
-                  seize the day in order to make my life extraordinary.
+                  seize the day in order to make my life extraordinary. Shortly thereafter, I learned about the power of metaphor when I was watching the teachings of the poet Pablo Neruda to a humble postman who worked for him.
                   <br />
                   <br />
                   Through the exact sciences, I get fascinated as I discover the
                   cosmos. Through the social sciences, I seek to understand the
-                  world that I live in and the several cultures that surround
+                  society that I live in and the several cultures that surround
                   me. Through technology, I try to create solutions that promote
                   social progress.
                   <br />
@@ -524,7 +523,7 @@ export default function About() {
                   </Link>
                   .<br />
                   <br />
-                  Discovering new worlds is my biggest existential goal.
+                  Searching for knowledge and discovering new worlds is my biggest existential goal.
                 </p>
               </div>
             </Fade>
