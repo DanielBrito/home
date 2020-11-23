@@ -230,7 +230,7 @@ export default function Blog() {
                     style={{ textDecoration: "none", color: "white" }}
                     title="Pensador collection"
                   >
-                    Verses
+                    Free verses
                   </a>
                   , concretisms, haiku, sonnets...
                 </p>
@@ -783,7 +783,17 @@ export default function Blog() {
                     textAlign: "center",
                   }}
                 >
-                  Poetry reunions, exhibitions, lectures, workshops...
+                  <a
+                    href="http://daniel-brito.blogspot.com/p/saraus-e-slams.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={classes.externalLink}
+                    style={{ textDecoration: "none", color: "white" }}
+                    title="Poetry reunions and slams page"
+                  >
+                    Poetry reunions
+                  </a>
+                  , exhibitions, lectures, workshops...
                 </p>
                 <HeadShake>
                   <Button

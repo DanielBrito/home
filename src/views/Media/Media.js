@@ -359,7 +359,7 @@ export default function Media() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                In my first interview, which was granted to colleagues from <em>TV Grajaú</em>, I talk about myself, my projects and future plans.
+                In my first interview, which was granted to colleagues from <em>TV Grajaú</em>, I talked about myself, my projects and future plans.
               </div>
             </Fade>
           </Grid>

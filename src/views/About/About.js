@@ -145,6 +145,7 @@ export default function About() {
                     color: "#FFFFFF",
                     fontSize: "16px",
                     textAlign: "justify",
+                    marginBottom: "0px"
                   }}
                 >
                   I was born in São Paulo/SP - Brazil, {diffDays} days ago. For
@@ -152,8 +153,7 @@ export default function About() {
                   a year I spent in Viçosa/CE during my childhood. In this
                   period, I enjoyed reading, playing soccer, videogames, and creating
                   stuff, like small towns with my toys and new technologies with
-                  parts of them. Later, I got my first computer and I just fell
-                  in love with it.
+                  parts of them. Later, I got my first computer, which left me simply fascinated.
                   <br />
                   <br />
                   When I was 16, I got my first job as an apprentice at CAMP
@@ -178,7 +178,7 @@ export default function About() {
                     style={{ textDecoration: "none", color: "white" }}
                     title="Open file"
                   >
-                    resumé
+                    résumé
                   </a>{" "}
                   and{" "}
                   <a
@@ -238,6 +238,7 @@ export default function About() {
                     color: "#FFFFFF",
                     textAlign: "center",
                     marginTop: "0px",
+                    marginBottom: "0px"
                   }}
                 >
                   <em>TO BE OR NOT TO BE</em>
@@ -388,7 +389,7 @@ export default function About() {
                   </Link>{" "}
                   (2016), which includes some of my poetic and visual
                   experiments. I've also been published in several anthologies
-                  with other marginal authors.
+                  with other authors.
                   <br />
                   <br />
                   As an inborn scientist and visual artist, I focus my research
@@ -449,10 +450,11 @@ export default function About() {
                     color: "#FFFFFF",
                     fontSize: "16px",
                     textAlign: "justify",
+                    marginBottom: "0px"
                   }}
                 >
                   After escaping from Plato's cave, John Keating taught me to
-                  seize the day in order to make my life extraordinary. Shortly thereafter, I learned about the power of metaphor when I was watching the teachings of the poet Pablo Neruda to a humble postman who worked for him.
+                  seize the day in order to make my life extraordinary. Shortly thereafter, I learned about the power of metaphor, when I was watching the teachings of Pablo Neruda to a humble postman who worked for him.
                   <br />
                   <br />
                   Through the exact sciences, I get fascinated as I discover the

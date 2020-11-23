@@ -234,7 +234,10 @@ export default function Books() {
                   internal secrets in their structures, and with the help of
                   semiotics, I managed to unveil some of them. But do not think
                   I'll tell you what they are, like that, on a silver platter.
-                  I'll present only a re-reading of them. In A LER VAZIOS,
+                  I'll present only a re-reading of them. 
+                  <br />
+                  <br />
+                  In "A LER VAZIOS",
                   besides the various geometric shapes, numbers, and
                   letter-words arranged on the page, the empty spaces can also
                   be read. It'll depend only on the perception of each person.
@@ -316,10 +319,7 @@ export default function Books() {
                   <br />
                   This work compiles two years of poems, gathering the verses
                   where I express my subjectivity, which is in constant
-                  development.
-                  <br />
-                  <br />
-                  They're fruits of my creativity, reflections, relationships,
+                  development.They're fruits of my creativity, reflections, relationships,
                   indignations, daydreams, and many other things that we all
                   feel and experience in our brief existence, and that I wasn't
                   able to just keep them inside my chest.

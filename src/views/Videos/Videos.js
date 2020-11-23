@@ -212,7 +212,7 @@ export default function Videos() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                Far from being a professional work, this brief animation of{" "}
+                Far from being a professional work, this animation of{" "}
                 <Link
                   to="/projects"
                   style={{ textDecoration: "none" }}
@@ -362,7 +362,7 @@ export default function Videos() {
           <Grid item lg={5}>
             <Fade>
               <div style={{ backgroundColor: "#000000", color: "#FFFFFF" }}>
-                This first animation of the{" "}
+                This brief animation of the{" "}
                 <Link
                   to="/projects"
                   style={{ textDecoration: "none" }}

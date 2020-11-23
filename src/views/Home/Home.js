@@ -197,7 +197,7 @@ export default function Home() {
                     <span style={{ fontWeight: "bold", color: "#39ff14" }}>
                       T
                     </span>
-                    act with yours. listen and speak, feel and reveal. there's p
+                    act with yours. listen and speak, feel and reveal, there's p
                     <span style={{ fontWeight: "bold", color: "#39ff14" }}>
                       O
                     </span>

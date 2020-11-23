@@ -238,8 +238,8 @@ export default function Projects() {
                   }}
                 >
                   Fire Tasks is an application for task management, which allows
-                  the user to register and list the activities to be performed
-                  on a given day, as well as edit, remove, and order based on
+                  the user to register and list the activities to be performed,
+                  as well as edit, remove, and order based on
                   priority. It was developed using ReactJS, Styled Components
                   and Firestore, for educational purposes.
                 </p>
@@ -514,7 +514,7 @@ export default function Projects() {
                 >
                   CÉLEREBRO is a math game for those who practice mental
                   workout, inspired by command-line based applications. Larry
-                  Katz, the neuroscientist who created the term "neurobics",
+                  Katz, the neuroscientist who created the term <em>neurobics</em>,
                   explains that logical reasoning exercises stimulate the
                   formation of synapses, that is, regions of neurons responsible
                   for the transmission of nerve impulses, making connections
@@ -543,7 +543,7 @@ export default function Projects() {
         </Grid>
 
         <Grid
-          id={"sarau_do_grajau"}
+          id={"first_site"}
           container
           spacing={5}
           justify="center"
@@ -554,8 +554,8 @@ export default function Projects() {
             <div>
               <Zoom>
                 <img
-                  src={imgSarauDoGrajau}
-                  alt="Sarau do Grajaú Logo"
+                  src={imgFirstSite}
+                  alt="Daniel Brito Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -572,7 +572,7 @@ export default function Projects() {
                     marginTop: "0px",
                   }}
                 >
-                  SARAU DO GRAJAÚ
+                  FIRST WEBSITE
                 </h1>
                 <p
                   style={{
@@ -581,12 +581,11 @@ export default function Projects() {
                     textAlign: "justify",
                   }}
                 >
-                  Sarau do Grajaú was created in early 2014. It's an artistic
-                  and cultural event held every last Saturday of each month at
-                  Tia Nilde's Bar - Antônio Comenale Street, 166, Parque Cocaia,
-                  04850-010, São Paulo/SP - Brazil. It brings together various
-                  artists and people from the community who are hungry to
-                  express and absorb poetry (in its various forms).
+                  Whenever I learn about new technologies, I try to develop
+                  something creative and original to put the content into
+                  practice. In this way, when I started learning about front-end
+                  development, I built my first website by adding some HTML tags
+                  and styling it with Bootstrap.
                 </p>
                 <HeadShake>
                   <Button
@@ -594,159 +593,22 @@ export default function Projects() {
                     round
                     style={{ marginTop: "20px" }}
                     size="md"
-                    href="https://www.facebook.com/Sarau-do-Graja%C3%BA-191479077716775/"
+                    href="https://danielbrito.github.io/"
                     target="_blank"
-                    title="Access Facebook page"
+                    title="Access site"
                   >
-                    <FaMicrophoneAlt
+                    <FaGlobe
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    MORE
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
             </Fade>
           </Grid>
         </Grid>
-
-        <Grid
-          id={"concretagens"}
-          container
-          spacing={5}
-          justify="center"
-          alignItems="center"
-          direction="row-reverse"
-          style={{ marginTop: "50px", marginBottom: "50px" }}
-        >
-          <Grid item lg={5}>
-            <div>
-              <Zoom>
-                <img
-                  src={imgConcretagens}
-                  alt="Concretagens Logo"
-                  width="100%"
-                  style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
-                ></img>
-              </Zoom>
-            </div>
-          </Grid>
-          <Grid item lg={7}>
-            <Fade>
-              <div style={{ backgroundColor: "#000000" }}>
-                <h1
-                  style={{
-                    color: "#FFFFFF",
-                    textAlign: "center",
-                    marginTop: "0px",
-                  }}
-                >
-                  CONCRETAGENS
-                </h1>
-                <p
-                  style={{
-                    color: "#FFFFFF",
-                    fontSize: "16px",
-                    textAlign: "justify",
-                  }}
-                >
-                  Coletiva Concretagens works by publishing concrete and visual
-                  poems in the virtual environment and through interventions in
-                  the urban scenario, always intending to stimulate the
-                  perceptiveness and sensitivity of reader-observers, and also
-                  to make these poetic styles known.
-                </p>
-                <HeadShake>
-                  <Button
-                    color="neon"
-                    round
-                    style={{ marginTop: "20px" }}
-                    size="md"
-                    href="http://daniel-brito.blogspot.com/p/concretagens_11.html"
-                    target="_blank"
-                    title="Access blog posts"
-                  >
-                    <FaCubes
-                      className={classes.icons}
-                      style={{ marginRight: "5px" }}
-                    />{" "}
-                    MORE
-                  </Button>
-                </HeadShake>
-              </div>
-            </Fade>
-          </Grid>
-        </Grid>
-
-        <Grid
-          id={"socrastickers"}
-          container
-          spacing={5}
-          justify="center"
-          alignItems="center"
-          style={{ marginTop: "50px", marginBottom: "50px" }}
-        >
-          <Grid item lg={5}>
-            <div>
-              <Zoom>
-                <img
-                  src={imgSocrastickers}
-                  alt="Socrastickers Logo"
-                  width="100%"
-                  style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
-                ></img>
-              </Zoom>
-            </div>
-          </Grid>
-          <Grid item lg={7}>
-            <Fade>
-              <div style={{ backgroundColor: "#000000" }}>
-                <h1
-                  style={{
-                    color: "#FFFFFF",
-                    textAlign: "center",
-                    marginTop: "0px",
-                  }}
-                >
-                  SOCRASTICKERS
-                </h1>
-                <p
-                  style={{
-                    color: "#FFFFFF",
-                    fontSize: "16px",
-                    textAlign: "justify",
-                  }}
-                >
-                  SOCRASTICKERS = Contraction of ‘SOCRATES’ (great philosopher
-                  known for encouraging people to question and seek explanations
-                  through maieutics) + ‘STICKERS’. They are a way of spreading
-                  our thoughts, ideas, poems, drawings, and also of great
-                  philosophers, artists, and writers, who changed the world
-                  during history, however, many people have never heard about
-                  them.
-                </p>
-                <HeadShake>
-                  <Button
-                    color="neon"
-                    round
-                    style={{ marginTop: "20px" }}
-                    size="md"
-                    href="https://br.pinterest.com/danielbrito41/socrastickers/"
-                    target="_blank"
-                    title="Access Pinterest album"
-                  >
-                    <FaQuestionCircle
-                      className={classes.icons}
-                      style={{ marginRight: "5px" }}
-                    />{" "}
-                    MORE
-                  </Button>
-                </HeadShake>
-              </div>
-            </Fade>
-          </Grid>
-        </Grid>
-
+        
         <Grid
           id={"aluminions"}
           container
@@ -857,11 +719,16 @@ export default function Projects() {
                 >
                   i play making art
                   <br />
+                  <br />
                   the inspiration
                   <br />
                   always finds me
                   <br />
-                  then i put my ideas
+                  <br />
+                  then i put
+                  <br />
+                  my ideas
+                  <br />
                   <br />
                   all
                   <br />
@@ -890,12 +757,217 @@ export default function Projects() {
         </Grid>
 
         <Grid
-          id={"antigrife"}
+          id={"concretagens"}
           container
           spacing={5}
           justify="center"
           alignItems="center"
           direction="row-reverse"
+          style={{ marginTop: "50px", marginBottom: "50px" }}
+        >
+          <Grid item lg={5}>
+            <div>
+              <Zoom>
+                <img
+                  src={imgConcretagens}
+                  alt="Concretagens Logo"
+                  width="100%"
+                  style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
+                ></img>
+              </Zoom>
+            </div>
+          </Grid>
+          <Grid item lg={7}>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1
+                  style={{
+                    color: "#FFFFFF",
+                    textAlign: "center",
+                    marginTop: "0px",
+                  }}
+                >
+                  CONCRETAGENS
+                </h1>
+                <p
+                  style={{
+                    color: "#FFFFFF",
+                    fontSize: "16px",
+                    textAlign: "justify",
+                  }}
+                >
+                  Coletiva Concretagens works by publishing concrete and visual
+                  poems in the virtual environment and through interventions in
+                  the urban scenario, always intending to stimulate the
+                  perceptiveness and sensitivity of reader-observers, and also
+                  to make these poetic styles known.
+                </p>
+                <HeadShake>
+                  <Button
+                    color="neon"
+                    round
+                    style={{ marginTop: "20px" }}
+                    size="md"
+                    href="http://daniel-brito.blogspot.com/p/concretagens_11.html"
+                    target="_blank"
+                    title="Access blog posts"
+                  >
+                    <FaCubes
+                      className={classes.icons}
+                      style={{ marginRight: "5px" }}
+                    />{" "}
+                    MORE
+                  </Button>
+                </HeadShake>
+              </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid
+          id={"galeria_marginal"}
+          container
+          spacing={5}
+          justify="center"
+          alignItems="center"
+          style={{ marginTop: "50px", marginBottom: "50px" }}
+        >
+          <Grid item lg={5}>
+            <div>
+              <Zoom>
+                <img
+                  src={imgGaleriaMarginal}
+                  alt="Galeria Marginal Logo"
+                  width="100%"
+                  style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
+                ></img>
+              </Zoom>
+            </div>
+          </Grid>
+          <Grid item lg={7}>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1
+                  style={{
+                    color: "#FFFFFF",
+                    textAlign: "center",
+                    marginTop: "0px",
+                  }}
+                >
+                  GALERIA MARGINAL
+                </h1>
+                <p
+                  style={{
+                    color: "#FFFFFF",
+                    fontSize: "16px",
+                    textAlign: "justify",
+                  }}
+                >
+                  Galeria Marginal is a virtual space for the democratization of art,
+                  that seeks to promote a
+                  type of visual literacy through the analysis of works,
+                  encouraging people to "read" the paintings and to identify the
+                  characteristics of the various artistic movements that have
+                  marked the history, as well as the artists who participate in
+                  them.
+                </p>
+                <HeadShake>
+                  <Button
+                    color="neon"
+                    round
+                    style={{ marginTop: "20px" }}
+                    size="md"
+                    href="http://daniel-brito.blogspot.com/p/galeria-marginal_11.html"
+                    target="_blank"
+                    title="Access blog posts"
+                  >
+                    <FaPalette
+                      className={classes.icons}
+                      style={{ marginRight: "5px" }}
+                    />{" "}
+                    MORE
+                  </Button>
+                </HeadShake>
+              </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid
+          id={"sarau_do_grajau"}
+          container
+          spacing={5}
+          justify="center"
+          alignItems="center"
+          direction="row-reverse"
+          style={{ marginTop: "50px", marginBottom: "50px" }}
+        >
+          <Grid item lg={5}>
+            <div>
+              <Zoom>
+                <img
+                  src={imgSarauDoGrajau}
+                  alt="Sarau do Grajaú Logo"
+                  width="100%"
+                  style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
+                ></img>
+              </Zoom>
+            </div>
+          </Grid>
+          <Grid item lg={7}>
+            <Fade>
+              <div style={{ backgroundColor: "#000000" }}>
+                <h1
+                  style={{
+                    color: "#FFFFFF",
+                    textAlign: "center",
+                    marginTop: "0px",
+                  }}
+                >
+                  SARAU DO GRAJAÚ
+                </h1>
+                <p
+                  style={{
+                    color: "#FFFFFF",
+                    fontSize: "16px",
+                    textAlign: "justify",
+                  }}
+                >
+                  Sarau do Grajaú was created in early 2014. It's an artistic
+                  and cultural event held every last Saturday of each month at
+                  Tia Nilde's Bar - Antônio Comenale Street, 166, Parque Cocaia,
+                  04850-010, São Paulo/SP - Brazil. It brings together various
+                  artists and people from the community who are hungry to
+                  express and absorb poetry (in its various forms).
+                </p>
+                <HeadShake>
+                  <Button
+                    color="neon"
+                    round
+                    style={{ marginTop: "20px" }}
+                    size="md"
+                    href="https://www.facebook.com/Sarau-do-Graja%C3%BA-191479077716775/"
+                    target="_blank"
+                    title="Access Facebook page"
+                  >
+                    <FaMicrophoneAlt
+                      className={classes.icons}
+                      style={{ marginRight: "5px" }}
+                    />{" "}
+                    MORE
+                  </Button>
+                </HeadShake>
+              </div>
+            </Fade>
+          </Grid>
+        </Grid>
+
+        <Grid
+          id={"antigrife"}
+          container
+          spacing={5}
+          justify="center"
+          alignItems="center"
           style={{ marginTop: "50px", marginBottom: "50px" }}
         >
           <Grid item lg={5}>
@@ -932,7 +1004,7 @@ export default function Projects() {
                   Clothing can also be used to spread our art and ideas. Screen
                   printing and hand painting are something very creative and
                   original, as well as making buttons, patches, and the like.
-                  Based on this, ANTIGR1F3 intends to seek a way to subvert the
+                  Based on that, ANTIGR1F3 intends to seek a way to subvert the
                   consumerist logic, even if modestly, and develop our social
                   awareness and artistic skills.
                 </p>
@@ -959,19 +1031,20 @@ export default function Projects() {
         </Grid>
 
         <Grid
-          id={"galeria_marginal"}
+          id={"socrastickers"}
           container
           spacing={5}
           justify="center"
           alignItems="center"
-          style={{ marginTop: "50px" }}
+          direction="row-reverse"
+          style={{ marginTop: "50px"}}
         >
           <Grid item lg={5}>
             <div>
               <Zoom>
                 <img
-                  src={imgGaleriaMarginal}
-                  alt="Galeria Marginal Logo"
+                  src={imgSocrastickers}
+                  alt="Socrastickers Logo"
                   width="100%"
                   style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
                 ></img>
@@ -988,7 +1061,7 @@ export default function Projects() {
                     marginTop: "0px",
                   }}
                 >
-                  GALERIA MARGINAL
+                  SOCRASTICKERS
                 </h1>
                 <p
                   style={{
@@ -997,11 +1070,12 @@ export default function Projects() {
                     textAlign: "justify",
                   }}
                 >
-                  Galeria Marginal is a virtual space that seeks to promote a
-                  type of visual literacy through the analysis of works,
-                  encouraging people to "read" the paintings and to identify the
-                  characteristics of the various artistic movements that have
-                  marked the history, as well as the artists who participate in
+                  SOCRASTICKERS = Contraction of ‘SOCRATES’ (great philosopher
+                  known for encouraging people to question and seek explanations
+                  through maieutics) + ‘STICKERS’. They are a way of spreading
+                  our thoughts, ideas, poems, drawings, and also of great
+                  philosophers, artists, and writers, who changed the world
+                  during history, however, many people have never heard about
                   them.
                 </p>
                 <HeadShake>
@@ -1010,83 +1084,15 @@ export default function Projects() {
                     round
                     style={{ marginTop: "20px" }}
                     size="md"
-                    href="http://daniel-brito.blogspot.com/p/galeria-marginal_11.html"
+                    href="https://br.pinterest.com/danielbrito41/socrastickers/"
                     target="_blank"
-                    title="Access blog posts"
+                    title="Access Pinterest album"
                   >
-                    <FaPalette
+                    <FaQuestionCircle
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
                     MORE
-                  </Button>
-                </HeadShake>
-              </div>
-            </Fade>
-          </Grid>
-        </Grid>
-
-        <Grid
-          id={"first_site"}
-          container
-          spacing={5}
-          justify="center"
-          alignItems="center"
-          direction="row-reverse"
-          style={{ marginTop: "50px" }}
-        >
-          <Grid item lg={5}>
-            <div>
-              <Zoom>
-                <img
-                  src={imgFirstSite}
-                  alt="Daniel Brito Logo"
-                  width="100%"
-                  style={{ borderRadius: "10px", border: "1px solid #39ff14" }}
-                ></img>
-              </Zoom>
-            </div>
-          </Grid>
-          <Grid item lg={7}>
-            <Fade>
-              <div style={{ backgroundColor: "#000000" }}>
-                <h1
-                  style={{
-                    color: "#FFFFFF",
-                    textAlign: "center",
-                    marginTop: "0px",
-                  }}
-                >
-                  FIRST WEBSITE
-                </h1>
-                <p
-                  style={{
-                    color: "#FFFFFF",
-                    fontSize: "16px",
-                    textAlign: "justify",
-                  }}
-                >
-                  Whenever I learn about new technologies, I try to develop
-                  something creative and original to put the content into
-                  practice. In this way, when I started learning about front-end
-                  development, I built my first website by adding some HTML tags
-                  and styling it with Bootstrap.
-                </p>
-                <HeadShake>
-                  <Button
-                    color="neon"
-                    round
-                    style={{ marginTop: "20px" }}
-                    size="md"
-                    href="https://danielbrito.github.io/"
-                    target="_blank"
-                    title="Access site"
-                  >
-                    <FaGlobe
-                      className={classes.icons}
-                      style={{ marginRight: "5px" }}
-                    />{" "}
-                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
