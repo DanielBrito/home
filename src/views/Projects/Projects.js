@@ -189,7 +189,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    MORE
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -257,7 +257,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    MORE
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -328,7 +328,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    MORE
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -396,7 +396,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    INSTALL
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -464,7 +464,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    MORE
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -534,7 +534,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    PLAY
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -670,7 +670,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    MORE
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -748,7 +748,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    MORE
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -816,7 +816,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    MORE
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -885,7 +885,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    MORE
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -954,7 +954,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    MORE
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -1022,7 +1022,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    MORE
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -1092,7 +1092,7 @@ export default function Projects() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    MORE
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>

@@ -178,7 +178,7 @@ export default function Books() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    PREVIEW
+                    READ PREVIEW
                   </Button>
                 </HeadShake>
               </div>
