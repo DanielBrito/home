@@ -168,7 +168,17 @@ export default function About() {
                   decided to move to Crateús to study Computer Science at the
                   Federal University of Ceará (UFC), where I've gotten some
                   scholarships to work on projects in the fields of mobile and
-                  web development, computer graphics, and teaching. Currently, 
+                  web development, computer graphics, {" "}
+                  <a
+                    href="https://github.com/GEMP-UFC-Crateus"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={classes.externalLink}
+                    style={{ textDecoration: "none", color: "white" }}
+                    title="GitHub profile"
+                  >
+                    competitive programming
+                  </a>, and teaching. Currently, 
                   as described in my{" "}
                   <a
                     href="https://drive.google.com/file/d/1bOFjCfhoyabvcZ7LXf5T3EtY9h6umsaR/view"
@@ -192,18 +202,7 @@ export default function About() {
                     Lattes curriculum
                   </a>
                   , I'm an intern developing intelligent applications to the
-                  health public system management, and I'm also a member of{" "}
-                  <a
-                    href="https://github.com/GEMP-UFC-Crateus"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={classes.externalLink}
-                    style={{ textDecoration: "none", color: "white" }}
-                    title="GitHub profile"
-                  >
-                    GEMP
-                  </a>
-                  , a group of studies for the SBC Programming Marathon.
+                  health public system management.
                 </p>
               </div>
             </Fade>
