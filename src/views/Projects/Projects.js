@@ -241,7 +241,7 @@ export default function Projects() {
                   the user to register and list the activities to be performed,
                   as well as edit, remove, and order based on
                   priority. It was developed using ReactJS, Styled Components
-                  and Firestore, for educational purposes.
+                  and Firestore, with educational purposes.
                 </p>
                 <HeadShake>
                   <Button
@@ -305,7 +305,7 @@ export default function Projects() {
                   }}
                 >
                   Compixelar intends to apply some concepts of creative
-                  programming on the development of poetic-visual experiments
+                  programming on the development of poetic and visual experiments,
                   and the composition of multimedia animations. The name intends
                   to bring up some ideas that express its purpose, such as{" "}
                   <em>pixel</em>, which is the smallest point that forms a

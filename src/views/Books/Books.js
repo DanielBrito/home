@@ -146,10 +146,10 @@ export default function Books() {
                   }}
                 >
                   As I said on a previous occasion, my poems are files extracted
-                  from the <em>heart.zip</em>. Thus, following the school of
+                  from the <em>heart.zip</em>. Therefore, following the school of
                   Paulo Leminski and Millôr Fernandes, "No Ritmo de Algo" will
                   be a directory composed of verses with wisdom, talking about
-                  the most varied subjects which alter our heart rhythm.
+                  the most varied subjects that alter our heart rhythm.
                   <br />
                   <br />
                   It was expected to be published in 2018, but academic issues
@@ -178,7 +178,7 @@ export default function Books() {
                       className={classes.icons}
                       style={{ marginRight: "5px" }}
                     />{" "}
-                    READ PREVIEW
+                    ACCESS
                   </Button>
                 </HeadShake>
               </div>
@@ -230,7 +230,7 @@ export default function Books() {
                   to the square and the cube, with poetry tending to infinity.
                   <br />
                   <br />
-                  It turns out that, one day, I discovered that all forms keep
+                  It turns out, one day, I discovered that all forms keep
                   internal secrets in their structures, and with the help of
                   semiotics, I managed to unveil some of them. But do not think
                   I'll tell you what they are, like that, on a silver platter.
@@ -319,7 +319,7 @@ export default function Books() {
                   <br />
                   This work compiles two years of poems, gathering the verses
                   where I express my subjectivity, which is in constant
-                  development.They're fruits of my creativity, reflections, relationships,
+                  development. They're fruits of my creativity, reflections, relationships,
                   indignations, daydreams, and many other things that we all
                   feel and experience in our brief existence, and that I wasn't
                   able to just keep them inside my chest.
