@@ -164,7 +164,7 @@ export default function About() {
                   <br />
                   After studying in different public schools, I got accepted at
                   the Faculty of Technology (FATEC) to study Analysis and
-                  Systems Development. However, in search of new challenges, I
+                  Systems Development. However, in search of new challenges, I canceled my enrollment and
                   decided to move to Crateús to study Computer Science at the
                   Federal University of Ceará (UFC), where I've gotten some
                   scholarships to work on projects in the fields of mobile and
@@ -178,8 +178,10 @@ export default function About() {
                     title="GitHub profile"
                   >
                     competitive programming
-                  </a>, and teaching. Currently, 
-                  as described in my{" "}
+                  </a>, and teaching. 
+                  <br />
+                  <br />
+                  Other professional and academic information can be found on my {" "}
                   <a
                     href="https://drive.google.com/file/d/1bOFjCfhoyabvcZ7LXf5T3EtY9h6umsaR/view"
                     target="_blank"
@@ -189,8 +191,7 @@ export default function About() {
                     title="Open file"
                   >
                     résumé
-                  </a>{" "}
-                  and{" "}
+                  </a>{" "} and profile on {" "}
                   <a
                     href="http://lattes.cnpq.br/6587136026055239"
                     target="_blank"
@@ -199,10 +200,8 @@ export default function About() {
                     style={{ textDecoration: "none", color: "white" }}
                     title="Access"
                   >
-                    Lattes curriculum
-                  </a>
-                  , I'm an intern developing intelligent applications to the
-                  health public system management.
+                    Lattes plataform
+                  </a>.
                 </p>
               </div>
             </Fade>
