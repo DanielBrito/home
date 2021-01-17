@@ -181,7 +181,7 @@ export default function About() {
                   </a>, and teaching. 
                   <br />
                   <br />
-                  Other professional and academic information can be found on my {" "}
+                  More detailed information about my professional and academic career can be found on my {" "}
                   <a
                     href="https://drive.google.com/file/d/1bOFjCfhoyabvcZ7LXf5T3EtY9h6umsaR/view"
                     target="_blank"
@@ -191,8 +191,7 @@ export default function About() {
                     title="Open file"
                   >
                     résumé
-                  </a>{" "} and profile on {" "}
-                  <a
+                  </a>{" "} or on my profile at <a
                     href="http://lattes.cnpq.br/6587136026055239"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -200,7 +199,7 @@ export default function About() {
                     style={{ textDecoration: "none", color: "white" }}
                     title="Access"
                   >
-                    Lattes plataform
+                    Lattes Platform
                   </a>.
                 </p>
               </div>
