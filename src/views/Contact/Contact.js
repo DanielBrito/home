@@ -27,7 +27,6 @@ import {
   FaGithub,
   FaYoutube,
   FaLinkedin,
-  FaLink,
 } from "react-icons/fa";
 
 import imgContact from "../../assets/img/contact/message.jpg";
@@ -355,29 +354,6 @@ export default function Media() {
                   title="Subscribe to my channel"
                 >
                   YouTube
-                </a>
-                <br />
-                <br />
-
-                <FaLink
-                  color="#ffc168"
-                  size="0.9em"
-                  className={classes.icons}
-                  style={{ marginRight: "10px" }}
-                />
-                <a
-                  href="https://allmylinks.com/danielbrito"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={classes.contactLink}
-                  style={{
-                    textDecoration: "none",
-                    fontWeight: "bold",
-                    color: "white",
-                  }}
-                  title="Access all my links"
-                >
-                  AllMyLinks
                 </a>
               </div>
             </Fade>
