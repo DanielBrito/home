@@ -251,7 +251,7 @@ export default function Media() {
                     round
                     style={{ marginTop: "20px" }}
                     size="md"
-                    href="https://portalsertoes.com/2020/02/estudante-da-ufc-de-crateus-desenvolve-aplicativo-para-quem-deseja-compartilhar-moradia.html"
+                    href="https://www.portalsertoes.com/2020/02/estudante-da-ufc-de-crateus-desenvolve.html"
                     target="_blank"
                     title="Read full article"
                   >
